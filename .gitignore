@@ -1,2 +1,6 @@
 /code_masstable/masstables
 /code_masstable/pw
+/beta_0_35
+/octupole_multiplicity/Data
+/octupole_multiplicity/*.dat
+/octupole_multiplicity/*.pdf
