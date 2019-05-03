@@ -1,0 +1,107 @@
+Fm_230-240
+(100, 130)  min_iter(4 decimals)#:	 136
+(100, 132)  min_iter(4 decimals)#:	 158
+(100, 134)  min_iter(4 decimals)#:	 177
+(100, 136)  min_iter(4 decimals)#:	 126
+(100, 138)  min_iter(4 decimals)#:	 121
+(100, 140)  min_iter(4 decimals)#:	 105
+
+===============================================================
+Fm_288-302
+(100, 188)  min_iter(4 decimals)#:	 148
+(100, 190)  min_iter(4 decimals)#:	 122
+(100, 192)  min_iter(4 decimals)#:	 168
+(100, 194)  min_iter(4 decimals)#:	 205
+(100, 196)  min_iter(4 decimals)#:	 189
+(100, 198)  min_iter(4 decimals)#:	 162
+(100, 200)  min_iter(4 decimals)#:	 434
+(100, 202)  min_iter(4 decimals)#:	 110
+
+===============================================================
+Th_220-236
+(90, 130)  min_iter(4 decimals)#:	 1299***55eV improvement compared to row that took 599 iterations
+(90, 132)  min_iter(4 decimals)#:	 165
+(90, 134)  min_iter(4 decimals)#:	 201
+(90, 136)  min_iter(4 decimals)#:	 178
+(90, 138)  min_iter(4 decimals)#:	 206
+(90, 140)  min_iter(4 decimals)#:	 107
+(90, 142)  min_iter(4 decimals)#:	 83
+(90, 144)  min_iter(4 decimals)#:	 101
+(90, 146)  min_iter(4 decimals)#:	 81
+
+===============================================================
+Th_280-294
+(90, 190)  min_iter(4 decimals)#:	 75
+(90, 192)  min_iter(4 decimals)#:	 331
+(90, 194)  min_iter(4 decimals)#:	 250
+(90, 196)  min_iter(4 decimals)#:	 97
+(90, 198)  min_iter(4 decimals)#:	 83
+(90, 200)  min_iter(4 decimals)#:	 103
+(90, 202)  min_iter(4 decimals)#:	 77
+(90, 204)  min_iter(4 decimals)#:	 73
+
+===============================================================
+Ca
+(20, 8)  min_iter(4 decimals)#:	 263
+(20, 10)  min_iter(4 decimals)#:	 33
+(20, 12)  min_iter(4 decimals)#:	 24
+(20, 14)  min_iter(4 decimals)#:	 361
+(20, 16)  min_iter(4 decimals)#:	 56
+(20, 18)  min_iter(4 decimals)#:	 47
+(20, 20)  min_iter(4 decimals)#:	 320
+(20, 22)  min_iter(4 decimals)#:	 43
+(20, 24)  min_iter(4 decimals)#:	 49
+(20, 26)  min_iter(4 decimals)#:	 24
+(20, 28)  min_iter(4 decimals)#:	 32
+(20, 30)  min_iter(4 decimals)#:	 36
+(20, 32)  min_iter(4 decimals)#:	 33
+(20, 34)  min_iter(4 decimals)#:	 32
+(20, 36)  min_iter(4 decimals)#:	 43
+(20, 38)  min_iter(4 decimals)#:	 49
+(20, 40)  min_iter(4 decimals)#:	 96
+(20, 42)  min_iter(4 decimals)#:	 44
+(20, 44)  min_iter(4 decimals)#:	 141
+(20, 46)  min_iter(4 decimals)#:	 114
+(20, 48)  min_iter(4 decimals)#:	 54
+(20, 50)  min_iter(4 decimals)#:	 132
+(20, 52)  min_iter(4 decimals)#:	 69
+(20, 54)  min_iter(4 decimals)#:	 43
+(20, 56)  min_iter(4 decimals)#:	 32
+(20, 58)  min_iter(4 decimals)#:	 77
+(20, 60)  min_iter(4 decimals)#:	 109
+(20, 62)  min_iter(4 decimals)#:	 37
+
+===============================================================
+O
+(8, 2)  min_iter(4 decimals)#:	 57
+(8, 4)  min_iter(4 decimals)#:	 587
+(8, 6)  min_iter(4 decimals)#:	 123
+(8, 8)  min_iter(4 decimals)#:	 23
+(8, 10)  min_iter(4 decimals)#:	 43
+(8, 12)  min_iter(4 decimals)#:	 29
+(8, 14)  min_iter(4 decimals)#:	 46
+(8, 16)  min_iter(4 decimals)#:	 46
+(8, 18)  min_iter(4 decimals)#:	 63
+(8, 20)  min_iter(4 decimals)#:	 72
+(8, 22)  min_iter(4 decimals)#:	 36
+(8, 24)  min_iter(4 decimals)#:	 49
+(8, 26)  min_iter(4 decimals)#:	 56
+
+===============================================================
+Dy
+(66, 132)  min_iter(4 decimals)#:	 581
+(66, 134)  min_iter(4 decimals)#:	 650
+(66, 136)  min_iter(4 decimals)#:	 558
+(66, 138)  min_iter(4 decimals)#:	 565
+(66, 140)  min_iter(4 decimals)#:	 83
+
+===============================================================
+Gd
+(64, 130)  min_iter(4 decimals)#:	 571
+(64, 132)  min_iter(4 decimals)#:	 411
+(64, 134)  min_iter(4 decimals)#:	 229
+(64, 136)  min_iter(4 decimals)#:	 244
+(64, 138)  min_iter(4 decimals)#:	 504
+(64, 140)  min_iter(4 decimals)#:	 482
+
+===============================================================

@@ -1,0 +1,55 @@
+Tue Feb 12 08:52:40 EST 2019
+ Total row number:       33525
+ Task           1 received row       32586 from MASTER
+ Task           2 received row       33389 from MASTER
+ Task           3 received row       33333 from MASTER
+task 000002 finished row 033389 in     7.18611063 minutes
+ Task           2 received row       30134 from MASTER
+task 000003 finished row 033333 in    23.38818132 minutes
+ Task           3 received row       33175 from MASTER
+task 000001 finished row 032586 in    24.26410362 minutes
+ Task           1 received row       33525 from MASTER
+task 000003 finished row 033175 in    20.79492020 minutes
+ Task           3 received row       33214 from MASTER
+task 000002 finished row 030134 in    46.47770330 minutes
+ Task           2 received row          -1 from MASTER
+ Task           2 received exit signal iRow =           -1 from MASTER
+task 000003 finished row 033214 in    15.50238565 minutes
+ Task           3 received row          -1 from MASTER
+ Task           3 received exit signal iRow =           -1 from MASTER
+task 000001 finished row 033525 in    45.06337372 minutes
+ Task           1 received row          -1 from MASTER
+ Task           1 received exit signal iRow =           -1 from MASTER
+ 
+ HFBTHO_SOLVER ended without errors
+ 
+Tue Feb 12 10:02:03 EST 2019
+JobId=9327777 JobName=SKMS-5-2
+   UserId=caoyuche(762339) GroupId=cse491_fs15_s2(2364) MCS_label=N/A
+   Priority=2154 Nice=0 Account=general QOS=normal
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=01:09:30 TimeLimit=04:30:00 TimeMin=N/A
+   SubmitTime=2019-02-12T08:32:56 EligibleTime=2019-02-12T08:32:56
+   AccrueTime=2019-02-12T08:32:56
+   StartTime=2019-02-12T08:52:33 EndTime=2019-02-12T13:22:33 Deadline=N/A
+   PreemptTime=None SuspendTime=None SecsPreSuspend=0
+   LastSchedEval=2019-02-12T08:52:33
+   Partition=general-long AllocNode:Sid=dev-intel16:392
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=cne-000
+   BatchHost=cne-000
+   NumNodes=1 NumCPUs=4 NumTasks=4 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=4,mem=40G,node=1,billing=6225
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=40G MinTmpDiskNode=0
+   Features=[(intel14&intel18)|(intel16&intel18)|(intel18&intel18)] DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/SKMS/block5/mass_table.msub
+   WorkDir=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/SKMS/block5
+   Comment=stdout=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/SKMS/block5/mass_table.msub.o%A 
+   StdErr=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/SKMS/block5/mass_table.msub.e9327777
+   StdIn=/dev/null
+   StdOut=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/SKMS/block5/mass_table.msub.o9327777
+   Power=
+

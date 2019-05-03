@@ -1,0 +1,26 @@
+./raw_data/EDFs_test/SLY4/
+       (Z,N)     E_HFB_LN(MeV)       beta2_in       beta3_in        Q20_out        Q30_out   file#     iter#
+  (100, 188)      -2019.238917          -0.05            0.0       0.053553      -0.000807       6        25
+  (100, 188)      -2019.238923          -0.05            0.1       0.053134       0.000111      19       116
+  (100, 188)      -2019.238925          -0.05            0.2       0.053286      -0.002228      32       122
+  (100, 188)      -2019.238921          -0.05            0.3       0.053004      -0.003049      45       158
+  (100, 188)       -2019.23893          -0.05            0.4        0.05311      -0.002027      58       159
+*************** Minimum iteration to achieve lowest g.s. energy (rounded to 4 decimals) is: 25
+  (100, 190)      -2022.602572           -0.1            0.3       2.681183       1.917456     109       384
+*************** Minimum iteration to achieve lowest g.s. energy (rounded to 4 decimals) is: 384
+  (100, 192)      -2025.940836            0.0            0.2       4.676811       3.310371     163       140
+  (100, 192)       -2025.94076            0.0            0.3       4.675829       3.309388     176       229
+*************** Minimum iteration to achieve lowest g.s. energy (rounded to 4 decimals) is: 140
+  (100, 194)      -2029.619843           -0.1            0.2      16.761914       3.648808     226       456
+*************** Minimum iteration to achieve lowest g.s. energy (rounded to 4 decimals) is: 456
+  (100, 196)      -2033.782368          -0.05            0.1      38.298893       0.014585     279       804
+  (100, 196)      -2033.782389          -0.05            0.3      38.299808       0.025666     305       732
+  (100, 196)        -2033.7824          -0.05            0.4      38.300413       0.008229     318       869
+*************** Minimum iteration to achieve lowest g.s. energy (rounded to 4 decimals) is: 732
+  (100, 198)       -2037.84413          -0.05            0.3      37.377062      -0.001647     370       785
+*************** Minimum iteration to achieve lowest g.s. energy (rounded to 4 decimals) is: 785
+  (100, 200)      -2041.645554          -0.05            0.4      37.531444       0.007633     448       242
+*************** Minimum iteration to achieve lowest g.s. energy (rounded to 4 decimals) is: 242
+  (100, 202)      -2045.152745          -0.05            0.4      38.026874       0.015155     513       200
+*************** Minimum iteration to achieve lowest g.s. energy (rounded to 4 decimals) is: 200
+============================================================================================================

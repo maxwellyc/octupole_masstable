@@ -1,0 +1,35 @@
+#beta3 grid tests:
+beta2 range default to -0.35 - 0.35, stepsize 0.05
+beta3 range, Fm(N=130-140, 188-202):
+test1: 0 - 0.3, 0.05
+test2: 0 - 0.3, 0.1
+test3: 0 - 0.3, 0.025 *
+test4: 0 - 0.4, 0.05  *
+test5: 0 - 0.4, 0.1
+Do tests on Th(N=130-146,190-204), Fm(N=130-140,188-202) chains
+After test complete, try the final grid on light, medium, spherical nuclei:
+O, Ne, Ca, Gd(N=130-140), Dy(N=132-140) chains, 240Pu
+ 
+#OMP speed test:
+try omp thread 1,2,4,6,9 on typical 15 row of 288Fm, beta3 = 0.0876
+#OMP test results:
+     avg./iter.   total    cpu used   iteration_04   cpu*min    cpu*hr/row   avg./iter * thread
+t1    4.77s       180min     15x1       864           3600        3.0           4.77s
+t2    2.87        167min     7.5x2      1697          3340        3.7           5.74s
+t4    1.6s        110min     5x4        1101          2200        2.44          6.4s
+t6    1.1s        85min      5x6        1675          2550        2.83          6.6s
+t9    1.1s        103min     4x9        1359          3708        4.12          9.9s
+
+If resources are scarce, use no omp instead, omp efficiency is low
+Unless you have a small row# want to save time
+
+Each intel-18 has 40 cpus, at 4 cpus-per-task openmp threads, 10 tasks per node is the maximum.
+Each configuration costs in average 1hr(1800 iterations at 2 seconds), thus 24 hours gives us 240 rows per full node.
+Number of cpus needed:
+test1: 630 / 840
+test2: 360 / 480
+test3: 1170 / 1560
+test4: 810 / 1080
+test5: 450 / 600
+
+Remember to record actual time

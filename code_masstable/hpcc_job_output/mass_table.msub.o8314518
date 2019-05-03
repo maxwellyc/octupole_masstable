@@ -1,0 +1,201 @@
+Wed Jan 30 10:03:57 EST 2019
+ Total row number:          75
+ Task          19 received row          19 from MASTER
+ Task           1 received row           1 from MASTER
+ Task           2 received row           2 from MASTER
+ Task           4 received row           4 from MASTER
+ Task           5 received row           5 from MASTER
+ Task           6 received row           6 from MASTER
+ Task           7 received row           7 from MASTER
+ Task           8 received row           8 from MASTER
+ Task           9 received row           9 from MASTER
+ Task          10 received row          10 from MASTER
+ Task          11 received row          11 from MASTER
+ Task          21 received row          20 from MASTER
+ Task          12 received row          12 from MASTER
+ Task          23 received row          21 from MASTER
+ Task          13 received row          13 from MASTER
+ Task          25 received row          22 from MASTER
+ Task          14 received row          14 from MASTER
+ Task          27 received row          23 from MASTER
+ Task          15 received row          15 from MASTER
+ Task          28 received row          24 from MASTER
+ Task           3 received row           3 from MASTER
+ Task          22 received row          28 from MASTER
+ Task          16 received row          16 from MASTER
+ Task          24 received row          29 from MASTER
+ Task          17 received row          17 from MASTER
+ Task          26 received row          26 from MASTER
+ Task          18 received row          18 from MASTER
+ Task          29 received row          25 from MASTER
+ Task          20 received row          27 from MASTER
+task 000008 finished row 000008 in     4.84659725 minutes
+ Task           8 received row          30 from MASTER
+task 000007 finished row 000007 in     5.99643563 minutes
+ Task           7 received row          31 from MASTER
+task 000005 finished row 000005 in     6.34908079 minutes
+ Task           5 received row          32 from MASTER
+task 000006 finished row 000006 in     6.62231230 minutes
+ Task           6 received row          33 from MASTER
+task 000027 finished row 000023 in     7.02864548 minutes
+ Task          27 received row          34 from MASTER
+task 000009 finished row 000009 in     7.12430158 minutes
+ Task           9 received row          35 from MASTER
+task 000023 finished row 000021 in     7.78386612 minutes
+ Task          23 received row          36 from MASTER
+task 000029 finished row 000025 in    18.78954161 minutes
+ Task          29 received row          37 from MASTER
+task 000010 finished row 000010 in    21.16213537 minutes
+ Task          10 received row          38 from MASTER
+task 000001 finished row 000001 in    21.75037480 minutes
+ Task           1 received row          39 from MASTER
+task 000023 finished row 000036 in    22.97502825 minutes
+ Task          23 received row          40 from MASTER
+task 000004 finished row 000004 in    32.11539427 minutes
+ Task           4 received row          41 from MASTER
+task 000009 finished row 000035 in    27.35425082 minutes
+ Task           9 received row          42 from MASTER
+task 000001 finished row 000039 in    17.00746018 minutes
+ Task           1 received row          43 from MASTER
+task 000018 finished row 000018 in    75.12857538 minutes
+ Task          18 received row          44 from MASTER
+task 000016 finished row 000016 in    84.82612335 minutes
+ Task          16 received row          45 from MASTER
+task 000017 finished row 000017 in    87.20044903 minutes
+ Task          17 received row          46 from MASTER
+task 000002 finished row 000002 in    87.28803040 minutes
+ Task           2 received row          47 from MASTER
+task 000003 finished row 000003 in    87.94233635 minutes
+ Task           3 received row          48 from MASTER
+task 000019 finished row 000019 in    88.36569895 minutes
+ Task          19 received row          49 from MASTER
+task 000021 finished row 000020 in    89.10613045 minutes
+ Task          21 received row          50 from MASTER
+task 000007 finished row 000031 in    84.93384003 minutes
+ Task           7 received row          51 from MASTER
+task 000005 finished row 000032 in    86.73911023 minutes
+ Task           5 received row          52 from MASTER
+task 000006 finished row 000033 in    86.81747638 minutes
+ Task           6 received row          53 from MASTER
+task 000028 finished row 000024 in    93.62169980 minutes
+ Task          28 received row          54 from MASTER
+task 000027 finished row 000034 in    87.11873753 minutes
+ Task          27 received row          55 from MASTER
+task 000025 finished row 000022 in    95.40490722 minutes
+ Task          25 received row          56 from MASTER
+task 000026 finished row 000026 in    99.63025351 minutes
+ Task          26 received row          57 from MASTER
+task 000020 finished row 000027 in    99.74948398 minutes
+ Task          20 received row          58 from MASTER
+task 000012 finished row 000012 in   100.58285088 minutes
+ Task          12 received row          59 from MASTER
+task 000011 finished row 000011 in   101.28889247 minutes
+ Task          11 received row          60 from MASTER
+task 000024 finished row 000029 in   101.40719027 minutes
+ Task          24 received row          61 from MASTER
+task 000022 finished row 000028 in   102.05080177 minutes
+ Task          22 received row          62 from MASTER
+task 000013 finished row 000013 in   102.45549215 minutes
+ Task          13 received row          63 from MASTER
+task 000014 finished row 000014 in   102.65751599 minutes
+ Task          14 received row          64 from MASTER
+task 000015 finished row 000015 in   106.02925103 minutes
+ Task          15 received row          65 from MASTER
+task 000008 finished row 000030 in   106.25853172 minutes
+ Task           8 received row          66 from MASTER
+task 000029 finished row 000037 in    94.24361307 minutes
+ Task          29 received row          67 from MASTER
+task 000010 finished row 000038 in    95.34889803 minutes
+ Task          10 received row          68 from MASTER
+task 000023 finished row 000040 in    96.02049630 minutes
+ Task          23 received row          69 from MASTER
+task 000004 finished row 000041 in   100.21727633 minutes
+ Task           4 received row          70 from MASTER
+task 000009 finished row 000042 in   100.58781207 minutes
+ Task           9 received row          71 from MASTER
+task 000029 finished row 000067 in    22.04795625 minutes
+ Task          29 received row          72 from MASTER
+task 000001 finished row 000043 in   102.60017047 minutes
+ Task           1 received row          73 from MASTER
+task 000007 finished row 000051 in    77.30093310 minutes
+ Task           7 received row          74 from MASTER
+task 000017 finished row 000046 in    85.64114807 minutes
+ Task          17 received row          75 from MASTER
+task 000002 finished row 000047 in    85.81703452 minutes
+ Task           2 received row          76 from MASTER
+ Task           2 received exit signal iRow =           76 from MASTER
+task 000004 finished row 000070 in    41.53218540 minutes
+ Task           4 received row          76 from MASTER
+ Task           4 received exit signal iRow =           76 from MASTER
+task 000003 finished row 000048 in    86.86653677 minutes
+ Task           3 received row          76 from MASTER
+ Task           3 received exit signal iRow =           76 from MASTER
+task 000019 finished row 000049 in    88.14517340 minutes
+ Task          19 received row          76 from MASTER
+ Task          19 received exit signal iRow =           76 from MASTER
+task 000021 finished row 000050 in    89.01849900 minutes
+ Task          21 received row          76 from MASTER
+ Task          21 received exit signal iRow =           76 from MASTER
+task 000018 finished row 000044 in   104.18576558 minutes
+ Task          18 received row          76 from MASTER
+ Task          18 received exit signal iRow =           76 from MASTER
+task 000024 finished row 000061 in    84.24139195 minutes
+ Task          24 received row          76 from MASTER
+ Task          24 received exit signal iRow =           76 from MASTER
+task 000022 finished row 000062 in    85.84322930 minutes
+ Task          22 received row          76 from MASTER
+ Task          22 received exit signal iRow =           76 from MASTER
+task 000028 finished row 000054 in    94.30915862 minutes
+ Task          28 received row          76 from MASTER
+ Task          28 received exit signal iRow =           76 from MASTER
+task 000013 finished row 000063 in    86.12854706 minutes
+ Task          13 received row          76 from MASTER
+ Task          13 received exit signal iRow =           76 from MASTER
+task 000027 finished row 000055 in    95.01652895 minutes
+ Task          27 received row          76 from MASTER
+ Task          27 received exit signal iRow =           76 from MASTER
+task 000006 finished row 000053 in    96.63045392 minutes
+ Task           6 received row          76 from MASTER
+ Task           6 received exit signal iRow =           76 from MASTER
+task 000005 finished row 000052 in    97.07920945 minutes
+ Task           5 received row          76 from MASTER
+ Task           5 received exit signal iRow =           76 from MASTER
+task 000016 finished row 000045 in   105.51736620 minutes
+ Task          16 received row          76 from MASTER
+ Task          16 received exit signal iRow =           76 from MASTER
+task 000014 finished row 000064 in    87.74256063 minutes
+ Task          14 received row          76 from MASTER
+ Task          14 received exit signal iRow =           76 from MASTER
+task 000015 finished row 000065 in    89.35478328 minutes
+ Task          15 received row          76 from MASTER
+ Task          15 received exit signal iRow =           76 from MASTER
+task 000025 finished row 000056 in   100.38964103 minutes
+ Task          25 received row          76 from MASTER
+ Task          25 received exit signal iRow =           76 from MASTER
+task 000026 finished row 000057 in    99.47737065 minutes
+ Task          26 received row          76 from MASTER
+ Task          26 received exit signal iRow =           76 from MASTER
+task 000008 finished row 000066 in    90.69055747 minutes
+ Task           8 received row          76 from MASTER
+ Task           8 received exit signal iRow =           76 from MASTER
+task 000020 finished row 000058 in   102.09313815 minutes
+ Task          20 received row          76 from MASTER
+ Task          20 received exit signal iRow =           76 from MASTER
+task 000012 finished row 000059 in   102.68696813 minutes
+ Task          12 received row          76 from MASTER
+ Task          12 received exit signal iRow =           76 from MASTER
+task 000011 finished row 000060 in   106.95640388 minutes
+ Task          11 received row          76 from MASTER
+ Task          11 received exit signal iRow =           76 from MASTER
+task 000010 finished row 000068 in    95.71741828 minutes
+ Task          10 received row          76 from MASTER
+ Task          10 received exit signal iRow =           76 from MASTER
+task 000023 finished row 000069 in    94.41824985 minutes
+ Task          23 received row          76 from MASTER
+ Task          23 received exit signal iRow =           76 from MASTER
+task 000009 finished row 000071 in    97.62204863 minutes
+ Task           9 received row          76 from MASTER
+ Task           9 received exit signal iRow =           76 from MASTER
+task 000029 finished row 000072 in    99.47536773 minutes
+ Task          29 received row          76 from MASTER
+ Task          29 received exit signal iRow =           76 from MASTER

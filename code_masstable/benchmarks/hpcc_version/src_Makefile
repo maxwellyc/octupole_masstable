@@ -1,0 +1,305 @@
+
+SHELL := /bin/bash
+COMPILE_DIR = $(shell pwd)
+
+# Defines version number of BLAS/LAPACK library package
+#  MKL (Quartz) .........: mkl-2018.0
+#  MKL (Cab) ............: mkl-11.3.2
+#  ESSL (Vulcan) ........: 5.1
+VERSION_LIBRARY = mkl-2018.0
+
+COMPILER    = IFORT
+FORTRAN_MPI = mpif90
+
+# Compilation options
+#   - VERBOSE ...........: 0: short display; 1: full command displayed
+#   - DEBUG .............: Activates debugging options for each compiler
+#   - PEDANTIC ..........: Optional pedantic flag, set to -pedantic to use
+VERBOSE        = 0
+DEBUG          = FALSE
+PEDANTIC       =
+# Preprocessor options
+#   - SWITCH_ESSL .......: Use IBM ESSL library for LAPACK and BLAS (different routine calls)
+#   - USE_OPENMP ........: Use OpenMP multithreading
+#   - USE_PETSC .........: Use Petsc library for ...
+SWITCH_ESSL    = 0
+USE_OPENMP     = 1
+USE_PETSC      = 0
+
+# Physics options
+#    - USE_MPI ..........: 1 ANL optimization
+#                          2 Parallel mass table, driplines or PES mode
+#    - DRIP_LINES .......: 1 Calculates a mass table from dripline to dripline
+#                          0 Inactive
+#    - DO_MASSTABLE .....: 1 Calculates a section of the mass table
+#                          0 Inactive
+#    - DO_PES ...........: 1 Calculates a potential energy surface for a set of nuclei
+#                          0 Inactive
+#    - READ_FUNCTIONAL ..: 1 Reads the parameters of the functional from a file
+#                          0 The energy functional is defined in the code based on the value of the
+#                            input keyword 'functional'
+#    - USE_LOCALIZATION .: 1 Computes the localization functions
+#                          0 Inactive
+#    - GOGNY_SYMMETRIES..: 1 For production runs; Assumes several symmetries in the finite range matrix
+#                            elements.
+#                          0 For debugging the finite range matrix elements; Makes no assumption of any
+#                            symmetry in the finite range matrix elements.
+#                            Requires compiler compatible with 2008 standard of up to 15 dimensional arrays.
+#    - GOGNY_HYPER.......: 1 Uses hypergeometric function to calculate finite range matrix elements
+#                            Accurate for big and small basis size
+#                          0 Uses the direct Gogny transformation to calculate the finite range matrix
+#                            elements; Accurate for small basis size ONLY (N<20)
+#    - USE_QRPA .........: 1 Produces output for the QRPA-pnFAM code of UNC Chapel Hill
+#                          0 Inactive
+USE_MPI          = 2
+DRIP_LINES       = 0
+DO_MASSTABLE     = 1
+DO_PES           = 0
+READ_FUNCTIONAL  = 0
+GOGNY_SYMMETRIES = 1
+GOGNY_HYPER      = 1
+USE_QRPA         = 0
+
+# Names and paths to BLAS and LAPACK Libraries
+#  * BG/Q ARCHITECTURES (ESSL)
+#      ALCF (OpenMP) ....: -L/soft/libraries/alcf/current/xl/LAPACK/lib -llapack \
+#                          -L/soft/libraries/alcf/current/xl/BLAS/lib -lblas
+#      ALCF (ESSL) ......: -L/soft/libraries/alcf/current/xl/LAPACK/lib -llapack \
+#                          -L/soft/libraries/essl/current/lib64 -lesslsmpbg \
+#                          -L/soft/compilers/ibmcmp-may2014/xlf/bg/14.1/bglib64 \
+#                          -lxlf90_r -lxlfmath -lxlopt -lxl -Wl,-E
+#      Vulcan (ESSL) ....: -L/usr/local/tools/essl/$(VERSION_LIBRARY)/lib -lesslsmpbg
+#  * LINUX CLUSTER(MKL OR ACML)
+#      LC (Cab,OpenMP) ..: -L/usr/local/tools/$(VERSION_LIBRARY)/lib -I/usr/local/tools/$(VERSION_LIBRARY)/include \
+#                          -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core -liomp5 -lpthread
+#      LC (Quartz,OpenMP): -L/usr/tce/packages/mkl/$(VERSION_LIBRARY)/lib -I/usr/tce/packages/mkl/$(VERSION_LIBRARY)/include \
+#                          -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core -liomp5 -lpthread
+#      LC (Quartz,serial): -L/usr/tce/packages/mkl/$(VERSION_LIBRARY)/lib -I/usr/tce/packages/mkl/$(VERSION_LIBRARY)/include \
+#                          -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread
+#      NERSC ............: -mkl (after: module swap PrgEnv-pgi PrgEnv-intel)
+#      OLCF (OpenMP).....: -L$(ACML_DIR)/ifort64_mp/lib -lacml_mp -liomp5 -lifcoremt_pic -limf -lirc -lsvml
+#      OLCF .............: -L$(ACML_DIR)/ifort64/lib -lacml -lifcoremt_pic -limf -lirc -lsvml
+#  * LINUX DESKTOP
+#      local ..........: -L$(HOME)/local/lib -llapack_LINUX -lblas_LINUX
+LINEAR_ALGEBRA = -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core -liomp5 -lpthread #working version 10/03/18
+#LINEAR_ALGEBRA = -L$(HOME)/local -llapack -lblas
+# Nicholas' last update before 10/03/18, test if compiles
+#LINEAR_ALGEBRA = -L$(HOME)/local/mkl/compilers_and_libraries_2018/linux/mkl/lib/intel64 \
+                 -I$(HOME)/local/mkl/compilers_and_libraries_2018/linux/mkl/include/intel64 \
+                 -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core \
+                 -L$(HOME)/local/mkl/compilers_and_libraries/linux/lib/intel64 -liomp5
+
+#======================================================================#
+#  Nothing beyond this line should be changed, in principle            #
+#======================================================================#
+
+# Add in options from file
+ifneq ("$(wildcard MakeIncl.${HFBTHO_ARCH})","")
+       include MakeIncl.${HFBTHO_ARCH}
+endif
+
+# Check if compile directory exists, returns error code and exit otherwise
+EXISTS = $(firstword $(wildcard $(COMPILE_DIR)) )
+$(info $$COMPILE_DIR is [${COMPILE_DIR}] )
+ifeq ($(EXISTS), )
+      $(error ${COMPILE_DIR} directory does not exist)
+endif
+
+# Consistency checks between MPI option and dripline or mass table modes
+ifeq ($(DRIP_LINES),1)
+     ifeq ($(DO_MASSTABLE),1)
+           $(error DRIP_LINES and DO_MASSTABLE modes are incompatible)
+     endif
+     ifneq ($(USE_MPI),2)
+            $(error DRIP_LINES mode requires USE_MPI=2)
+     endif
+endif
+ifeq ($(USE_MPI),2)
+      ifeq ($(DRIP_LINES),0)
+            ifeq ($(DO_MASSTABLE),0)
+                  ifeq ($(DO_PES),0)
+                        $(error USE_MPI=2 not allowed for regular HFBTHO calculation)
+                  endif
+            endif
+      endif
+endif
+
+# Names
+HFBTHO_EXE     = hfbtho_main
+HFBTHO_SOURCE  = hfbtho_main.f90
+HFBTHO_OBJ     = hfbtho_main.o
+
+# Defining compiler options for: IFORT FORTRAN COMPILER (ifort)
+# On ICER new slurm system, use -cpp and -fopenmp, default is -fpp and -qopenmp. MCedit 11/5/18
+ifeq ($(COMPILER),IFORT)
+
+      FORMAT_F90   = -free -extend_source
+      STATIC       =
+      PREPROCESSOR = -fpp -DUSE_OPENMP=$(USE_OPENMP) \
+                          -DUSE_MPI=$(USE_MPI)  \
+                          -DUSE_PETSC=$(USE_PETSC) \
+                          -DDO_PES=$(DO_PES) \
+                          -DDO_MASSTABLE=$(DO_MASSTABLE) \
+                          -DDRIP_LINES=$(DRIP_LINES) \
+                          -DREAD_FUNCTIONAL=$(READ_FUNCTIONAL) \
+                          -DGOGNY_SYMMETRIES=$(GOGNY_SYMMETRIES) \
+                          -DGOGNY_HYPER=$(GOGNY_HYPER) \
+                          -DUSE_QRPA=$(USE_QRPA) \
+                          -DSWITCH_ESSL=$(SWITCH_ESSL) $(FFLAGS)
+
+      ifeq ($(DEBUG),FALSE)
+            OPTIONS_FC = $(PREPROCESSOR) $(STATIC) -O3
+      else
+            OPTIONS_FC = $(PREPROCESSOR) $(STATIC) -check all -g -traceback
+      endif
+
+      ifeq ($(USE_OPENMP),1)
+            OPTIONS = $(OPTIONS_FC) -qopenmp
+      else
+            OPTIONS = $(OPTIONS_FC)
+      endif
+
+endif
+
+# Defining compiler options for: GNU FORTRAN COMPILER (gfortran)
+ifeq ($(COMPILER),GFORTRAN)
+
+      FORMAT_F90   = -ffree-form -ffree-line-length-none
+      STATIC       =
+      PREPROCESSOR = -cpp -DUSE_OPENMP=$(USE_OPENMP) \
+                          -DUSE_MPI=$(USE_MPI)  \
+                          -DUSE_PETSC=$(USE_PETSC) \
+                          -DDO_PES=$(DO_PES) \
+                          -DDO_MASSTABLE=$(DO_MASSTABLE) \
+                          -DDRIP_LINES=$(DRIP_LINES) \
+                          -DREAD_FUNCTIONAL=$(READ_FUNCTIONAL) \
+                          -DGOGNY_SYMMETRIES=$(GOGNY_SYMMETRIES) \
+                          -DGOGNY_HYPER=$(GOGNY_HYPER) \
+                          -DUSE_QRPA=$(USE_QRPA) \
+                          -DSWITCH_ESSL=$(SWITCH_ESSL) $(FFLAGS)
+
+      ifeq ($(DEBUG),FALSE)
+            OPTIONS_FC = $(PREPROCESSOR) $(STATIC) -O3
+      else
+            OPTIONS_FC = $(PREPROCESSOR) $(STATIC)  -g -O0 -Wall \
+                         -Warray-bounds -Wunderflow -Warray-temporaries \
+                         -Wcharacter-truncation -Wtabs -Wintrinsic-shadow -Walign-commons -frange-check \
+                         -fbounds-check -Wconversion -Wuninitialized $(PEDANTIC) \
+                         -finit-real=nan \
+                         -ftrapv
+      endif
+
+      ifeq ($(USE_OPENMP),1)
+            OPTIONS = $(OPTIONS_FC) -openmp
+      else
+            OPTIONS = $(OPTIONS_FC)
+      endif
+
+endif
+
+# Defining compiler options for: CRAY COMPILER
+ifeq ($(COMPILER),CRAY)
+
+      FORMAT_F90   = -f free
+      STATIC       =
+      PREPROCESSOR = -e Z -DUSE_OPENMP=$(USE_OPENMP) \
+                          -DUSE_MPI=$(USE_MPI)  \
+                          -DUSE_PETSC=$(USE_PETSC) \
+                          -DDO_PES=$(DO_PES) \
+                          -DDO_MASSTABLE=$(DO_MASSTABLE) \
+                          -DDRIP_LINES=$(DRIP_LINES) \
+                          -DREAD_FUNCTIONAL=$(READ_FUNCTIONAL) \
+                          -DGOGNY_SYMMETRIES=$(GOGNY_SYMMETRIES) \
+                          -DGOGNY_HYPER=$(GOGNY_HYPER) \
+                          -DUSE_QRPA=$(USE_QRPA) \
+                          -DSWITCH_ESSL=$(SWITCH_ESSL) $(FFLAGS)
+
+      ifeq ($(DEBUG),FALSE)
+            OPTIONS_FC = $(PREPROCESSOR) $(STATIC) -O3
+      else
+            OPTIONS_FC = $(PREPROCESSOR) $(STATIC) -e c -e D
+      endif
+
+      ifeq ($(USE_OPENMP),1)
+            OPTIONS = $(OPTIONS_FC)
+      else
+            OPTIONS = $(OPTIONS_FC) -h noomp
+      endif
+
+endif
+
+# Defining compiler options for: CRAY COMPILER
+ifeq ($(COMPILER),IBM)
+
+      FORMAT_F90   = -qstrict -qfree=f90 -qsuffix=cpp=f90
+      STATIC       =
+      PREPROCESSOR = '-WF,-DUSE_OPENMP=$(USE_OPENMP)' \
+                     '-WF,-DUSE_MPI=$(USE_MPI)' \
+                     '-WF,-DUSE_PETSC=$(USE_PETSC)'\
+                     '-WF,-DDO_PES=$(DO_PES) '\
+                     '-WF,-DDO_MASSTABLE=$(DO_MASSTABLE) '\
+                     '-WF,-DDRIP_LINES=$(DRIP_LINES) '\
+                     '-WF,-DREAD_FUNCTIONAL=$(READ_FUNCTIONAL) '\
+                     '-WF,-DGOGNY_SYMMETRIES=$(GOGNY_SYMMETRIES) '\
+                     '-WF,-DGOGNY_HYPER=$(GOGNY_HYPER) '\
+                     '-WF,-DUSE_QRPA=$(USE_QRPA)' \
+                     '-WF,-DSWITCH_ESSL=$(SWITCH_ESSL) ' $(FFLAGS)
+
+      ifeq ($(DEBUG),FALSE)
+            OPTIONS_FC = $(PREPROCESSOR) $(STATIC) -qhot -O2
+      else
+            OPTIONS_FC = $(PREPROCESSOR) $(STATIC) -g -C -qflttrap
+      endif
+
+      ifeq ($(USE_OPENMP),1)
+            OPTIONS = $(OPTIONS_FC) -qsmp=omp
+      else
+            OPTIONS = $(OPTIONS_FC)
+      endif
+
+endif
+
+#=========================#
+# Beginning of the action #
+#=========================#
+
+ANL_DIR = $(COMPILE_DIR)/anl
+HFBTHO_DIR = $(COMPILE_DIR)/hfbtho
+DOC_DIR = $(HFBTHO_DIR)/doc
+
+# Export HFBTHO names
+export HFBTHO_EXE
+export HFBTHO_SOURCE
+export HFBTHO_OBJ
+export HFBTHO_DIR
+export DOC_DIR
+
+# Export main compiler options
+export FORTRAN_MPI
+export PRECISION
+export FORMAT_F77
+export FORMAT_F90
+export OPTIONS
+export VERBOSE
+export LINEAR_ALGEBRA
+
+# Options are: anl, $(HFBTHO_EXE), doc (using Doxygen)
+all: $(HFBTHO_EXE) doc
+
+anl: $(HFBTHO_EXE)
+	( cd $(ANL_DIR); $(MAKE); cd .. )
+
+# Doxygen documentation
+doc: $(HFBTHO_EXE)
+	( cd $(HFBTHO_DIR); $(MAKE) -C $(DOC_DIR); cd .. )
+
+$(HFBTHO_EXE):
+	( cd $(HFBTHO_DIR); $(MAKE); cd .. )
+
+# Cleaning
+clean :
+	( rm -f *.o *.oo *.ipo *.mod; cd $(ANL_DIR); $(MAKE) clean; cd $(HFBTHO_DIR); $(MAKE) clean; cd ..)
+	$(MAKE) clean -C $(DOC_DIR)
+
+mrproper : clean
+	$(MAKE) mrproper -C $(HFBTHO_DIR)

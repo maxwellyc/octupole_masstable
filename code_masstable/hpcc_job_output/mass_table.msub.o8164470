@@ -1,0 +1,299 @@
+Mon Jan 28 10:31:17 EST 2019
+ Total row number:       10500
+ Task          11 received row        9626 from MASTER
+ Task          39 received row       10450 from MASTER
+ Task          12 received row        9755 from MASTER
+ Task          13 received row        9852 from MASTER
+ Task          14 received row       10016 from MASTER
+ Task          15 received row        7334 from MASTER
+ Task          16 received row       10406 from MASTER
+ Task          17 received row        9255 from MASTER
+ Task          18 received row       10025 from MASTER
+ Task          19 received row        9258 from MASTER
+ Task          20 received row        6955 from MASTER
+ Task          21 received row        9900 from MASTER
+ Task          22 received row       10409 from MASTER
+ Task          23 received row       10411 from MASTER
+ Task          25 received row        9266 from MASTER
+ Task          26 received row       10034 from MASTER
+ Task          27 received row       10036 from MASTER
+ Task          28 received row       10418 from MASTER
+ Task          40 received row        8787 from MASTER
+ Task          29 received row       10296 from MASTER
+ Task          42 received row        8789 from MASTER
+ Task          30 received row        9790 from MASTER
+ Task          43 received row       10072 from MASTER
+ Task          31 received row        9408 from MASTER
+ Task          48 received row        9932 from MASTER
+ Task          32 received row        9027 from MASTER
+ Task          41 received row       10200 from MASTER
+ Task          34 received row       10185 from MASTER
+ Task          44 received row        9562 from MASTER
+ Task          35 received row        9163 from MASTER
+ Task          46 received row       10080 from MASTER
+ Task          36 received row        9291 from MASTER
+ Task          47 received row       10335 from MASTER
+ Task          37 received row        9805 from MASTER
+ Task          49 received row       10341 from MASTER
+ Task          38 received row       10065 from MASTER
+ Task          50 received row       10344 from MASTER
+ Task          33 received row        9928 from MASTER
+ Task          51 received row       10475 from MASTER
+ Task          52 received row       10348 from MASTER
+ Task          53 received row        8045 from MASTER
+ Task          54 received row        9325 from MASTER
+ Task          56 received row       10096 from MASTER
+ Task          57 received row        9585 from MASTER
+ Task          58 received row        8050 from MASTER
+ Task          59 received row       10226 from MASTER
+ Task          60 received row        7412 from MASTER
+ Task          61 received row       10227 from MASTER
+ Task          62 received row       10332 from MASTER
+ Task          63 received row       10489 from MASTER
+ Task          64 received row       10362 from MASTER
+ Task          55 received row       10351 from MASTER
+ Task          65 received row        8444 from MASTER
+ Task          66 received row        9471 from MASTER
+ Task           1 received row        8706 from MASTER
+ Task           2 received row        8835 from MASTER
+ Task           3 received row        9604 from MASTER
+ Task           4 received row       10242 from MASTER
+ Task           5 received row       10248 from MASTER
+ Task           6 received row       10249 from MASTER
+ Task           7 received row       10380 from MASTER
+ Task           8 received row       10000 from MASTER
+ Task           9 received row       10385 from MASTER
+ Task          10 received row        9751 from MASTER
+ Task          45 received row        8927 from MASTER
+ Task          24 received row        9009 from MASTER
+task 000010 finished row 009751 in     7.48061438 minutes
+ Task          10 received row          -1 from MASTER
+ Task          10 received exit signal iRow =           -1 from MASTER
+task 000024 finished row 009009 in    10.25292900 minutes
+ Task          24 received row          -1 from MASTER
+ Task          24 received exit signal iRow =           -1 from MASTER
+task 000001 finished row 008706 in    12.59323435 minutes
+ Task           1 received row          -1 from MASTER
+ Task           1 received exit signal iRow =           -1 from MASTER
+task 000064 finished row 010362 in    12.60839740 minutes
+ Task          64 received row          -1 from MASTER
+ Task          64 received exit signal iRow =           -1 from MASTER
+task 000038 finished row 010065 in    15.79110435 minutes
+ Task          38 received row          -1 from MASTER
+ Task          38 received exit signal iRow =           -1 from MASTER
+task 000055 finished row 010351 in    20.10053540 minutes
+ Task          55 received row          -1 from MASTER
+ Task          55 received exit signal iRow =           -1 from MASTER
+task 000045 finished row 008927 in    22.14616025 minutes
+ Task          45 received row          -1 from MASTER
+ Task          45 received exit signal iRow =           -1 from MASTER
+task 000040 finished row 008787 in    25.11293468 minutes
+ Task          40 received row          -1 from MASTER
+ Task          40 received exit signal iRow =           -1 from MASTER
+task 000005 finished row 010248 in    42.15097418 minutes
+ Task           5 received row          -1 from MASTER
+ Task           5 received exit signal iRow =           -1 from MASTER
+task 000007 finished row 010380 in    45.45302850 minutes
+ Task           7 received row          -1 from MASTER
+ Task           7 received exit signal iRow =           -1 from MASTER
+task 000035 finished row 009163 in    50.48293323 minutes
+ Task          35 received row          -1 from MASTER
+ Task          35 received exit signal iRow =           -1 from MASTER
+task 000033 finished row 009928 in    51.02004877 minutes
+ Task          33 received row          -1 from MASTER
+ Task          33 received exit signal iRow =           -1 from MASTER
+task 000056 finished row 010096 in    51.88376932 minutes
+ Task          56 received row          -1 from MASTER
+ Task          56 received exit signal iRow =           -1 from MASTER
+task 000042 finished row 008789 in    58.65276270 minutes
+ Task          42 received row          -1 from MASTER
+ Task          42 received exit signal iRow =           -1 from MASTER
+task 000023 finished row 010411 in    59.37800163 minutes
+ Task          23 received row          -1 from MASTER
+ Task          23 received exit signal iRow =           -1 from MASTER
+task 000063 finished row 010489 in    63.46542898 minutes
+ Task          63 received row          -1 from MASTER
+ Task          63 received exit signal iRow =           -1 from MASTER
+task 000013 finished row 009852 in    66.34095474 minutes
+ Task          13 received row          -1 from MASTER
+ Task          13 received exit signal iRow =           -1 from MASTER
+task 000046 finished row 010080 in    69.53411033 minutes
+ Task          46 received row          -1 from MASTER
+ Task          46 received exit signal iRow =           -1 from MASTER
+task 000060 finished row 007412 in    72.11664050 minutes
+ Task          60 received row          -1 from MASTER
+ Task          60 received exit signal iRow =           -1 from MASTER
+task 000059 finished row 010226 in    72.66653272 minutes
+ Task          59 received row          -1 from MASTER
+ Task          59 received exit signal iRow =           -1 from MASTER
+task 000043 finished row 010072 in    84.73429618 minutes
+ Task          43 received row          -1 from MASTER
+ Task          43 received exit signal iRow =           -1 from MASTER
+task 000027 finished row 010036 in    88.93552873 minutes
+ Task          27 received row          -1 from MASTER
+ Task          27 received exit signal iRow =           -1 from MASTER
+task 000009 finished row 010385 in    97.05924885 minutes
+ Task           9 received row          -1 from MASTER
+ Task           9 received exit signal iRow =           -1 from MASTER
+task 000019 finished row 009258 in   105.15551702 minutes
+ Task          19 received row          -1 from MASTER
+ Task          19 received exit signal iRow =           -1 from MASTER
+task 000031 finished row 009408 in   106.01363758 minutes
+ Task          31 received row          -1 from MASTER
+ Task          31 received exit signal iRow =           -1 from MASTER
+task 000048 finished row 009932 in   106.85757600 minutes
+ Task          48 received row          -1 from MASTER
+ Task          48 received exit signal iRow =           -1 from MASTER
+task 000061 finished row 010227 in   107.10252382 minutes
+ Task          61 received row          -1 from MASTER
+ Task          61 received exit signal iRow =           -1 from MASTER
+task 000003 finished row 009604 in   107.29810950 minutes
+ Task           3 received row          -1 from MASTER
+ Task           3 received exit signal iRow =           -1 from MASTER
+task 000006 finished row 010249 in   109.10979110 minutes
+ Task           6 received row          -1 from MASTER
+ Task           6 received exit signal iRow =           -1 from MASTER
+task 000029 finished row 010296 in   110.07276810 minutes
+ Task          29 received row          -1 from MASTER
+ Task          29 received exit signal iRow =           -1 from MASTER
+task 000051 finished row 010475 in   110.32765968 minutes
+ Task          51 received row          -1 from MASTER
+ Task          51 received exit signal iRow =           -1 from MASTER
+task 000018 finished row 010025 in   110.40920066 minutes
+ Task          18 received row          -1 from MASTER
+ Task          18 received exit signal iRow =           -1 from MASTER
+task 000049 finished row 010341 in   111.22982850 minutes
+ Task          49 received row          -1 from MASTER
+ Task          49 received exit signal iRow =           -1 from MASTER
+task 000053 finished row 008045 in   111.52220708 minutes
+ Task          53 received row          -1 from MASTER
+ Task          53 received exit signal iRow =           -1 from MASTER
+task 000065 finished row 008444 in   112.40449283 minutes
+ Task          65 received row          -1 from MASTER
+ Task          65 received exit signal iRow =           -1 from MASTER
+task 000066 finished row 009471 in   113.08557495 minutes
+ Task          66 received row          -1 from MASTER
+ Task          66 received exit signal iRow =           -1 from MASTER
+task 000028 finished row 010418 in   113.14273478 minutes
+ Task          28 received row          -1 from MASTER
+ Task          28 received exit signal iRow =           -1 from MASTER
+task 000032 finished row 009027 in   113.55795228 minutes
+ Task          32 received row          -1 from MASTER
+ Task          32 received exit signal iRow =           -1 from MASTER
+task 000008 finished row 010000 in   113.56728592 minutes
+ Task           8 received row          -1 from MASTER
+ Task           8 received exit signal iRow =           -1 from MASTER
+task 000058 finished row 008050 in   113.62625153 minutes
+ Task          58 received row          -1 from MASTER
+ Task          58 received exit signal iRow =           -1 from MASTER
+task 000020 finished row 006955 in   113.62924538 minutes
+ Task          20 received row          -1 from MASTER
+ Task          20 received exit signal iRow =           -1 from MASTER
+task 000012 finished row 009755 in   114.07749317 minutes
+ Task          12 received row          -1 from MASTER
+ Task          12 received exit signal iRow =           -1 from MASTER
+task 000050 finished row 010344 in   114.97268087 minutes
+ Task          50 received row          -1 from MASTER
+ Task          50 received exit signal iRow =           -1 from MASTER
+task 000036 finished row 009291 in   115.18533067 minutes
+ Task          36 received row          -1 from MASTER
+ Task          36 received exit signal iRow =           -1 from MASTER
+task 000044 finished row 009562 in   116.23784006 minutes
+ Task          44 received row          -1 from MASTER
+ Task          44 received exit signal iRow =           -1 from MASTER
+task 000054 finished row 009325 in   117.45325213 minutes
+ Task          54 received row          -1 from MASTER
+ Task          54 received exit signal iRow =           -1 from MASTER
+task 000014 finished row 010016 in   117.82843653 minutes
+ Task          14 received row          -1 from MASTER
+ Task          14 received exit signal iRow =           -1 from MASTER
+task 000039 finished row 010450 in   119.44068187 minutes
+ Task          39 received row          -1 from MASTER
+ Task          39 received exit signal iRow =           -1 from MASTER
+task 000037 finished row 009805 in   119.86095366 minutes
+ Task          37 received row          -1 from MASTER
+ Task          37 received exit signal iRow =           -1 from MASTER
+task 000015 finished row 007334 in   120.21553405 minutes
+ Task          15 received row          -1 from MASTER
+ Task          15 received exit signal iRow =           -1 from MASTER
+task 000016 finished row 010406 in   121.67221895 minutes
+ Task          16 received row          -1 from MASTER
+ Task          16 received exit signal iRow =           -1 from MASTER
+task 000004 finished row 010242 in   121.74782225 minutes
+ Task           4 received row          -1 from MASTER
+ Task           4 received exit signal iRow =           -1 from MASTER
+task 000002 finished row 008835 in   122.05604508 minutes
+ Task           2 received row          -1 from MASTER
+ Task           2 received exit signal iRow =           -1 from MASTER
+task 000030 finished row 009790 in   122.33891997 minutes
+ Task          30 received row          -1 from MASTER
+ Task          30 received exit signal iRow =           -1 from MASTER
+task 000025 finished row 009266 in   123.32392468 minutes
+ Task          25 received row          -1 from MASTER
+ Task          25 received exit signal iRow =           -1 from MASTER
+task 000062 finished row 010332 in   124.41617843 minutes
+ Task          62 received row          -1 from MASTER
+ Task          62 received exit signal iRow =           -1 from MASTER
+task 000011 finished row 009626 in   124.85846287 minutes
+ Task          11 received row          -1 from MASTER
+ Task          11 received exit signal iRow =           -1 from MASTER
+task 000026 finished row 010034 in   125.15112835 minutes
+ Task          26 received row          -1 from MASTER
+ Task          26 received exit signal iRow =           -1 from MASTER
+task 000052 finished row 010348 in   127.85524937 minutes
+ Task          52 received row          -1 from MASTER
+ Task          52 received exit signal iRow =           -1 from MASTER
+task 000022 finished row 010409 in   127.90274978 minutes
+ Task          22 received row          -1 from MASTER
+ Task          22 received exit signal iRow =           -1 from MASTER
+task 000021 finished row 009900 in   129.16895567 minutes
+ Task          21 received row          -1 from MASTER
+ Task          21 received exit signal iRow =           -1 from MASTER
+task 000041 finished row 010200 in   129.41295342 minutes
+ Task          41 received row          -1 from MASTER
+ Task          41 received exit signal iRow =           -1 from MASTER
+task 000017 finished row 009255 in   129.56626811 minutes
+ Task          17 received row          -1 from MASTER
+ Task          17 received exit signal iRow =           -1 from MASTER
+task 000047 finished row 010335 in   129.63019953 minutes
+ Task          47 received row          -1 from MASTER
+ Task          47 received exit signal iRow =           -1 from MASTER
+task 000057 finished row 009585 in   130.14860373 minutes
+ Task          57 received row          -1 from MASTER
+ Task          57 received exit signal iRow =           -1 from MASTER
+task 000034 finished row 010185 in   130.66322957 minutes
+ Task          34 received row          -1 from MASTER
+ Task          34 received exit signal iRow =           -1 from MASTER
+ 
+ HFBTHO_SOLVER ended without errors
+ 
+Mon Jan 28 12:42:12 EST 2019
+JobId=8164470 JobName=UNE1-9-2
+   UserId=caoyuche(762339) GroupId=cse491_fs15_s2(2364) MCS_label=N/A
+   Priority=6189 Nice=0 Account=ptg QOS=ptg
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=02:11:03 TimeLimit=04:01:00 TimeMin=N/A
+   SubmitTime=2019-01-28T10:28:21 EligibleTime=2019-01-28T10:28:21
+   AccrueTime=2019-01-28T10:28:21
+   StartTime=2019-01-28T10:31:11 EndTime=2019-01-28T14:32:11 Deadline=N/A
+   PreemptTime=None SuspendTime=None SecsPreSuspend=0
+   LastSchedEval=2019-01-28T10:31:11
+   Partition=ptg-16 AllocNode:Sid=dev-intel16:10773
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=lac-[158,172-173]
+   BatchHost=lac-158
+   NumNodes=3 NumCPUs=67 NumTasks=67 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=67,mem=120G,node=3,billing=18677
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=40G MinTmpDiskNode=0
+   Features=[intel11|intel14|intel16|intel18] DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/UNEDF1/block9/mass_table.msub
+   WorkDir=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/UNEDF1/block9
+   Comment=stdout=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/UNEDF1/block9/mass_table.msub.o%A 
+   StdErr=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/UNEDF1/block9/mass_table.msub.e8164470
+   StdIn=/dev/null
+   StdOut=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/UNEDF1/block9/mass_table.msub.o8164470
+   Power=
+

@@ -1,0 +1,79 @@
+Wed Feb 13 09:51:16 EST 2019
+ Total row number:       21000
+ Task           1 received row       20962 from MASTER
+ Task           2 received row       20665 from MASTER
+ Task           3 received row       20675 from MASTER
+ Task           4 received row       19558 from MASTER
+ Task           5 received row       18603 from MASTER
+ Task           6 received row       20075 from MASTER
+ Task           7 received row       20921 from MASTER
+task 000005 finished row 018603 in     4.41728225 minutes
+ Task           5 received row       20910 from MASTER
+task 000004 finished row 019558 in    18.25818220 minutes
+ Task           4 received row       19477 from MASTER
+task 000006 finished row 020075 in    18.87394733 minutes
+ Task           6 received row       20408 from MASTER
+task 000006 finished row 020408 in     3.43309472 minutes
+ Task           6 received row       20918 from MASTER
+task 000003 finished row 020675 in    42.72054677 minutes
+ Task           3 received row       19288 from MASTER
+task 000004 finished row 019477 in    24.48827760 minutes
+ Task           4 received row       20217 from MASTER
+task 000003 finished row 019288 in     5.49216274 minutes
+ Task           3 received row       19706 from MASTER
+task 000004 finished row 020217 in    43.67650818 minutes
+ Task           4 received row       19835 from MASTER
+task 000004 finished row 019835 in    21.82323829 minutes
+ Task           4 received row          -1 from MASTER
+ Task           4 received exit signal iRow =           -1 from MASTER
+task 000003 finished row 019706 in    60.79227589 minutes
+ Task           3 received row          -1 from MASTER
+ Task           3 received exit signal iRow =           -1 from MASTER
+task 000001 finished row 020962 in   115.29384102 minutes
+ Task           1 received row          -1 from MASTER
+ Task           1 received exit signal iRow =           -1 from MASTER
+task 000002 finished row 020665 in   122.07335797 minutes
+ Task           2 received row          -1 from MASTER
+ Task           2 received exit signal iRow =           -1 from MASTER
+task 000007 finished row 020921 in   123.92647856 minutes
+ Task           7 received row          -1 from MASTER
+ Task           7 received exit signal iRow =           -1 from MASTER
+task 000005 finished row 020910 in   133.68749530 minutes
+ Task           5 received row          -1 from MASTER
+ Task           5 received exit signal iRow =           -1 from MASTER
+task 000006 finished row 020918 in   117.89465518 minutes
+ Task           6 received row          -1 from MASTER
+ Task           6 received exit signal iRow =           -1 from MASTER
+ 
+ HFBTHO_SOLVER ended without errors
+ 
+Wed Feb 13 12:11:31 EST 2019
+JobId=9634804 JobName=SKMS-7-2
+   UserId=caoyuche(762339) GroupId=cse491_fs15_s2(2364) MCS_label=N/A
+   Priority=2348 Nice=0 Account=ptg QOS=ptg
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=02:20:17 TimeLimit=05:00:00 TimeMin=N/A
+   SubmitTime=2019-02-13T09:47:55 EligibleTime=2019-02-13T09:47:55
+   AccrueTime=2019-02-13T09:47:55
+   StartTime=2019-02-13T09:51:15 EndTime=2019-02-13T14:51:15 Deadline=N/A
+   PreemptTime=None SuspendTime=None SecsPreSuspend=0
+   LastSchedEval=2019-02-13T09:51:15
+   Partition=ptg-16 AllocNode:Sid=dev-intel16:20955
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=lac-187
+   BatchHost=lac-187
+   NumNodes=1 NumCPUs=8 NumTasks=8 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=8,mem=4G,node=1,billing=622
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=4G MinTmpDiskNode=0
+   Features=[intel14|intel16|intel18] DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/SKMS/block7/mass_table.msub
+   WorkDir=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/SKMS/block7
+   Comment=stdout=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/SKMS/block7/mass_table.msub.o%A 
+   StdErr=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/SKMS/block7/mass_table.msub.e9634804
+   StdIn=/dev/null
+   StdOut=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/SKMS/block7/mass_table.msub.o9634804
+   Power=
+

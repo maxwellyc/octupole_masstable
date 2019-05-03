@@ -1,0 +1,50 @@
+Folder:	./omp_test/thread_1/
+File count:	15
+Average time per iteration:	5.22	s
+Average time per row:		86.89	min
+Average cpu time per iter:	5.22	s***
+Average cpu time per row:	86.89	min***
+Average iterations per row:	998
+
+
+===============================================================
+Folder:	./omp_test/thread_2/
+File count:	15
+Average time per iteration:	3.02	s
+Average time per row:		52.15	min
+Average cpu time per iter:	6.04	s***
+Average cpu time per row:	104.3	min***
+Average iterations per row:	1036
+
+
+===============================================================
+Folder:	./omp_test/thread_4/
+File count:	15
+Average time per iteration:	1.65	s
+Average time per row:		28.8	min
+Average cpu time per iter:	6.6	s***
+Average cpu time per row:	115.2	min***
+Average iterations per row:	1050
+
+
+===============================================================
+Folder:	./omp_test/thread_6/
+File count:	15
+Average time per iteration:	1.26	s
+Average time per row:		22.39	min
+Average cpu time per iter:	7.56	s***
+Average cpu time per row:	134.34	min***
+Average iterations per row:	1063
+
+
+===============================================================
+Folder:	./omp_test/thread_9/
+File count:	15
+Average time per iteration:	1.17	s
+Average time per row:		19.53	min
+Average cpu time per iter:	10.53	s***
+Average cpu time per row:	175.77	min***
+Average iterations per row:	999
+
+
+===============================================================

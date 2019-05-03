@@ -1,0 +1,147 @@
+SKMS
+*****
+Maximum cpu time used by task 2, total rows calculated: 33, total cpu time spent 30.19 hours, actual time spent 7.55 hours
+Rows calculated by task 2 are:
+[2, 18, 34, 50, 66, 82, 98, 114, 130, 146, 162, 178, 194, 210, 226, 242, 258, 274, 290, 306, 322, 338, 354, 370, 386, 402, 418, 434, 450, 466, 482, 498, 514]
+Corresponding iterations used in calculating above rows
+[352, 509, 1001, 544, 374, 348, 257, 382, 940, 480, 343, 217, 1001, 252, 309, 80, 469, 518, 804, 678, 656, 28, 666, 510, 319, 35, 502, 1001, 281, 39, 268, 1001, 224]
+Average iterations per row for this task is: 466
+*****
+OpenMP threads: 4.0, total tasks: 16, total cpu asked: 64.0
+Maximum average cpu time for tasks per row:	54.9 minutes
+(100, 188)  min_iter(3 decimals)#:	 190
+(100, 190)  min_iter(3 decimals)#:	 203
+(100, 192)  min_iter(3 decimals)#:	 152
+(100, 194)  min_iter(3 decimals)#:	 351
+(100, 196)  min_iter(3 decimals)#:	 220
+(100, 198)  min_iter(3 decimals)#:	 60
+(100, 200)  min_iter(3 decimals)#:	 35
+(100, 202)  min_iter(3 decimals)#:	 35
+
+===============================================================
+SKP
+*****
+Maximum cpu time used by task 4, total rows calculated: 33, total cpu time spent 36.03 hours, actual time spent 9.01 hours
+Rows calculated by task 4 are:
+[4, 20, 36, 52, 68, 84, 100, 116, 132, 148, 164, 180, 196, 212, 228, 244, 260, 276, 292, 308, 324, 340, 356, 372, 388, 404, 420, 436, 452, 468, 484, 500, 516]
+Corresponding iterations used in calculating above rows
+[51, 179, 1001, 887, 120, 118, 480, 1001, 194, 211, 328, 1001, 62, 377, 119, 1001, 989, 79, 234, 941, 1001, 329, 1001, 1001, 1001, 406, 524, 931, 831, 37, 660, 179, 525]
+Average iterations per row for this task is: 539
+*****
+OpenMP threads: 4.0, total tasks: 16, total cpu asked: 64.0
+Maximum average cpu time for tasks per row:	65.51 minutes
+(100, 188)  min_iter(3 decimals)#:	 122
+(100, 190)  min_iter(3 decimals)#:	 120
+(100, 192)  min_iter(3 decimals)#:	 141
+(100, 194)  min_iter(3 decimals)#:	 240
+(100, 196)  min_iter(3 decimals)#:	 44
+(100, 198)  min_iter(3 decimals)#:	 853
+(100, 200)  min_iter(3 decimals)#:	 44
+(100, 202)  min_iter(3 decimals)#:	 37
+
+===============================================================
+SLY4
+*****
+Maximum cpu time used by task 7, total rows calculated: 33, total cpu time spent 30.67 hours, actual time spent 7.67 hours
+Rows calculated by task 7 are:
+[7, 23, 39, 55, 71, 87, 103, 119, 135, 151, 167, 183, 199, 215, 231, 247, 263, 279, 295, 311, 327, 343, 359, 375, 391, 407, 423, 439, 455, 471, 487, 503, 519]
+Corresponding iterations used in calculating above rows
+[14, 73, 488, 678, 40, 248, 1001, 761, 33, 99, 1001, 1001, 175, 219, 659, 708, 40, 804, 592, 1001, 28, 1001, 337, 477, 28, 262, 444, 260, 569, 1001, 1001, 234, 270]
+Average iterations per row for this task is: 471
+*****
+OpenMP threads: 4.0, total tasks: 16, total cpu asked: 64.0
+Maximum average cpu time for tasks per row:	55.76 minutes
+(100, 188)  min_iter(3 decimals)#:	 25
+(100, 190)  min_iter(3 decimals)#:	 384
+(100, 192)  min_iter(3 decimals)#:	 140
+(100, 194)  min_iter(3 decimals)#:	 456
+(100, 196)  min_iter(3 decimals)#:	 732
+(100, 198)  min_iter(3 decimals)#:	 785
+(100, 200)  min_iter(3 decimals)#:	 242
+(100, 202)  min_iter(3 decimals)#:	 200
+
+===============================================================
+SV-min
+*****
+Maximum cpu time used by task 2, total rows calculated: 33, total cpu time spent 27.68 hours, actual time spent 6.92 hours
+Rows calculated by task 2 are:
+[2, 18, 34, 50, 66, 82, 98, 114, 130, 146, 162, 178, 194, 210, 226, 242, 258, 274, 290, 306, 322, 338, 354, 370, 386, 402, 418, 434, 450, 466, 482, 498, 514]
+Corresponding iterations used in calculating above rows
+[258, 1001, 89, 293, 1001, 241, 143, 199, 1001, 376, 179, 1001, 457, 218, 444, 136, 1001, 231, 1001, 159, 1001, 39, 912, 656, 446, 37, 284, 240, 251, 33, 116, 1001, 251]
+Average iterations per row for this task is: 445
+*****
+OpenMP threads: 4.0, total tasks: 16, total cpu asked: 64.0
+Maximum average cpu time for tasks per row:	50.32 minutes
+(100, 188)  min_iter(3 decimals)#:	 121
+(100, 190)  min_iter(3 decimals)#:	 120
+(100, 192)  min_iter(3 decimals)#:	 100
+(100, 194)  min_iter(3 decimals)#:	 118
+(100, 196)  min_iter(3 decimals)#:	 116
+(100, 198)  min_iter(3 decimals)#:	 61
+(100, 200)  min_iter(3 decimals)#:	 77
+(100, 202)  min_iter(3 decimals)#:	 251
+
+===============================================================
+UNE0
+*****
+Maximum cpu time used by task 0, total rows calculated: 32, total cpu time spent 35.55 hours, actual time spent 8.89 hours
+Rows calculated by task 0 are:
+[16, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208, 224, 240, 256, 272, 288, 304, 320, 336, 352, 368, 384, 400, 416, 432, 448, 464, 480, 496, 512]
+Corresponding iterations used in calculating above rows
+[488, 221, 503, 1001, 1001, 1001, 184, 632, 850, 1001, 570, 813, 306, 567, 807, 598, 69, 252, 481, 429, 66, 261, 1001, 378, 74, 671, 1001, 255, 58, 258, 301, 325]
+Average iterations per row for this task is: 513
+*****
+OpenMP threads: 4.0, total tasks: 16, total cpu asked: 64.0
+Maximum average cpu time for tasks per row:	66.66 minutes
+(100, 188)  min_iter(3 decimals)#:	 211
+(100, 190)  min_iter(3 decimals)#:	 194
+(100, 192)  min_iter(3 decimals)#:	 136
+(100, 194)  min_iter(3 decimals)#:	 110
+(100, 196)  min_iter(3 decimals)#:	 101
+(100, 198)  min_iter(3 decimals)#:	 236
+(100, 200)  min_iter(3 decimals)#:	 100
+(100, 202)  min_iter(3 decimals)#:	 85
+
+===============================================================
+UNE1
+*****
+Maximum cpu time used by task 13, total rows calculated: 32, total cpu time spent 50.19 hours, actual time spent 12.55 hours
+Rows calculated by task 13 are:
+[13, 29, 45, 61, 77, 93, 109, 125, 141, 157, 173, 189, 205, 221, 237, 253, 269, 285, 301, 317, 333, 349, 365, 381, 397, 413, 429, 445, 461, 477, 493, 509]
+Corresponding iterations used in calculating above rows
+[1001, 1001, 521, 1001, 1001, 1001, 1001, 278, 271, 1001, 1001, 1001, 151, 1001, 1001, 1001, 361, 1001, 1001, 952, 738, 1001, 1001, 1001, 23, 298, 1001, 1001, 1001, 1001, 1001, 1001]
+Average iterations per row for this task is: 831
+*****
+OpenMP threads: 4.0, total tasks: 16, total cpu asked: 64.0
+Maximum average cpu time for tasks per row:	94.11 minutes
+(100, 188)  min_iter(3 decimals)#:	 237
+(100, 190)  min_iter(3 decimals)#:	 433
+(100, 192)  min_iter(3 decimals)#:	 172
+(100, 194)  min_iter(3 decimals)#:	 181
+(100, 196)  min_iter(3 decimals)#:	 211
+(100, 198)  min_iter(3 decimals)#:	 416
+(100, 200)  min_iter(3 decimals)#:	 105
+(100, 202)  min_iter(3 decimals)#:	 91
+
+===============================================================
+UNE2
+*****
+Maximum cpu time used by task 2, total rows calculated: 33, total cpu time spent 38.02 hours, actual time spent 9.5 hours
+Rows calculated by task 2 are:
+[2, 18, 34, 50, 66, 82, 98, 114, 130, 146, 162, 178, 194, 210, 226, 242, 258, 274, 290, 306, 322, 338, 354, 370, 386, 402, 418, 434, 450, 466, 482, 498, 514]
+Corresponding iterations used in calculating above rows
+[1001, 1001, 249, 386, 1001, 1001, 217, 491, 1001, 1001, 272, 1001, 727, 1001, 295, 166, 1001, 1001, 464, 226, 1001, 111, 1001, 1001, 1001, 97, 393, 367, 513, 86, 303, 325, 815]
+Average iterations per row for this task is: 621
+*****
+OpenMP threads: 4.0, total tasks: 16, total cpu asked: 64.0
+Maximum average cpu time for tasks per row:	69.12 minutes
+(100, 188)  min_iter(3 decimals)#:	 171
+(100, 190)  min_iter(3 decimals)#:	 167
+(100, 192)  min_iter(3 decimals)#:	 189
+(100, 194)  min_iter(3 decimals)#:	 187
+(100, 196)  min_iter(3 decimals)#:	 168
+(100, 198)  min_iter(3 decimals)#:	 202
+(100, 200)  min_iter(3 decimals)#:	 463
+(100, 202)  min_iter(3 decimals)#:	 101
+
+===============================================================

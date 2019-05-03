@@ -1,0 +1,200 @@
+Folder:	./grid_test/test1/130-140Fm/
+File count:	630
+Average time per iteration:	1.67	s
+Average time per row:		22.5	min
+Average cpu time per iter:	6.68	s
+Average cpu time per row:	90.0	min
+Median cpu time per row:	78.17	min 
+Maximum cpu time per row:	242.12	min 
+Average iterations per row:	809
+Median iterations per row:	717
+*****
+Maximum cpu time used by task 0, total rows calculated: 23, total cpu time spent 40.34 hours, actual time spent 10.08 hours
+Rows calculated by task 0 are: [54, 81, 108, 135, 162, 189, 216, 243, 270, 297, 324, 351, 378, 405, 432, 459, 486, 513, 540, 567, 594, 621]
+[195, 1001, 201, 741, 257, 162, 133, 701, 1801, 652, 168, 422, 1511, 1178, 101, 1801, 1801, 1801, 90, 242, 1801, 421]
+Average iterations per row for this task is: 780
+*****
+OpenMP threads: 4.0, total tasks: 27, total cpu asked: 108.0
+Maximum average cpu time for tasks per row:	105.23 minutes
+
+===============================================================
+Folder:	./grid_test/test1/188-202Fm/
+File count:	840
+Average time per iteration:	1.57	s
+Average time per row:		22.31	min
+Average cpu time per iter:	6.28	s
+Average cpu time per row:	89.24	min
+Median cpu time per row:	56.42	min 
+Maximum cpu time per row:	255.46	min 
+Average iterations per row:	853
+Median iterations per row:	583
+*****
+Maximum cpu time used by task 12, total rows calculated: 22, total cpu time spent 42.48 hours, actual time spent 10.62 hours
+Rows calculated by task 12 are: [48, 84, 120, 156, 192, 228, 264, 300, 336, 372, 408, 444, 480, 516, 552, 588, 624, 660, 696, 732, 768, 804, 840]
+[1552, 121, 150, 1801, 666, 1801, 166, 1801, 1685, 312, 1467, 292, 1801, 1254, 1275, 1801, 268, 375, 551, 476, 1801, 866, 757]
+Average iterations per row for this task is: 1001
+*****
+OpenMP threads: 4.0, total tasks: 36, total cpu asked: 144.0
+Maximum average cpu time for tasks per row:	115.86 minutes
+
+===============================================================
+Folder:	./grid_test/test2/130-140Fm/
+File count:	360
+Average time per iteration:	1.58	s
+Average time per row:		20.38	min
+Average cpu time per iter:	6.32	s
+Average cpu time per row:	81.52	min
+Median cpu time per row:	64.91	min 
+Maximum cpu time per row:	248.08	min 
+Average iterations per row:	772
+Median iterations per row:	648
+*****
+Maximum cpu time used by task 4, total rows calculated: 19, total cpu time spent 31.07 hours, actual time spent 7.77 hours
+Rows calculated by task 4 are: [22, 40, 58, 76, 94, 112, 130, 148, 166, 184, 202, 220, 238, 256, 274, 292, 310, 328, 346]
+[1001, 318, 274, 1001, 1001, 220, 134, 1801, 450, 119, 1361, 1801, 1801, 1801, 1801, 1801, 105, 467, 463]
+Average iterations per row for this task is: 932
+*****
+OpenMP threads: 4.0, total tasks: 18, total cpu asked: 72.0
+Maximum average cpu time for tasks per row:	98.1 minutes
+
+===============================================================
+Folder:	./grid_test/test2/188-202Fm/
+File count:	480
+Average time per iteration:	1.68	s
+Average time per row:		22.43	min
+Average cpu time per iter:	6.72	s
+Average cpu time per row:	89.72	min
+Median cpu time per row:	53.66	min 
+Maximum cpu time per row:	245.92	min 
+Average iterations per row:	799
+Median iterations per row:	471
+*****
+Maximum cpu time used by task 12, total rows calculated: 23, total cpu time spent 52.56 hours, actual time spent 13.14 hours
+Rows calculated by task 12 are: [32, 52, 72, 92, 112, 132, 152, 172, 192, 212, 232, 252, 272, 292, 312, 332, 352, 372, 392, 412, 432, 452, 472]
+[1801, 216, 245, 1801, 190, 222, 1801, 256, 202, 428, 293, 135, 597, 234, 103, 581, 1801, 77, 358, 209, 80, 538, 217]
+Average iterations per row for this task is: 538
+*****
+OpenMP threads: 4.0, total tasks: 20, total cpu asked: 80.0
+Maximum average cpu time for tasks per row:	137.1 minutes
+
+===============================================================
+Folder:	./grid_test/test3/130-140Fm/
+File count:	1170
+Average time per iteration:	1.66	s
+Average time per row:		23.03	min
+Average cpu time per iter:	6.64	s
+Average cpu time per row:	92.12	min
+Median cpu time per row:	79.77	min 
+Maximum cpu time per row:	240.19	min 
+Average iterations per row:	833
+Median iterations per row:	736
+*****
+Maximum cpu time used by task 41, total rows calculated: 23, total cpu time spent 42.97 hours, actual time spent 10.74 hours
+Rows calculated by task 41 are: [91, 141, 191, 241, 291, 341, 391, 441, 491, 541, 591, 641, 691, 741, 791, 841, 891, 941, 991, 1041, 1091, 1141]
+[1001, 1001, 777, 165, 1001, 770, 82, 363, 261, 1217, 124, 486, 525, 1659, 121, 1801, 1801, 385, 544, 485, 262, 726]
+Average iterations per row for this task is: 707
+*****
+OpenMP threads: 4.0, total tasks: 50, total cpu asked: 200.0
+Maximum average cpu time for tasks per row:	112.09 minutes
+
+===============================================================
+Folder:	./grid_test/test3/188-202Fm/
+File count:	1560
+Average time per iteration:	1.57	s
+Average time per row:		23.12	min
+Average cpu time per iter:	6.28	s
+Average cpu time per row:	92.48	min
+Median cpu time per row:	58.98	min 
+Maximum cpu time per row:	261.56	min 
+Average iterations per row:	882
+Median iterations per row:	594
+*****
+Maximum cpu time used by task 12, total rows calculated: 24, total cpu time spent 48.3 hours, actual time spent 12.07 hours
+Rows calculated by task 12 are: [76, 140, 204, 268, 332, 396, 460, 524, 588, 652, 716, 780, 844, 908, 972, 1036, 1100, 1164, 1228, 1292, 1356, 1420, 1484, 1548]
+[1801, 1801, 221, 1801, 1801, 108, 1801, 1801, 120, 384, 366, 558, 1001, 245, 432, 423, 1801, 268, 358, 358, 379, 280, 1213, 197]
+Average iterations per row for this task is: 813
+*****
+OpenMP threads: 4.0, total tasks: 64, total cpu asked: 256.0
+Maximum average cpu time for tasks per row:	120.74 minutes
+
+===============================================================
+Folder:	./grid_test/test4/130-140Fm/
+File count:	810
+Average time per iteration:	1.61	s
+Average time per row:		22.83	min
+Average cpu time per iter:	6.44	s
+Average cpu time per row:	91.32	min
+Median cpu time per row:	78.51	min 
+Maximum cpu time per row:	243.06	min 
+Average iterations per row:	848
+Median iterations per row:	757
+*****
+Maximum cpu time used by task 26, total rows calculated: 25, total cpu time spent 45.99 hours, actual time spent 11.5 hours
+Rows calculated by task 26 are: [58, 90, 122, 154, 186, 218, 250, 282, 314, 346, 378, 410, 442, 474, 506, 538, 570, 602, 634, 666, 698, 730, 762, 794]
+[1001, 1001, 295, 1001, 1001, 191, 196, 130, 1801, 1217, 945, 115, 1361, 329, 1801, 1801, 482, 1801, 598, 1783, 530, 657, 465, 1405]
+Average iterations per row for this task is: 912
+*****
+OpenMP threads: 4.0, total tasks: 32, total cpu asked: 128.0
+Maximum average cpu time for tasks per row:	110.37 minutes
+
+===============================================================
+Folder:	./grid_test/test4/188-202Fm/
+File count:	1080
+Average time per iteration:	1.6	s
+Average time per row:		23.68	min
+Average cpu time per iter:	6.4	s
+Average cpu time per row:	94.72	min
+Median cpu time per row:	66.48	min 
+Maximum cpu time per row:	243.55	min 
+Average iterations per row:	887
+Median iterations per row:	628
+*****
+Maximum cpu time used by task 43, total rows calculated: 23, total cpu time spent 60.1 hours, actual time spent 15.02 hours
+Rows calculated by task 43 are: [88, 133, 178, 223, 268, 313, 358, 403, 448, 493, 538, 583, 628, 673, 718, 763, 808, 853, 898, 943, 988, 1033, 1078]
+[1801, 1801, 1801, 185, 679, 1801, 137, 561, 377, 431, 724, 511, 483, 711, 825, 583, 714, 324, 778, 685, 321, 460, 682]
+Average iterations per row for this task is: 755
+*****
+OpenMP threads: 4.0, total tasks: 45, total cpu asked: 180.0
+Maximum average cpu time for tasks per row:	156.77 minutes
+
+===============================================================
+Folder:	./grid_test/test5/130-140Fm/
+File count:	450
+Average time per iteration:	1.69	s
+Average time per row:		23.08	min
+Average cpu time per iter:	6.76	s
+Average cpu time per row:	92.32	min
+Median cpu time per row:	78.92	min 
+Maximum cpu time per row:	249.83	min 
+Average iterations per row:	819
+Median iterations per row:	708
+*****
+Maximum cpu time used by task 16, total rows calculated: 24, total cpu time spent 46.06 hours, actual time spent 11.51 hours
+Rows calculated by task 16 are: [34, 52, 70, 88, 106, 124, 142, 160, 178, 196, 214, 232, 250, 268, 286, 304, 322, 340, 358, 376, 394, 412, 430, 448]
+[1001, 175, 210, 168, 1001, 1001, 260, 134, 1801, 450, 731, 179, 1801, 1801, 419, 1801, 1801, 846, 993, 86, 1801, 396, 1272, 811]
+Average iterations per row for this task is: 872
+*****
+OpenMP threads: 4.0, total tasks: 18, total cpu asked: 72.0
+Maximum average cpu time for tasks per row:	115.14 minutes
+
+===============================================================
+Folder:	./grid_test/test5/188-202Fm/
+File count:	600
+Average time per iteration:	1.65	s
+Average time per row:		23.27	min
+Average cpu time per iter:	6.6	s
+Average cpu time per row:	93.08	min
+Median cpu time per row:	60.48	min 
+Maximum cpu time per row:	242.85	min 
+Average iterations per row:	847
+Median iterations per row:	554
+*****
+Maximum cpu time used by task 12, total rows calculated: 23, total cpu time spent 51.62 hours, actual time spent 12.9 hours
+Rows calculated by task 12 are: [37, 62, 87, 112, 137, 162, 187, 212, 237, 262, 287, 312, 337, 362, 387, 412, 437, 462, 487, 512, 537, 562, 587]
+[204, 1801, 245, 215, 1801, 222, 209, 1801, 202, 286, 1801, 135, 257, 306, 103, 1801, 1801, 77, 353, 486, 80, 276, 1801]
+Average iterations per row for this task is: 707
+*****
+OpenMP threads: 4.0, total tasks: 25, total cpu asked: 100.0
+Maximum average cpu time for tasks per row:	134.65 minutes
+
+===============================================================

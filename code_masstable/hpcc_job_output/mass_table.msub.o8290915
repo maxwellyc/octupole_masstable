@@ -1,0 +1,2720 @@
+Tue Jan 29 23:54:24 EST 2019
+ Total row number:         975
+ Task          19 received row          19 from MASTER
+ Task          38 received row          29 from MASTER
+ Task          76 received row          61 from MASTER
+ Task          57 received row          42 from MASTER
+ Task          85 received row          72 from MASTER
+ Task           1 received row           1 from MASTER
+ Task           2 received row           2 from MASTER
+ Task           3 received row           3 from MASTER
+ Task           4 received row           4 from MASTER
+ Task           5 received row           5 from MASTER
+ Task           6 received row           6 from MASTER
+ Task           7 received row           7 from MASTER
+ Task           8 received row           8 from MASTER
+ Task           9 received row           9 from MASTER
+ Task          10 received row          10 from MASTER
+ Task          11 received row          11 from MASTER
+ Task          13 received row          13 from MASTER
+ Task          14 received row          14 from MASTER
+ Task          15 received row          15 from MASTER
+ Task          16 received row          16 from MASTER
+ Task          17 received row          17 from MASTER
+ Task          18 received row          18 from MASTER
+ Task          12 received row          12 from MASTER
+ Task          77 received row          62 from MASTER
+ Task          39 received row          30 from MASTER
+ Task          78 received row          63 from MASTER
+ Task          86 received row          74 from MASTER
+ Task          41 received row          31 from MASTER
+ Task          79 received row          64 from MASTER
+ Task          87 received row          77 from MASTER
+ Task          43 received row          32 from MASTER
+ Task          21 received row          20 from MASTER
+ Task          80 received row          65 from MASTER
+ Task          88 received row          79 from MASTER
+ Task          45 received row          33 from MASTER
+ Task          23 received row          21 from MASTER
+ Task          81 received row          66 from MASTER
+ Task          89 received row          80 from MASTER
+ Task          47 received row          34 from MASTER
+ Task          58 received row          43 from MASTER
+ Task          25 received row          22 from MASTER
+ Task          82 received row          67 from MASTER
+ Task          49 received row          35 from MASTER
+ Task          59 received row          44 from MASTER
+ Task          27 received row          23 from MASTER
+ Task          84 received row          69 from MASTER
+ Task          51 received row          36 from MASTER
+ Task          60 received row          45 from MASTER
+ Task          29 received row          24 from MASTER
+ Task          83 received row          68 from MASTER
+ Task          52 received row          37 from MASTER
+ Task          61 received row          46 from MASTER
+ Task          31 received row          25 from MASTER
+ Task          53 received row          38 from MASTER
+ Task          62 received row          47 from MASTER
+ Task          33 received row          26 from MASTER
+ Task          54 received row          39 from MASTER
+ Task          63 received row          48 from MASTER
+ Task          35 received row          27 from MASTER
+ Task          55 received row          40 from MASTER
+ Task          64 received row          49 from MASTER
+ Task          37 received row          28 from MASTER
+ Task          56 received row          41 from MASTER
+ Task          65 received row          50 from MASTER
+ Task          24 received row          70 from MASTER
+ Task          40 received row          84 from MASTER
+ Task          66 received row          51 from MASTER
+ Task          26 received row          71 from MASTER
+ Task          42 received row          85 from MASTER
+ Task          67 received row          52 from MASTER
+ Task          28 received row          73 from MASTER
+ Task          44 received row          86 from MASTER
+ Task          68 received row          53 from MASTER
+ Task          20 received row          75 from MASTER
+ Task          46 received row          87 from MASTER
+ Task          69 received row          54 from MASTER
+ Task          22 received row          76 from MASTER
+ Task          48 received row          88 from MASTER
+ Task          71 received row          56 from MASTER
+ Task          30 received row          78 from MASTER
+ Task          50 received row          89 from MASTER
+ Task          72 received row          57 from MASTER
+ Task          32 received row          81 from MASTER
+ Task          73 received row          58 from MASTER
+ Task          34 received row          82 from MASTER
+ Task          74 received row          59 from MASTER
+ Task          36 received row          83 from MASTER
+ Task          75 received row          60 from MASTER
+ Task          70 received row          55 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  17
+ Z=   8 N=   2 basis deformation  -0.3
+ process  17, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000017 finished row 000017 in     3.96257472 minutes
+ Task          17 received row          90 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  76
+ Z=   8 N=   2 basis deformation  -0.3
+ process  76, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000076 finished row 000061 in     4.28836245 minutes
+ Task          76 received row          91 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  53
+ Z=   8 N=   2 basis deformation   0.0
+ process  53, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000053 finished row 000038 in     5.27876765 minutes
+ Task          53 received row          92 from MASTER
+task 000036 finished row 000083 in     5.71588657 minutes
+ Task          36 received row          93 from MASTER
+task 000008 finished row 000008 in     6.55018763 minutes
+ Task           8 received row          94 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  86
+ Z=   8 N=   2 basis deformation   0.3
+ process  86, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000086 finished row 000074 in     6.85373813 minutes
+ Task          86 received row          95 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  39
+ Z=   8 N=   2 basis deformation   0.3
+ process  39, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000039 finished row 000030 in     6.87109130 minutes
+ Task          39 received row          96 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  60
+ Z=   8 N=   2 basis deformation   0.3
+ process  60, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000060 finished row 000045 in     7.18263982 minutes
+ Task          60 received row          97 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  63
+ Z=   8 N=   2 basis deformation  -0.2
+ process  63, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000063 finished row 000048 in     7.94501755 minutes
+ Task          63 received row          98 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  64
+ Z=   8 N=   2 basis deformation  -0.2
+ process  64, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000064 finished row 000049 in    10.03036045 minutes
+ Task          64 received row          99 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  17
+ Z=   8 N=   4 basis deformation   0.3
+ process  17, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000017 finished row 000090 in     6.99808070 minutes
+ Task          17 received row         100 from MASTER
+task 000007 finished row 000007 in    10.99847885 minutes
+ Task           7 received row         101 from MASTER
+task 000001 finished row 000001 in    11.28926705 minutes
+ Task           1 received row         102 from MASTER
+task 000049 finished row 000035 in    11.39949068 minutes
+ Task          49 received row         103 from MASTER
+task 000018 finished row 000018 in    11.52200298 minutes
+ Task          18 received row         104 from MASTER
+task 000009 finished row 000009 in    11.69446847 minutes
+ Task           9 received row         105 from MASTER
+task 000032 finished row 000081 in    11.72235635 minutes
+ Task          32 received row         106 from MASTER
+task 000089 finished row 000080 in    11.84531895 minutes
+ Task          89 received row         107 from MASTER
+task 000014 finished row 000014 in    11.90108914 minutes
+ Task          14 received row         108 from MASTER
+task 000050 finished row 000089 in    11.92257982 minutes
+ Task          50 received row         109 from MASTER
+task 000010 finished row 000010 in    12.24953780 minutes
+ Task          10 received row         110 from MASTER
+task 000065 finished row 000050 in    12.36539253 minutes
+ Task          65 received row         111 from MASTER
+task 000016 finished row 000016 in    12.56236804 minutes
+ Task          16 received row         112 from MASTER
+task 000002 finished row 000002 in    12.85362413 minutes
+ Task           2 received row         113 from MASTER
+task 000080 finished row 000065 in    12.94440188 minutes
+ Task          80 received row         114 from MASTER
+task 000044 finished row 000086 in    12.96441862 minutes
+ Task          44 received row         115 from MASTER
+task 000078 finished row 000063 in    13.02716330 minutes
+ Task          78 received row         116 from MASTER
+task 000051 finished row 000036 in    13.05059857 minutes
+ Task          51 received row         117 from MASTER
+task 000041 finished row 000031 in    13.06407685 minutes
+ Task          41 received row         118 from MASTER
+task 000004 finished row 000004 in    13.26074318 minutes
+ Task           4 received row         119 from MASTER
+task 000029 finished row 000024 in    13.39111068 minutes
+ Task          29 received row         120 from MASTER
+task 000045 finished row 000033 in    13.59704430 minutes
+ Task          45 received row         121 from MASTER
+task 000030 finished row 000078 in    14.08671788 minutes
+ Task          30 received row         122 from MASTER
+task 000003 finished row 000003 in    14.19455755 minutes
+ Task           3 received row         123 from MASTER
+task 000022 finished row 000076 in    14.26502027 minutes
+ Task          22 received row         124 from MASTER
+task 000043 finished row 000032 in    14.34814615 minutes
+ Task          43 received row         125 from MASTER
+task 000006 finished row 000006 in    14.39677573 minutes
+ Task           6 received row         126 from MASTER
+task 000027 finished row 000023 in    14.41029395 minutes
+ Task          27 received row         127 from MASTER
+task 000019 finished row 000019 in    14.45299807 minutes
+ Task          19 received row         128 from MASTER
+task 000087 finished row 000077 in    14.57785410 minutes
+ Task          87 received row         129 from MASTER
+task 000061 finished row 000046 in    14.66113838 minutes
+ Task          61 received row         130 from MASTER
+task 000057 finished row 000042 in    14.79001973 minutes
+ Task          57 received row         131 from MASTER
+task 000079 finished row 000064 in    14.79600152 minutes
+ Task          79 received row         132 from MASTER
+task 000082 finished row 000067 in    14.91826872 minutes
+ Task          82 received row         133 from MASTER
+task 000005 finished row 000005 in    14.93376658 minutes
+ Task           5 received row         134 from MASTER
+task 000068 finished row 000053 in    15.07410397 minutes
+ Task          68 received row         135 from MASTER
+task 000047 finished row 000034 in    15.19057753 minutes
+ Task          47 received row         136 from MASTER
+task 000088 finished row 000079 in    15.40881898 minutes
+ Task          88 received row         137 from MASTER
+task 000077 finished row 000062 in    15.50967478 minutes
+ Task          77 received row         138 from MASTER
+task 000023 finished row 000021 in    15.61519630 minutes
+ Task          23 received row         139 from MASTER
+task 000054 finished row 000039 in    15.68870510 minutes
+ Task          54 received row         140 from MASTER
+task 000066 finished row 000051 in    15.70693192 minutes
+ Task          66 received row         141 from MASTER
+task 000024 finished row 000070 in    15.86873773 minutes
+ Task          24 received row         142 from MASTER
+task 000038 finished row 000029 in    15.90385765 minutes
+ Task          38 received row         143 from MASTER
+task 000069 finished row 000054 in    16.13758163 minutes
+ Task          69 received row         144 from MASTER
+task 000073 finished row 000058 in    16.43589033 minutes
+ Task          73 received row         145 from MASTER
+task 000052 finished row 000037 in    16.58341362 minutes
+ Task          52 received row         146 from MASTER
+task 000012 finished row 000012 in    16.62874808 minutes
+ Task          12 received row         147 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  14
+ Z=   8 N=   4 basis deformation  -0.2
+ process  14, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000014 finished row 000108 in     4.81872862 minutes
+ Task          14 received row         148 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  61
+ Z=   8 N=   4 basis deformation   0.1
+ process  61, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000061 finished row 000130 in     2.25212328 minutes
+ Task          61 received row         149 from MASTER
+task 000025 finished row 000022 in    16.91368973 minutes
+ Task          25 received row         150 from MASTER
+task 000021 finished row 000020 in    17.08057692 minutes
+ Task          21 received row         151 from MASTER
+task 000062 finished row 000047 in    17.17465460 minutes
+ Task          62 received row         152 from MASTER
+task 000013 finished row 000013 in    17.17616626 minutes
+ Task          13 received row         153 from MASTER
+task 000081 finished row 000066 in    17.56911370 minutes
+ Task          81 received row         154 from MASTER
+task 000070 finished row 000055 in    17.77125425 minutes
+ Task          70 received row         155 from MASTER
+task 000085 finished row 000072 in    18.09846443 minutes
+ Task          85 received row         156 from MASTER
+task 000037 finished row 000028 in    18.12722120 minutes
+ Task          37 received row         157 from MASTER
+task 000055 finished row 000040 in    18.18177393 minutes
+ Task          55 received row         158 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process   3
+ Z=   8 N=   4 basis deformation  -0.2
+ process   3, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000003 finished row 000123 in     4.01426512 minutes
+ Task           3 received row         159 from MASTER
+task 000031 finished row 000025 in    18.36413652 minutes
+ Task          31 received row         160 from MASTER
+task 000035 finished row 000027 in    18.40614673 minutes
+ Task          35 received row         161 from MASTER
+task 000015 finished row 000015 in    18.60171452 minutes
+ Task          15 received row         162 from MASTER
+task 000028 finished row 000073 in    18.76856908 minutes
+ Task          28 received row         163 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process   9
+ Z=   8 N=   4 basis deformation   0.3
+ process   9, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000009 finished row 000105 in     7.14809138 minutes
+ Task           9 received row         164 from MASTER
+task 000067 finished row 000052 in    19.51889595 minutes
+ Task          67 received row         165 from MASTER
+task 000083 finished row 000068 in    19.82327175 minutes
+ Task          83 received row         166 from MASTER
+task 000053 finished row 000092 in    14.98933909 minutes
+ Task          53 received row         167 from MASTER
+task 000058 finished row 000043 in    20.56440780 minutes
+ Task          58 received row         168 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  77
+ Z=   8 N=   4 basis deformation  -0.2
+ process  77, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000077 finished row 000138 in     7.67492172 minutes
+ Task          77 received row         169 from MASTER
+task 000076 finished row 000091 in    19.64250790 minutes
+ Task          76 received row         170 from MASTER
+task 000055 finished row 000158 in     6.85032770 minutes
+ Task          55 received row         171 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  84
+ Z=   8 N=   2 basis deformation   0.1
+ process  84, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000084 finished row 000069 in    25.13637745 minutes
+ Task          84 received row         172 from MASTER
+task 000063 finished row 000098 in    17.27164983 minutes
+ Task          63 received row         173 from MASTER
+task 000072 finished row 000057 in    25.71474720 minutes
+ Task          72 received row         174 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  47
+ Z=   8 N=   4 basis deformation  -0.3
+ process  47, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000047 finished row 000136 in    10.79497912 minutes
+ Task          47 received row         175 from MASTER
+task 000008 finished row 000094 in    19.47364582 minutes
+ Task           8 received row         176 from MASTER
+task 000059 finished row 000044 in    27.07606565 minutes
+ Task          59 received row         177 from MASTER
+task 000086 finished row 000095 in    20.33645932 minutes
+ Task          86 received row         178 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  87
+ Z=   8 N=   4 basis deformation   0.1
+ process  87, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000087 finished row 000129 in    12.81807922 minutes
+ Task          87 received row         179 from MASTER
+task 000062 finished row 000152 in    11.33264480 minutes
+ Task          62 received row         180 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  87
+ Z=   8 N=   6 basis deformation   0.3
+ process  87, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000087 finished row 000179 in     1.17159727 minutes
+ Task          87 received row         181 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  12
+ Z=   8 N=   4 basis deformation   0.2
+ process  12, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000012 finished row 000147 in    12.03674707 minutes
+ Task          12 received row         182 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  63
+ Z=   8 N=   6 basis deformation   0.0
+ process  63, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000063 finished row 000173 in     4.12698011 minutes
+ Task          63 received row         183 from MASTER
+task 000002 finished row 000113 in    16.93719236 minutes
+ Task           2 received row         184 from MASTER
+task 000074 finished row 000059 in    30.34511658 minutes
+ Task          74 received row         185 from MASTER
+task 000036 finished row 000093 in    24.63638770 minutes
+ Task          36 received row         186 from MASTER
+task 000070 finished row 000155 in    12.58783410 minutes
+ Task          70 received row         187 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process   8
+ Z=   8 N=   6 basis deformation   0.1
+ process   8, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000008 finished row 000176 in     4.40234775 minutes
+ Task           8 received row         188 from MASTER
+task 000066 finished row 000141 in    14.97208070 minutes
+ Task          66 received row         189 from MASTER
+task 000045 finished row 000121 in    17.33112940 minutes
+ Task          45 received row         190 from MASTER
+task 000065 finished row 000111 in    18.58802520 minutes
+ Task          65 received row         191 from MASTER
+task 000067 finished row 000165 in    11.88238205 minutes
+ Task          67 received row         192 from MASTER
+task 000043 finished row 000125 in    17.09373968 minutes
+ Task          43 received row         193 from MASTER
+task 000035 finished row 000161 in    13.41972888 minutes
+ Task          35 received row         194 from MASTER
+task 000085 finished row 000156 in    14.03087475 minutes
+ Task          85 received row         195 from MASTER
+task 000015 finished row 000162 in    13.68591672 minutes
+ Task          15 received row         196 from MASTER
+task 000037 finished row 000157 in    14.17301245 minutes
+ Task          37 received row         197 from MASTER
+task 000020 finished row 000075 in    32.48334622 minutes
+ Task          20 received row         198 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  87
+ Z=   8 N=   6 basis deformation  -0.3
+ process  87, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000087 finished row 000181 in     4.63016121 minutes
+ Task          87 received row         199 from MASTER
+task 000021 finished row 000151 in    16.40440605 minutes
+ Task          21 received row         200 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  43
+ Z=   8 N=   6 basis deformation   0.2
+ process  43, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000043 finished row 000193 in     2.04476620 minutes
+ Task          43 received row         201 from MASTER
+task 000004 finished row 000119 in    20.45652147 minutes
+ Task           4 received row         202 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  35
+ Z=   8 N=   6 basis deformation   0.3
+ process  35, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000035 finished row 000194 in     2.11878685 minutes
+ Task          35 received row         203 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  85
+ Z=   8 N=   6 basis deformation   0.3
+ process  85, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000085 finished row 000195 in     1.92444198 minutes
+ Task          85 received row         204 from MASTER
+task 000009 finished row 000164 in    15.36107425 minutes
+ Task           9 received row         205 from MASTER
+task 000075 finished row 000060 in    34.32726053 minutes
+ Task          75 received row         206 from MASTER
+task 000023 finished row 000139 in    18.81523393 minutes
+ Task          23 received row         207 from MASTER
+task 000013 finished row 000153 in    17.39159572 minutes
+ Task          13 received row         208 from MASTER
+task 000006 finished row 000126 in    20.59867293 minutes
+ Task           6 received row         209 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  13
+ Z=   8 N=   6 basis deformation   0.2
+ process  13, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000013 finished row 000208 in     1.17114865 minutes
+ Task          13 received row         210 from MASTER
+task 000022 finished row 000124 in    21.73684558 minutes
+ Task          22 received row         211 from MASTER
+task 000038 finished row 000143 in    20.28841782 minutes
+ Task          38 received row         212 from MASTER
+task 000003 finished row 000159 in    18.12232497 minutes
+ Task           3 received row         213 from MASTER
+task 000077 finished row 000169 in    14.05940188 minutes
+ Task          77 received row         214 from MASTER
+task 000030 finished row 000122 in    23.99749278 minutes
+ Task          30 received row         215 from MASTER
+task 000089 finished row 000107 in    26.44867870 minutes
+ Task          89 received row         216 from MASTER
+task 000053 finished row 000167 in    18.12796540 minutes
+ Task          53 received row         217 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  13
+ Z=   8 N=   6 basis deformation   0.3
+ process  13, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000013 finished row 000210 in     2.74677525 minutes
+ Task          13 received row         218 from MASTER
+task 000088 finished row 000137 in    23.96931710 minutes
+ Task          88 received row         219 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process   9
+ Z=   8 N=   6 basis deformation   0.1
+ process   9, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000009 finished row 000205 in     5.28653295 minutes
+ Task           9 received row         220 from MASTER
+task 000068 finished row 000135 in    24.61335660 minutes
+ Task          68 received row         221 from MASTER
+task 000019 finished row 000128 in    25.28347675 minutes
+ Task          19 received row         222 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  67
+ Z=   8 N=   6 basis deformation   0.2
+ process  67, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000067 finished row 000192 in     9.29601085 minutes
+ Task          67 received row         223 from MASTER
+task 000005 finished row 000134 in    25.83380002 minutes
+ Task           5 received row         224 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  15
+ Z=   8 N=   6 basis deformation  -0.3
+ process  15, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000015 finished row 000196 in     8.79159615 minutes
+ Task          15 received row         225 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  38
+ Z=   8 N=   6 basis deformation  -0.3
+ process  38, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000038 finished row 000212 in     5.29551365 minutes
+ Task          38 received row         226 from MASTER
+task 000072 finished row 000174 in    16.29716712 minutes
+ Task          72 received row         227 from MASTER
+task 000058 finished row 000168 in    22.01679815 minutes
+ Task          58 received row         228 from MASTER
+task 000010 finished row 000110 in    30.92283422 minutes
+ Task          10 received row         229 from MASTER
+task 000084 finished row 000172 in    19.26502848 minutes
+ Task          84 received row         230 from MASTER
+task 000076 finished row 000170 in    20.65989335 minutes
+ Task          76 received row         231 from MASTER
+task 000036 finished row 000186 in    14.56737700 minutes
+ Task          36 received row         232 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process   3
+ Z=   8 N=   6 basis deformation  -0.2
+ process   3, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000003 finished row 000213 in     9.50956043 minutes
+ Task           3 received row         233 from MASTER
+task 000008 finished row 000188 in    16.44984490 minutes
+ Task           8 received row         234 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  67
+ Z=   8 N=   6 basis deformation   0.2
+ process  67, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000067 finished row 000223 in     6.66936345 minutes
+ Task          67 received row         235 from MASTER
+task 000070 finished row 000187 in    18.79134247 minutes
+ Task          70 received row         236 from MASTER
+task 000087 finished row 000199 in    16.16965468 minutes
+ Task          87 received row         237 from MASTER
+task 000043 finished row 000201 in    15.95581772 minutes
+ Task          43 received row         238 from MASTER
+task 000059 finished row 000177 in    22.97071393 minutes
+ Task          59 received row         239 from MASTER
+task 000003 finished row 000233 in     6.78989313 minutes
+ Task           3 received row         240 from MASTER
+task 000074 finished row 000185 in    23.55557834 minutes
+ Task          74 received row         241 from MASTER
+task 000010 finished row 000229 in    11.43980245 minutes
+ Task          10 received row         242 from MASTER
+task 000038 finished row 000226 in    13.88683914 minutes
+ Task          38 received row         243 from MASTER
+task 000053 finished row 000217 in    17.99720583 minutes
+ Task          53 received row         244 from MASTER
+task 000072 finished row 000227 in    14.54070927 minutes
+ Task          72 received row         245 from MASTER
+task 000089 finished row 000216 in    18.45871015 minutes
+ Task          89 received row         246 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process   3
+ Z=   8 N=   8 basis deformation   0.3
+ process   3, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000003 finished row 000240 in     4.37481122 minutes
+ Task           3 received row         247 from MASTER
+task 000083 finished row 000166 in    37.97666003 minutes
+ Task          83 received row         248 from MASTER
+task 000013 finished row 000218 in    21.23680743 minutes
+ Task          13 received row         249 from MASTER
+task 000029 finished row 000120 in    46.67455625 minutes
+ Task          29 received row         250 from MASTER
+task 000076 finished row 000231 in    15.56762868 minutes
+ Task          76 received row         251 from MASTER
+task 000008 finished row 000234 in    13.43110523 minutes
+ Task           8 received row         252 from MASTER
+task 000058 finished row 000228 in    18.10368079 minutes
+ Task          58 received row         253 from MASTER
+task 000059 finished row 000239 in    12.21787400 minutes
+ Task          59 received row         254 from MASTER
+task 000084 finished row 000230 in    18.20514818 minutes
+ Task          84 received row         255 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process   3
+ Z=   8 N=   8 basis deformation  -0.1
+ process   3, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000003 finished row 000247 in     6.52809933 minutes
+ Task           3 received row         256 from MASTER
+task 000087 finished row 000237 in    14.54907322 minutes
+ Task          87 received row         257 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process   8
+ Z=   8 N=   8 basis deformation   0.2
+ process   8, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000008 finished row 000252 in     5.46059030 minutes
+ Task           8 received row         258 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  59
+ Z=   8 N=   8 basis deformation   0.3
+ process  59, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000059 finished row 000254 in     4.02213950 minutes
+ Task          59 received row         259 from MASTER
+task 000036 finished row 000232 in    21.37955822 minutes
+ Task          36 received row         260 from MASTER
+task 000054 finished row 000140 in    50.76729738 minutes
+ Task          54 received row         261 from MASTER
+task 000070 finished row 000236 in    18.83916212 minutes
+ Task          70 received row         262 from MASTER
+task 000043 finished row 000238 in    18.80945265 minutes
+ Task          43 received row         263 from MASTER
+task 000067 finished row 000235 in    21.02849037 minutes
+ Task          67 received row         264 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  84
+ Z=   8 N=   8 basis deformation   0.3
+ process  84, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000084 finished row 000255 in     6.96001307 minutes
+ Task          84 received row         265 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  58
+ Z=   8 N=   8 basis deformation   0.2
+ process  58, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000058 finished row 000253 in     9.38701471 minutes
+ Task          58 received row         266 from MASTER
+task 000074 finished row 000241 in    16.42452699 minutes
+ Task          74 received row         267 from MASTER
+task 000063 finished row 000183 in    41.00838948 minutes
+ Task          63 received row         268 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  75
+ Z=   8 N=   6 basis deformation   0.1
+ process  75, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000075 finished row 000206 in    37.48983070 minutes
+ Task          75 received row         269 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  70
+ Z=   8 N=   8 basis deformation  -0.1
+ process  70, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000070 finished row 000262 in     4.97077796 minutes
+ Task          70 received row         270 from MASTER
+task 000029 finished row 000250 in    17.07910808 minutes
+ Task          29 received row         271 from MASTER
+task 000050 finished row 000109 in    67.33706888 minutes
+ Task          50 received row         272 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  87
+ Z=   8 N=   8 basis deformation  -0.3
+ process  87, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000087 finished row 000257 in    15.65327575 minutes
+ Task          87 received row         273 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  75
+ Z=   8 N=   8 basis deformation   0.3
+ process  75, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000075 finished row 000269 in     7.97488215 minutes
+ Task          75 received row         274 from MASTER
+task 000025 finished row 000150 in    64.66488152 minutes
+ Task          25 received row         275 from MASTER
+task 000018 finished row 000104 in    70.45738807 minutes
+ Task          18 received row         276 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  76
+ Z=   8 N=   8 basis deformation   0.1
+ process  76, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000076 finished row 000251 in    23.30887498 minutes
+ Task          76 received row         277 from MASTER
+task 000002 finished row 000184 in    54.74829320 minutes
+ Task           2 received row         278 from MASTER
+task 000054 finished row 000261 in    19.89304810 minutes
+ Task          54 received row         279 from MASTER
+task 000035 finished row 000203 in    53.43333553 minutes
+ Task          35 received row         280 from MASTER
+task 000039 finished row 000096 in    81.10858315 minutes
+ Task          39 received row         281 from MASTER
+task 000059 finished row 000259 in    21.78567118 minutes
+ Task          59 received row         282 from MASTER
+task 000036 finished row 000260 in    22.62694060 minutes
+ Task          36 received row         283 from MASTER
+task 000037 finished row 000197 in    59.69034230 minutes
+ Task          37 received row         284 from MASTER
+task 000061 finished row 000149 in    75.19864508 minutes
+ Task          61 received row         285 from MASTER
+task 000034 finished row 000082 in    92.45156211 minutes
+ Task          34 received row         286 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  12
+ Z=   8 N=   6 basis deformation  -0.3
+ process  12, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000012 finished row 000182 in    64.94198836 minutes
+ Task          12 received row         287 from MASTER
+task 000042 finished row 000085 in    94.23773902 minutes
+ Task          42 received row         288 from MASTER
+task 000084 finished row 000265 in    24.67135783 minutes
+ Task          84 received row         289 from MASTER
+task 000040 finished row 000084 in    95.75737052 minutes
+ Task          40 received row         290 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process   8
+ Z=   8 N=   8 basis deformation  -0.2
+ process   8, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000008 finished row 000258 in    30.09621128 minutes
+ Task           8 received row         291 from MASTER
+task 000032 finished row 000106 in    85.02998215 minutes
+ Task          32 received row         292 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  36
+ Z=   8 N=   8 basis deformation   0.2
+ process  36, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000036 finished row 000283 in     8.00697708 minutes
+ Task          36 received row         293 from MASTER
+task 000071 finished row 000056 in    97.19562880 minutes
+ Task          71 received row         294 from MASTER
+task 000056 finished row 000041 in    97.33523434 minutes
+ Task          56 received row         295 from MASTER
+task 000011 finished row 000011 in    97.51447060 minutes
+ Task          11 received row         296 from MASTER
+task 000033 finished row 000026 in    97.53357445 minutes
+ Task          33 received row         297 from MASTER
+task 000046 finished row 000087 in    97.73192400 minutes
+ Task          46 received row         298 from MASTER
+task 000026 finished row 000071 in    98.24255979 minutes
+ Task          26 received row         299 from MASTER
+task 000018 finished row 000276 in    16.80756212 minutes
+ Task          18 received row         300 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  59
+ Z=   8 N=   8 basis deformation   0.2
+ process  59, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000059 finished row 000282 in    11.14219563 minutes
+ Task          59 received row         301 from MASTER
+task 000020 finished row 000198 in    67.68106688 minutes
+ Task          20 received row         302 from MASTER
+task 000060 finished row 000097 in    93.48350305 minutes
+ Task          60 received row         303 from MASTER
+task 000048 finished row 000088 in   101.52866545 minutes
+ Task          48 received row         304 from MASTER
+task 000081 finished row 000154 in    84.93556260 minutes
+ Task          81 received row         305 from MASTER
+task 000064 finished row 000099 in    92.93843422 minutes
+ Task          64 received row         306 from MASTER
+task 000025 finished row 000275 in    21.51831197 minutes
+ Task          25 received row         307 from MASTER
+task 000017 finished row 000100 in    93.93717213 minutes
+ Task          17 received row         308 from MASTER
+task 000080 finished row 000114 in    92.69298950 minutes
+ Task          80 received row         309 from MASTER
+task 000007 finished row 000101 in    94.63982560 minutes
+ Task           7 received row         310 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  18
+ Z=   8 N=   8 basis deformation   0.3
+ process  18, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000018 finished row 000300 in     6.87634937 minutes
+ Task          18 received row         311 from MASTER
+task 000016 finished row 000112 in    93.47651625 minutes
+ Task          16 received row         312 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  56
+ Z=   8 N=   8 basis deformation   0.1
+ process  56, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000056 finished row 000295 in     8.92634103 minutes
+ Task          56 received row         313 from MASTER
+task 000024 finished row 000142 in    91.46927608 minutes
+ Task          24 received row         314 from MASTER
+task 000027 finished row 000127 in    93.57246145 minutes
+ Task          27 received row         315 from MASTER
+task 000066 finished row 000189 in    77.67353888 minutes
+ Task          66 received row         316 from MASTER
+task 000044 finished row 000115 in    96.03491255 minutes
+ Task          44 received row         317 from MASTER
+task 000069 finished row 000144 in    93.06322415 minutes
+ Task          69 received row         318 from MASTER
+task 000078 finished row 000116 in    96.45992608 minutes
+ Task          78 received row         319 from MASTER
+task 000030 finished row 000215 in    72.27033952 minutes
+ Task          30 received row         320 from MASTER
+task 000043 finished row 000263 in    42.52969983 minutes
+ Task          43 received row         321 from MASTER
+task 000001 finished row 000102 in   100.17148492 minutes
+ Task           1 received row         322 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  71
+ Z=   8 N=   8 basis deformation   0.1
+ process  71, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000071 finished row 000294 in    14.41001710 minutes
+ Task          71 received row         323 from MASTER
+task 000032 finished row 000292 in    15.11091944 minutes
+ Task          32 received row         324 from MASTER
+task 000049 finished row 000103 in   100.75398088 minutes
+ Task          49 received row         325 from MASTER
+task 000059 finished row 000301 in    12.99375170 minutes
+ Task          59 received row         326 from MASTER
+task 000031 finished row 000160 in    94.03267537 minutes
+ Task          31 received row         327 from MASTER
+task 000079 finished row 000132 in    97.76162298 minutes
+ Task          79 received row         328 from MASTER
+task 000017 finished row 000308 in     7.70062138 minutes
+ Task          17 received row         329 from MASTER
+task 000055 finished row 000171 in    87.77521253 minutes
+ Task          55 received row         330 from MASTER
+task 000057 finished row 000131 in    98.05016417 minutes
+ Task          57 received row         331 from MASTER
+task 000068 finished row 000221 in    73.84869945 minutes
+ Task          68 received row         332 from MASTER
+task 000051 finished row 000117 in   100.57028023 minutes
+ Task          51 received row         333 from MASTER
+task 000060 finished row 000303 in    13.46941142 minutes
+ Task          60 received row         334 from MASTER
+task 000041 finished row 000118 in   101.87475238 minutes
+ Task          41 received row         335 from MASTER
+task 000080 finished row 000309 in    10.14241513 minutes
+ Task          80 received row         336 from MASTER
+task 000008 finished row 000291 in    19.93847453 minutes
+ Task           8 received row         337 from MASTER
+task 000020 finished row 000302 in    15.76378435 minutes
+ Task          20 received row         338 from MASTER
+task 000082 finished row 000133 in   101.11823815 minutes
+ Task          82 received row         339 from MASTER
+task 000014 finished row 000148 in    99.38020952 minutes
+ Task          14 received row         340 from MASTER
+task 000052 finished row 000146 in   100.33875367 minutes
+ Task          52 received row         341 from MASTER
+task 000018 finished row 000311 in    11.50951536 minutes
+ Task          18 received row         342 from MASTER
+task 000064 finished row 000306 in    14.66309158 minutes
+ Task          64 received row         343 from MASTER
+task 000073 finished row 000145 in   101.79116498 minutes
+ Task          73 received row         344 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  11
+ Z=   8 N=   8 basis deformation   0.1
+ process  11, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000011 finished row 000296 in    21.31962585 minutes
+ Task          11 received row         345 from MASTER
+task 000025 finished row 000307 in    15.76003040 minutes
+ Task          25 received row         346 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  68
+ Z=   8 N=  10 basis deformation  -0.3
+ process  68, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000068 finished row 000332 in     5.43135785 minutes
+ Task          68 received row         347 from MASTER
+task 000038 finished row 000243 in    64.39908830 minutes
+ Task          38 received row         348 from MASTER
+task 000028 finished row 000163 in   101.19407828 minutes
+ Task          28 received row         349 from MASTER
+task 000035 finished row 000280 in    32.75329503 minutes
+ Task          35 received row         350 from MASTER
+task 000047 finished row 000175 in    94.55511297 minutes
+ Task          47 received row         351 from MASTER
+task 000021 finished row 000200 in    87.35491227 minutes
+ Task          21 received row         352 from MASTER
+task 000084 finished row 000289 in    26.61932998 minutes
+ Task          84 received row         353 from MASTER
+task 000056 finished row 000313 in    15.20816155 minutes
+ Task          56 received row         354 from MASTER
+task 000022 finished row 000211 in    85.52610457 minutes
+ Task          22 received row         355 from MASTER
+task 000063 finished row 000268 in    51.53460105 minutes
+ Task          63 received row         356 from MASTER
+task 000048 finished row 000304 in    20.48034045 minutes
+ Task          48 received row         357 from MASTER
+task 000077 finished row 000214 in    85.36856573 minutes
+ Task          77 received row         358 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  14
+ Z=   8 N=  10 basis deformation   0.1
+ process  14, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000014 finished row 000340 in     6.57896682 minutes
+ Task          14 received row         359 from MASTER
+task 000072 finished row 000245 in    67.45128912 minutes
+ Task          72 received row         360 from MASTER
+task 000004 finished row 000202 in    90.40970400 minutes
+ Task           4 received row         361 from MASTER
+task 000066 finished row 000316 in    16.07845292 minutes
+ Task          66 received row         362 from MASTER
+task 000032 finished row 000324 in    12.64541024 minutes
+ Task          32 received row         363 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  63
+ Z=   8 N=  10 basis deformation   0.1
+ process  63, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000063 finished row 000356 in     2.64153775 minutes
+ Task          63 received row         364 from MASTER
+task 000085 finished row 000204 in    90.56654163 minutes
+ Task          85 received row         365 from MASTER
+task 000002 finished row 000278 in    40.23660077 minutes
+ Task           2 received row         366 from MASTER
+task 000016 finished row 000312 in    19.38309193 minutes
+ Task          16 received row         367 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  64
+ Z=   8 N=  10 basis deformation   0.2
+ process  64, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000064 finished row 000343 in     7.83308840 minutes
+ Task          64 received row         368 from MASTER
+task 000086 finished row 000178 in    98.46935408 minutes
+ Task          86 received row         369 from MASTER
+task 000045 finished row 000190 in    95.10268160 minutes
+ Task          45 received row         370 from MASTER
+task 000003 finished row 000256 in    63.10519826 minutes
+ Task           3 received row         371 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process   3
+ Z=   8 N=  10 basis deformation   0.1
+ process   3, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000003 finished row 000371 in     2.16484705 minutes
+ Task           3 received row         372 from MASTER
+task 000037 finished row 000284 in    36.83318990 minutes
+ Task          37 received row         373 from MASTER
+task 000067 finished row 000264 in    61.11271567 minutes
+ Task          67 received row         374 from MASTER
+task 000065 finished row 000191 in    99.16735938 minutes
+ Task          65 received row         375 from MASTER
+task 000089 finished row 000246 in    73.76623604 minutes
+ Task          89 received row         376 from MASTER
+task 000088 finished row 000219 in    91.23212417 minutes
+ Task          88 received row         377 from MASTER
+task 000076 finished row 000277 in    48.18182980 minutes
+ Task          76 received row         378 from MASTER
+task 000062 finished row 000180 in   103.32953597 minutes
+ Task          62 received row         379 from MASTER
+task 000009 finished row 000220 in    94.51119761 minutes
+ Task           9 received row         380 from MASTER
+task 000006 finished row 000209 in   100.03280160 minutes
+ Task           6 received row         381 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  17
+ Z=   8 N=  10 basis deformation   0.3
+ process  17, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000017 finished row 000329 in    22.83537250 minutes
+ Task          17 received row         382 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process   3
+ Z=   8 N=  10 basis deformation   0.2
+ process   3, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000003 finished row 000372 in     6.94341018 minutes
+ Task           3 received row         383 from MASTER
+task 000034 finished row 000286 in    43.45033175 minutes
+ Task          34 received row         384 from MASTER
+task 000046 finished row 000298 in    38.51264990 minutes
+ Task          46 received row         385 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  67
+ Z=   8 N=  10 basis deformation   0.3
+ process  67, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000067 finished row 000374 in     7.02547440 minutes
+ Task          67 received row         386 from MASTER
+task 000080 finished row 000336 in    20.94515215 minutes
+ Task          80 received row         387 from MASTER
+task 000057 finished row 000331 in    23.90301671 minutes
+ Task          57 received row         388 from MASTER
+task 000019 finished row 000222 in    97.79846225 minutes
+ Task          19 received row         389 from MASTER
+task 000007 finished row 000310 in    31.91652237 minutes
+ Task           7 received row         390 from MASTER
+task 000021 finished row 000352 in    17.51377478 minutes
+ Task          21 received row         391 from MASTER
+task 000060 finished row 000334 in    24.48851103 minutes
+ Task          60 received row         392 from MASTER
+task 000010 finished row 000242 in    85.41679065 minutes
+ Task          10 received row         393 from MASTER
+task 000004 finished row 000361 in    17.35561742 minutes
+ Task           4 received row         394 from MASTER
+task 000005 finished row 000224 in   100.84391247 minutes
+ Task           5 received row         395 from MASTER
+task 000038 finished row 000348 in    22.00738587 minutes
+ Task          38 received row         396 from MASTER
+task 000053 finished row 000244 in    86.91436043 minutes
+ Task          53 received row         397 from MASTER
+task 000076 finished row 000378 in    12.93991338 minutes
+ Task          76 received row         398 from MASTER
+task 000015 finished row 000225 in   104.19625358 minutes
+ Task          15 received row         399 from MASTER
+task 000003 finished row 000383 in     9.93082255 minutes
+ Task           3 received row         400 from MASTER
+task 000088 finished row 000377 in    15.57144532 minutes
+ Task          88 received row         401 from MASTER
+task 000064 finished row 000368 in    20.83743457 minutes
+ Task          64 received row         402 from MASTER
+task 000032 finished row 000363 in    21.81261885 minutes
+ Task          32 received row         403 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  65
+ Z=   8 N=  10 basis deformation   0.3
+ process  65, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000065 finished row 000375 in    17.63328842 minutes
+ Task          65 received row         404 from MASTER
+task 000062 finished row 000379 in    16.31176627 minutes
+ Task          62 received row         405 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  48
+ Z=   8 N=  10 basis deformation   0.2
+ process  48, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000048 finished row 000357 in    26.22592804 minutes
+ Task          48 received row         406 from MASTER
+task 000019 finished row 000389 in    11.14526314 minutes
+ Task          19 received row         407 from MASTER
+task 000089 finished row 000376 in    18.27419143 minutes
+ Task          89 received row         408 from MASTER
+task 000036 finished row 000293 in    52.36602972 minutes
+ Task          36 received row         409 from MASTER
+task 000083 finished row 000248 in    91.80149327 minutes
+ Task          83 received row         410 from MASTER
+task 000007 finished row 000390 in    12.72369025 minutes
+ Task           7 received row         411 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  60
+ Z=   8 N=  12 basis deformation  -0.3
+ process  60, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000060 finished row 000392 in    13.06809793 minutes
+ Task          60 received row         412 from MASTER
+task 000013 finished row 000249 in    92.28193334 minutes
+ Task          13 received row         413 from MASTER
+task 000017 finished row 000382 in    16.64103239 minutes
+ Task          17 received row         414 from MASTER
+task 000006 finished row 000381 in    17.80503366 minutes
+ Task           6 received row         415 from MASTER
+task 000009 finished row 000380 in    18.99765077 minutes
+ Task           9 received row         416 from MASTER
+task 000057 finished row 000388 in    17.83892947 minutes
+ Task          57 received row         417 from MASTER
+task 000059 finished row 000326 in    44.93960890 minutes
+ Task          59 received row         418 from MASTER
+task 000073 finished row 000344 in    39.54529953 minutes
+ Task          73 received row         419 from MASTER
+task 000008 finished row 000337 in    42.90918010 minutes
+ Task           8 received row         420 from MASTER
+task 000067 finished row 000386 in    22.20092942 minutes
+ Task          67 received row         421 from MASTER
+task 000077 finished row 000358 in    36.15439420 minutes
+ Task          77 received row         422 from MASTER
+task 000066 finished row 000362 in    34.44661789 minutes
+ Task          66 received row         423 from MASTER
+task 000010 finished row 000393 in    19.55543942 minutes
+ Task          10 received row         424 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  19
+ Z=   8 N=  12 basis deformation  -0.3
+ process  19, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000019 finished row 000407 in    11.12985717 minutes
+ Task          19 received row         425 from MASTER
+task 000023 finished row 000207 in   125.59995923 minutes
+ Task          23 received row         426 from MASTER
+task 000088 finished row 000401 in    14.38400622 minutes
+ Task          88 received row         427 from MASTER
+task 000029 finished row 000271 in    84.42123850 minutes
+ Task          29 received row         428 from MASTER
+task 000053 finished row 000397 in    19.03186793 minutes
+ Task          53 received row         429 from MASTER
+task 000054 finished row 000279 in    76.62552193 minutes
+ Task          54 received row         430 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  55
+ Z=   8 N=  10 basis deformation   0.3
+ process  55, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000055 finished row 000330 in    51.04739215 minutes
+ Task          55 received row         431 from MASTER
+task 000050 finished row 000272 in    85.38824882 minutes
+ Task          50 received row         432 from MASTER
+task 000075 finished row 000274 in    85.99886822 minutes
+ Task          75 received row         433 from MASTER
+task 000076 finished row 000398 in    21.67912085 minutes
+ Task          76 received row         434 from MASTER
+task 000087 finished row 000273 in    86.71292332 minutes
+ Task          87 received row         435 from MASTER
+task 000074 finished row 000267 in    96.52149140 minutes
+ Task          74 received row         436 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  45
+ Z=   8 N=  10 basis deformation   0.1
+ process  45, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000045 finished row 000370 in    41.09584943 minutes
+ Task          45 received row         437 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  87
+ Z=   8 N=  12 basis deformation   0.3
+ process  87, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000087 finished row 000435 in     1.05940470 minutes
+ Task          87 received row         438 from MASTER
+task 000058 finished row 000266 in    97.38739562 minutes
+ Task          58 received row         439 from MASTER
+task 000003 finished row 000400 in    23.12881953 minutes
+ Task           3 received row         440 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  55
+ Z=   8 N=  12 basis deformation   0.1
+ process  55, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000055 finished row 000431 in     6.33786702 minutes
+ Task          55 received row         441 from MASTER
+task 000006 finished row 000415 in    17.39453735 minutes
+ Task           6 received row         442 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  50
+ Z=   8 N=  12 basis deformation   0.2
+ process  50, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000050 finished row 000432 in     5.83857065 minutes
+ Task          50 received row         443 from MASTER
+task 000042 finished row 000288 in    77.10795163 minutes
+ Task          42 received row         444 from MASTER
+task 000046 finished row 000385 in    36.89144996 minutes
+ Task          46 received row         445 from MASTER
+task 000026 finished row 000299 in    76.65794653 minutes
+ Task          26 received row         446 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  42
+ Z=   8 N=  12 basis deformation   0.1
+ process  42, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000042 finished row 000444 in     3.89777693 minutes
+ Task          42 received row         447 from MASTER
+task 000070 finished row 000270 in   105.91961807 minutes
+ Task          70 received row         448 from MASTER
+task 000082 finished row 000339 in    63.32831082 minutes
+ Task          82 received row         449 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  70
+ Z=   8 N=  12 basis deformation   0.2
+ process  70, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000070 finished row 000448 in     1.21172705 minutes
+ Task          70 received row         450 from MASTER
+task 000012 finished row 000287 in    86.65501103 minutes
+ Task          12 received row         451 from MASTER
+task 000079 finished row 000328 in    68.01496023 minutes
+ Task          79 received row         452 from MASTER
+task 000047 finished row 000351 in    62.20249700 minutes
+ Task          47 received row         453 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  75
+ Z=   8 N=  12 basis deformation   0.2
+ process  75, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000075 finished row 000433 in    17.82999155 minutes
+ Task          75 received row         454 from MASTER
+task 000040 finished row 000290 in    88.33074150 minutes
+ Task          40 received row         455 from MASTER
+task 000037 finished row 000373 in    55.51721455 minutes
+ Task          37 received row         456 from MASTER
+task 000045 finished row 000437 in    17.56925352 minutes
+ Task          45 received row         457 from MASTER
+task 000039 finished row 000281 in    98.47814407 minutes
+ Task          39 received row         458 from MASTER
+task 000055 finished row 000441 in    17.72753632 minutes
+ Task          55 received row         459 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  54
+ Z=   8 N=  12 basis deformation   0.1
+ process  54, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000054 finished row 000430 in    27.08421058 minutes
+ Task          54 received row         460 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  52
+ Z=   8 N=  10 basis deformation   0.1
+ process  52, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000052 finished row 000341 in    74.12929235 minutes
+ Task          52 received row         461 from MASTER
+task 000081 finished row 000305 in    90.75799832 minutes
+ Task          81 received row         462 from MASTER
+task 000047 finished row 000453 in    10.63907841 minutes
+ Task          47 received row         463 from MASTER
+task 000039 finished row 000458 in     7.21437922 minutes
+ Task          39 received row         464 from MASTER
+task 000033 finished row 000297 in    96.27415239 minutes
+ Task          33 received row         465 from MASTER
+task 000069 finished row 000318 in    84.69242563 minutes
+ Task          69 received row         466 from MASTER
+task 000044 finished row 000317 in    84.97599343 minutes
+ Task          44 received row         467 from MASTER
+task 000075 finished row 000454 in    10.72620360 minutes
+ Task          75 received row         468 from MASTER
+task 000083 finished row 000410 in    45.47661628 minutes
+ Task          83 received row         469 from MASTER
+task 000078 finished row 000319 in    85.97024468 minutes
+ Task          78 received row         470 from MASTER
+task 000045 finished row 000457 in    11.87894243 minutes
+ Task          45 received row         471 from MASTER
+task 000061 finished row 000285 in   105.29556115 minutes
+ Task          61 received row         472 from MASTER
+task 000042 finished row 000447 in    22.33964787 minutes
+ Task          42 received row         473 from MASTER
+task 000055 finished row 000459 in    10.03645677 minutes
+ Task          55 received row         474 from MASTER
+task 000003 finished row 000440 in    29.20068545 minutes
+ Task           3 received row         475 from MASTER
+task 000012 finished row 000451 in    17.96323937 minutes
+ Task          12 received row         476 from MASTER
+task 000073 finished row 000419 in    40.67993965 minutes
+ Task          73 received row         477 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  69
+ Z=   8 N=  14 basis deformation  -0.3
+ process  69, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000069 finished row 000466 in     5.12307157 minutes
+ Task          69 received row         478 from MASTER
+task 000051 finished row 000333 in    85.44613607 minutes
+ Task          51 received row         479 from MASTER
+task 000037 finished row 000456 in    15.65342698 minutes
+ Task          37 received row         480 from MASTER
+task 000043 finished row 000321 in    89.67226860 minutes
+ Task          43 received row         481 from MASTER
+task 000031 finished row 000327 in    88.23323657 minutes
+ Task          31 received row         482 from MASTER
+task 000030 finished row 000320 in    90.61278563 minutes
+ Task          30 received row         483 from MASTER
+task 000040 finished row 000455 in    17.15881309 minutes
+ Task          40 received row         484 from MASTER
+task 000063 finished row 000364 in    77.06673637 minutes
+ Task          63 received row         485 from MASTER
+task 000071 finished row 000323 in    90.82523318 minutes
+ Task          71 received row         486 from MASTER
+task 000001 finished row 000322 in    91.22802465 minutes
+ Task           1 received row         487 from MASTER
+task 000025 finished row 000346 in    83.89183330 minutes
+ Task          25 received row         488 from MASTER
+task 000068 finished row 000347 in    84.06275505 minutes
+ Task          68 received row         489 from MASTER
+task 000079 finished row 000452 in    22.50330933 minutes
+ Task          79 received row         490 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  72
+ Z=   8 N=  10 basis deformation   0.3
+ process  72, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000072 finished row 000360 in    81.82791477 minutes
+ Task          72 received row         491 from MASTER
+task 000028 finished row 000349 in    86.28265257 minutes
+ Task          28 received row         492 from MASTER
+task 000041 finished row 000335 in    91.48656373 minutes
+ Task          41 received row         493 from MASTER
+task 000049 finished row 000325 in    94.80636747 minutes
+ Task          49 received row         494 from MASTER
+task 000081 finished row 000462 in    14.05447437 minutes
+ Task          81 received row         495 from MASTER
+task 000024 finished row 000314 in   100.25175328 minutes
+ Task          24 received row         496 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  76
+ Z=   8 N=  12 basis deformation   0.3
+ process  76, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000076 finished row 000434 in    41.58284255 minutes
+ Task          76 received row         497 from MASTER
+task 000047 finished row 000463 in    14.55195310 minutes
+ Task          47 received row         498 from MASTER
+task 000020 finished row 000338 in    92.40492695 minutes
+ Task          20 received row         499 from MASTER
+task 000039 finished row 000464 in    15.34147382 minutes
+ Task          39 received row         500 from MASTER
+task 000052 finished row 000461 in    18.78188908 minutes
+ Task          52 received row         501 from MASTER
+task 000035 finished row 000350 in    90.91186305 minutes
+ Task          35 received row         502 from MASTER
+task 000084 finished row 000353 in    90.91210373 minutes
+ Task          84 received row         503 from MASTER
+task 000056 finished row 000354 in    90.72538337 minutes
+ Task          56 received row         504 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  49
+ Z=   8 N=  14 basis deformation   0.3
+ process  49, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000049 finished row 000494 in     5.51677223 minutes
+ Task          49 received row         505 from MASTER
+task 000019 finished row 000425 in    52.69561262 minutes
+ Task          19 received row         506 from MASTER
+task 000026 finished row 000446 in    37.98841170 minutes
+ Task          26 received row         507 from MASTER
+task 000027 finished row 000315 in   105.27654938 minutes
+ Task          27 received row         508 from MASTER
+task 000002 finished row 000366 in    88.82514325 minutes
+ Task           2 received row         509 from MASTER
+task 000018 finished row 000342 in    96.61392229 minutes
+ Task          18 received row         510 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  18
+ Z=   8 N=  14 basis deformation   0.3
+ process  18, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000018 finished row 000510 in     1.05191500 minutes
+ Task          18 received row         511 from MASTER
+task 000033 finished row 000465 in    21.41679715 minutes
+ Task          33 received row         512 from MASTER
+task 000085 finished row 000365 in    91.40411615 minutes
+ Task          85 received row         513 from MASTER
+task 000044 finished row 000467 in    22.22618765 minutes
+ Task          44 received row         514 from MASTER
+task 000086 finished row 000369 in    90.59319972 minutes
+ Task          86 received row         515 from MASTER
+task 000016 finished row 000367 in    91.24544917 minutes
+ Task          16 received row         516 from MASTER
+task 000022 finished row 000355 in    96.00799563 minutes
+ Task          22 received row         517 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process   2
+ Z=   8 N=  14 basis deformation   0.3
+ process   2, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000002 finished row 000509 in     6.24499935 minutes
+ Task           2 received row         518 from MASTER
+task 000043 finished row 000481 in    20.58852015 minutes
+ Task          43 received row         519 from MASTER
+task 000075 finished row 000468 in    26.75145597 minutes
+ Task          75 received row         520 from MASTER
+task 000011 finished row 000345 in   103.17798409 minutes
+ Task          11 received row         521 from MASTER
+task 000014 finished row 000359 in    99.43160259 minutes
+ Task          14 received row         522 from MASTER
+task 000021 finished row 000391 in    84.07928181 minutes
+ Task          21 received row         523 from MASTER
+task 000038 finished row 000396 in    82.11613042 minutes
+ Task          38 received row         524 from MASTER
+task 000034 finished row 000384 in    90.69552468 minutes
+ Task          34 received row         525 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  38
+ Z=   8 N=  14 basis deformation   0.3
+ process  38, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000038 finished row 000524 in     3.40174963 minutes
+ Task          38 received row         526 from MASTER
+task 000004 finished row 000394 in    86.71062412 minutes
+ Task           4 received row         527 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  34
+ Z=   8 N=  14 basis deformation   0.3
+ process  34, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000034 finished row 000525 in     2.05306738 minutes
+ Task          34 received row         528 from MASTER
+task 000048 finished row 000406 in    81.12777492 minutes
+ Task          48 received row         529 from MASTER
+task 000077 finished row 000422 in    70.63479562 minutes
+ Task          77 received row         530 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  56
+ Z=   8 N=  14 basis deformation   0.1
+ process  56, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000056 finished row 000504 in    18.15859795 minutes
+ Task          56 received row         531 from MASTER
+task 000005 finished row 000395 in    88.98115129 minutes
+ Task           5 received row         532 from MASTER
+task 000024 finished row 000496 in    24.85638167 minutes
+ Task          24 received row         533 from MASTER
+task 000080 finished row 000387 in    95.85302565 minutes
+ Task          80 received row         534 from MASTER
+task 000089 finished row 000408 in    85.58382028 minutes
+ Task          89 received row         535 from MASTER
+task 000036 finished row 000409 in    86.24640365 minutes
+ Task          36 received row         536 from MASTER
+task 000015 finished row 000399 in    90.71481948 minutes
+ Task          15 received row         537 from MASTER
+task 000020 finished row 000499 in    29.05996317 minutes
+ Task          20 received row         538 from MASTER
+task 000018 finished row 000511 in    24.07850056 minutes
+ Task          18 received row         539 from MASTER
+task 000007 finished row 000411 in    89.11388237 minutes
+ Task           7 received row         540 from MASTER
+task 000059 finished row 000418 in    83.13226202 minutes
+ Task          59 received row         541 from MASTER
+task 000024 finished row 000533 in     8.11221490 minutes
+ Task          24 received row         542 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  81
+ Z=   8 N=  14 basis deformation   0.3
+ process  81, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000081 finished row 000495 in    33.77485038 minutes
+ Task          81 received row         543 from MASTER
+task 000038 finished row 000526 in    14.70955582 minutes
+ Task          38 received row         544 from MASTER
+task 000048 finished row 000529 in    12.89315920 minutes
+ Task          48 received row         545 from MASTER
+task 000076 finished row 000497 in    34.63714416 minutes
+ Task          76 received row         546 from MASTER
+task 000077 finished row 000530 in    13.15696095 minutes
+ Task          77 received row         547 from MASTER
+task 000033 finished row 000512 in    27.40229998 minutes
+ Task          33 received row         548 from MASTER
+task 000064 finished row 000402 in    96.52138338 minutes
+ Task          64 received row         549 from MASTER
+task 000080 finished row 000534 in    10.33379280 minutes
+ Task          80 received row         550 from MASTER
+task 000067 finished row 000421 in    84.50590145 minutes
+ Task          67 received row         551 from MASTER
+task 000017 finished row 000414 in    91.33314813 minutes
+ Task          17 received row         552 from MASTER
+task 000060 finished row 000412 in    91.72746752 minutes
+ Task          60 received row         553 from MASTER
+task 000013 finished row 000413 in    91.48081235 minutes
+ Task          13 received row         554 from MASTER
+task 000031 finished row 000482 in    43.05112760 minutes
+ Task          31 received row         555 from MASTER
+task 000032 finished row 000403 in    97.99160968 minutes
+ Task          32 received row         556 from MASTER
+task 000004 finished row 000527 in    16.32635514 minutes
+ Task           4 received row         557 from MASTER
+task 000066 finished row 000423 in    86.06158182 minutes
+ Task          66 received row         558 from MASTER
+task 000034 finished row 000528 in    16.61589957 minutes
+ Task          34 received row         559 from MASTER
+task 000089 finished row 000535 in    11.15543190 minutes
+ Task          89 received row         560 from MASTER
+task 000010 finished row 000424 in    86.42205715 minutes
+ Task          10 received row         561 from MASTER
+task 000005 finished row 000532 in    15.89404333 minutes
+ Task           5 received row         562 from MASTER
+task 000056 finished row 000531 in    16.71315033 minutes
+ Task          56 received row         563 from MASTER
+task 000065 finished row 000404 in   100.73705220 minutes
+ Task          65 received row         564 from MASTER
+task 000009 finished row 000416 in    95.90333580 minutes
+ Task           9 received row         565 from MASTER
+task 000023 finished row 000426 in    89.44883287 minutes
+ Task          23 received row         566 from MASTER
+task 000074 finished row 000436 in    83.71525993 minutes
+ Task          74 received row         567 from MASTER
+task 000015 finished row 000537 in    15.29258115 minutes
+ Task          15 received row         568 from MASTER
+task 000088 finished row 000427 in    91.78842752 minutes
+ Task          88 received row         569 from MASTER
+task 000057 finished row 000417 in    98.00718302 minutes
+ Task          57 received row         570 from MASTER
+task 000062 finished row 000405 in   104.57318147 minutes
+ Task          62 received row         571 from MASTER
+task 000029 finished row 000428 in    91.41587502 minutes
+ Task          29 received row         572 from MASTER
+task 000087 finished row 000438 in    86.38266942 minutes
+ Task          87 received row         573 from MASTER
+task 000053 finished row 000429 in    91.55899500 minutes
+ Task          53 received row         574 from MASTER
+task 000042 finished row 000473 in    57.54081035 minutes
+ Task          42 received row         575 from MASTER
+task 000058 finished row 000439 in    88.06245070 minutes
+ Task          58 received row         576 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  27
+ Z=   8 N=  14 basis deformation   0.2
+ process  27, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000027 finished row 000508 in    44.34106065 minutes
+ Task          27 received row         577 from MASTER
+task 000038 finished row 000544 in    16.75607862 minutes
+ Task          38 received row         578 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  15
+ Z=   8 N=  16 basis deformation   0.2
+ process  15, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000015 finished row 000568 in     7.81825345 minutes
+ Task          15 received row         579 from MASTER
+task 000007 finished row 000540 in    20.77986434 minutes
+ Task           7 received row         580 from MASTER
+task 000020 finished row 000538 in    22.82618242 minutes
+ Task          20 received row         581 from MASTER
+task 000018 finished row 000539 in    21.54730277 minutes
+ Task          18 received row         582 from MASTER
+task 000050 finished row 000443 in    90.82722350 minutes
+ Task          50 received row         583 from MASTER
+task 000006 finished row 000442 in    91.11342862 minutes
+ Task           6 received row         584 from MASTER
+task 000034 finished row 000559 in    16.79352702 minutes
+ Task          34 received row         585 from MASTER
+task 000008 finished row 000420 in   104.38593435 minutes
+ Task           8 received row         586 from MASTER
+task 000060 finished row 000553 in    19.92396315 minutes
+ Task          60 received row         587 from MASTER
+task 000048 finished row 000545 in    22.77764628 minutes
+ Task          48 received row         588 from MASTER
+task 000046 finished row 000445 in    93.70971090 minutes
+ Task          46 received row         589 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process   6
+ Z=   8 N=  16 basis deformation   0.3
+ process   6, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000006 finished row 000584 in     5.82381732 minutes
+ Task           6 received row         590 from MASTER
+task 000024 finished row 000542 in    26.73015703 minutes
+ Task          24 received row         591 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  50
+ Z=   8 N=  16 basis deformation   0.2
+ process  50, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000050 finished row 000583 in     8.52962538 minutes
+ Task          50 received row         592 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  21
+ Z=   8 N=  14 basis deformation   0.2
+ process  21, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000021 finished row 000523 in    48.08012706 minutes
+ Task          21 received row         593 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  34
+ Z=   8 N=  16 basis deformation   0.3
+ process  34, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000034 finished row 000585 in     9.77920633 minutes
+ Task          34 received row         594 from MASTER
+task 000058 finished row 000576 in    18.27220202 minutes
+ Task          58 received row         595 from MASTER
+task 000082 finished row 000449 in    98.75303775 minutes
+ Task          82 received row         596 from MASTER
+task 000003 finished row 000475 in    80.28914352 minutes
+ Task           3 received row         597 from MASTER
+task 000083 finished row 000469 in    84.86341528 minutes
+ Task          83 received row         598 from MASTER
+task 000029 finished row 000572 in    29.12427522 minutes
+ Task          29 received row         599 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  82
+ Z=   8 N=  16 basis deformation   0.1
+ process  82, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000082 finished row 000596 in     5.17621903 minutes
+ Task          82 received row         600 from MASTER
+task 000078 finished row 000470 in    87.86599114 minutes
+ Task          78 received row         601 from MASTER
+task 000054 finished row 000460 in    93.61230645 minutes
+ Task          54 received row         602 from MASTER
+task 000008 finished row 000586 in    20.85119907 minutes
+ Task           8 received row         603 from MASTER
+task 000072 finished row 000491 in    78.13766840 minutes
+ Task          72 received row         604 from MASTER
+task 000070 finished row 000450 in   104.27503539 minutes
+ Task          70 received row         605 from MASTER
+task 000027 finished row 000577 in    28.80367144 minutes
+ Task          27 received row         606 from MASTER
+task 000030 finished row 000483 in    85.46812177 minutes
+ Task          30 received row         607 from MASTER
+task 000045 finished row 000471 in    90.10512019 minutes
+ Task          45 received row         608 from MASTER
+task 000040 finished row 000484 in    87.37047280 minutes
+ Task          40 received row         609 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process   3
+ Z=   8 N=  16 basis deformation   0.2
+ process   3, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000003 finished row 000597 in    10.41011038 minutes
+ Task           3 received row         610 from MASTER
+task 000055 finished row 000474 in    91.14595007 minutes
+ Task          55 received row         611 from MASTER
+task 000048 finished row 000588 in    24.14412335 minutes
+ Task          48 received row         612 from MASTER
+task 000061 finished row 000472 in    91.79566528 minutes
+ Task          61 received row         613 from MASTER
+task 000063 finished row 000485 in    87.89152990 minutes
+ Task          63 received row         614 from MASTER
+task 000085 finished row 000513 in    75.41503174 minutes
+ Task          85 received row         615 from MASTER
+task 000071 finished row 000486 in    90.89395553 minutes
+ Task          71 received row         616 from MASTER
+task 000045 finished row 000608 in     6.65949508 minutes
+ Task          45 received row         617 from MASTER
+task 000047 finished row 000498 in    86.28784871 minutes
+ Task          47 received row         618 from MASTER
+task 000012 finished row 000476 in    96.03840302 minutes
+ Task          12 received row         619 from MASTER
+task 000073 finished row 000477 in    96.62293658 minutes
+ Task          73 received row         620 from MASTER
+task 000025 finished row 000488 in    92.47538964 minutes
+ Task          25 received row         621 from MASTER
+task 000068 finished row 000489 in    92.21589472 minutes
+ Task          68 received row         622 from MASTER
+task 000001 finished row 000487 in    92.77331367 minutes
+ Task           1 received row         623 from MASTER
+task 000078 finished row 000601 in    12.47161305 minutes
+ Task          78 received row         624 from MASTER
+task 000054 finished row 000602 in    12.70758747 minutes
+ Task          54 received row         625 from MASTER
+task 000079 finished row 000490 in    93.98173963 minutes
+ Task          79 received row         626 from MASTER
+task 000039 finished row 000500 in    88.27716702 minutes
+ Task          39 received row         627 from MASTER
+task 000069 finished row 000478 in    98.80683952 minutes
+ Task          69 received row         628 from MASTER
+task 000030 finished row 000607 in    11.72708563 minutes
+ Task          30 received row         629 from MASTER
+task 000008 finished row 000603 in    14.78426050 minutes
+ Task           8 received row         630 from MASTER
+task 000059 finished row 000541 in    58.79617393 minutes
+ Task          59 received row         631 from MASTER
+task 000070 finished row 000605 in    14.91166105 minutes
+ Task          70 received row         632 from MASTER
+task 000051 finished row 000479 in   100.48532643 minutes
+ Task          51 received row         633 from MASTER
+task 000027 finished row 000606 in    13.58646415 minutes
+ Task          27 received row         634 from MASTER
+task 000040 finished row 000609 in    11.69851573 minutes
+ Task          40 received row         635 from MASTER
+task 000052 finished row 000501 in    90.70738606 minutes
+ Task          52 received row         636 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  30
+ Z=   8 N=  18 basis deformation   0.3
+ process  30, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000030 finished row 000629 in     3.57226347 minutes
+ Task          30 received row         637 from MASTER
+task 000037 finished row 000480 in   101.90960447 minutes
+ Task          37 received row         638 from MASTER
+task 000003 finished row 000610 in    13.42741628 minutes
+ Task           3 received row         639 from MASTER
+task 000072 finished row 000604 in    18.28125533 minutes
+ Task          72 received row         640 from MASTER
+task 000044 finished row 000514 in    86.50181622 minutes
+ Task          44 received row         641 from MASTER
+task 000028 finished row 000492 in    96.68742234 minutes
+ Task          28 received row         642 from MASTER
+task 000084 finished row 000503 in    91.69566543 minutes
+ Task          84 received row         643 from MASTER
+task 000086 finished row 000515 in    88.07059780 minutes
+ Task          86 received row         644 from MASTER
+task 000035 finished row 000502 in    93.32139717 minutes
+ Task          35 received row         645 from MASTER
+task 000063 finished row 000614 in    15.91953340 minutes
+ Task          63 received row         646 from MASTER
+task 000041 finished row 000493 in    99.33649872 minutes
+ Task          41 received row         647 from MASTER
+task 000016 finished row 000516 in    89.86483847 minutes
+ Task          16 received row         648 from MASTER
+task 000042 finished row 000575 in    51.46397698 minutes
+ Task          42 received row         649 from MASTER
+task 000049 finished row 000505 in    94.31145377 minutes
+ Task          49 received row         650 from MASTER
+task 000061 finished row 000613 in    17.65384470 minutes
+ Task          61 received row         651 from MASTER
+task 000022 finished row 000517 in    91.56513340 minutes
+ Task          22 received row         652 from MASTER
+task 000085 finished row 000615 in    18.02765663 minutes
+ Task          85 received row         653 from MASTER
+task 000019 finished row 000506 in    97.05127912 minutes
+ Task          19 received row         654 from MASTER
+task 000026 finished row 000507 in    96.86949193 minutes
+ Task          26 received row         655 from MASTER
+task 000078 finished row 000624 in    15.25742812 minutes
+ Task          78 received row         656 from MASTER
+task 000002 finished row 000518 in    92.14667240 minutes
+ Task           2 received row         657 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  35
+ Z=   8 N=  18 basis deformation   0.3
+ process  35, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000035 finished row 000645 in     8.14318132 minutes
+ Task          35 received row         658 from MASTER
+task 000048 finished row 000612 in    23.89263890 minutes
+ Task          48 received row         659 from MASTER
+task 000043 finished row 000519 in    93.66388102 minutes
+ Task          43 received row         660 from MASTER
+task 000075 finished row 000520 in    93.72962760 minutes
+ Task          75 received row         661 from MASTER
+task 000071 finished row 000616 in    21.90666337 minutes
+ Task          71 received row         662 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  48
+ Z=   8 N=  18 basis deformation   0.3
+ process  48, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000048 finished row 000659 in     2.25513070 minutes
+ Task          48 received row         663 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  88
+ Z=   8 N=  16 basis deformation   0.3
+ process  88, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000088 finished row 000569 in    63.82792933 minutes
+ Task          88 received row         664 from MASTER
+task 000045 finished row 000617 in    24.06676113 minutes
+ Task          45 received row         665 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process   2
+ Z=   8 N=  18 basis deformation   0.2
+ process   2, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000002 finished row 000657 in     5.81856147 minutes
+ Task           2 received row         666 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  84
+ Z=   8 N=  18 basis deformation   0.2
+ process  84, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000084 finished row 000643 in    14.42320286 minutes
+ Task          84 received row         667 from MASTER
+task 000014 finished row 000522 in    96.25217603 minutes
+ Task          14 received row         668 from MASTER
+task 000066 finished row 000558 in    73.49153070 minutes
+ Task          66 received row         669 from MASTER
+task 000073 finished row 000620 in    23.52584990 minutes
+ Task          73 received row         670 from MASTER
+task 000011 finished row 000521 in    96.82497608 minutes
+ Task          11 received row         671 from MASTER
+task 000047 finished row 000618 in    24.65248542 minutes
+ Task          47 received row         672 from MASTER
+task 000027 finished row 000634 in    20.81676550 minutes
+ Task          27 received row         673 from MASTER
+task 000070 finished row 000632 in    22.56931700 minutes
+ Task          70 received row         674 from MASTER
+task 000052 finished row 000636 in    25.60909750 minutes
+ Task          52 received row         675 from MASTER
+task 000081 finished row 000543 in    85.54273663 minutes
+ Task          81 received row         676 from MASTER
+task 000089 finished row 000560 in    82.33707365 minutes
+ Task          89 received row         677 from MASTER
+task 000078 finished row 000656 in    16.96134529 minutes
+ Task          78 received row         678 from MASTER
+task 000032 finished row 000556 in    83.81660160 minutes
+ Task          32 received row         679 from MASTER
+task 000004 finished row 000557 in    85.94498847 minutes
+ Task           4 received row         680 from MASTER
+task 000076 finished row 000546 in    90.03612907 minutes
+ Task          76 received row         681 from MASTER
+task 000061 finished row 000651 in    26.06502772 minutes
+ Task          61 received row         682 from MASTER
+task 000036 finished row 000536 in    98.34972757 minutes
+ Task          36 received row         683 from MASTER
+task 000017 finished row 000552 in    91.48575503 minutes
+ Task          17 received row         684 from MASTER
+task 000064 finished row 000549 in    92.21981780 minutes
+ Task          64 received row         685 from MASTER
+task 000077 finished row 000547 in    92.48853043 minutes
+ Task          77 received row         686 from MASTER
+task 000088 finished row 000664 in    18.94375878 minutes
+ Task          88 received row         687 from MASTER
+task 000033 finished row 000548 in    93.08831597 minutes
+ Task          33 received row         688 from MASTER
+task 000010 finished row 000561 in    89.79666307 minutes
+ Task          10 received row         689 from MASTER
+task 000016 finished row 000648 in    29.32150778 minutes
+ Task          16 received row         690 from MASTER
+task 000080 finished row 000550 in    93.76154185 minutes
+ Task          80 received row         691 from MASTER
+task 000062 finished row 000571 in    84.15564198 minutes
+ Task          62 received row         692 from MASTER
+task 000081 finished row 000676 in    12.14767427 minutes
+ Task          81 received row         693 from MASTER
+task 000056 finished row 000563 in    92.05807200 minutes
+ Task          56 received row         694 from MASTER
+task 000078 finished row 000678 in    11.23729075 minutes
+ Task          78 received row         695 from MASTER
+task 000005 finished row 000562 in    92.97963624 minutes
+ Task           5 received row         696 from MASTER
+task 000065 finished row 000564 in    92.30823953 minutes
+ Task          65 received row         697 from MASTER
+task 000087 finished row 000573 in    87.35454603 minutes
+ Task          87 received row         698 from MASTER
+task 000084 finished row 000667 in    23.62669170 minutes
+ Task          84 received row         699 from MASTER
+task 000036 finished row 000683 in     7.77195007 minutes
+ Task          36 received row         700 from MASTER
+task 000089 finished row 000677 in    13.96325590 minutes
+ Task          89 received row         701 from MASTER
+task 000004 finished row 000680 in    11.40939132 minutes
+ Task           4 received row         702 from MASTER
+task 000053 finished row 000574 in    88.08809555 minutes
+ Task          53 received row         703 from MASTER
+task 000006 finished row 000590 in    74.93802407 minutes
+ Task           6 received row         704 from MASTER
+task 000013 finished row 000554 in    99.01661720 minutes
+ Task          13 received row         705 from MASTER
+task 000032 finished row 000679 in    15.58396087 minutes
+ Task          32 received row         706 from MASTER
+task 000002 finished row 000666 in    26.04039528 minutes
+ Task           2 received row         707 from MASTER
+task 000067 finished row 000551 in   100.74062202 minutes
+ Task          67 received row         708 from MASTER
+task 000066 finished row 000669 in    25.58281192 minutes
+ Task          66 received row         709 from MASTER
+task 000076 finished row 000681 in    11.65545195 minutes
+ Task          76 received row         710 from MASTER
+task 000046 finished row 000589 in    77.83625375 minutes
+ Task          46 received row         711 from MASTER
+task 000009 finished row 000565 in    95.83242568 minutes
+ Task           9 received row         712 from MASTER
+task 000014 finished row 000668 in    26.88450073 minutes
+ Task          14 received row         713 from MASTER
+task 000031 finished row 000555 in   101.77839443 minutes
+ Task          31 received row         714 from MASTER
+task 000045 finished row 000665 in    29.46202793 minutes
+ Task          45 received row         715 from MASTER
+task 000023 finished row 000566 in    97.98967162 minutes
+ Task          23 received row         716 from MASTER
+task 000088 finished row 000687 in    13.02829443 minutes
+ Task          88 received row         717 from MASTER
+task 000061 finished row 000682 in    15.28584573 minutes
+ Task          61 received row         718 from MASTER
+task 000064 finished row 000685 in    13.92742937 minutes
+ Task          64 received row         719 from MASTER
+task 000060 finished row 000587 in    86.05835071 minutes
+ Task          60 received row         720 from MASTER
+task 000074 finished row 000567 in    99.07591725 minutes
+ Task          74 received row         721 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  60
+ Z=   8 N=  20 basis deformation   0.3
+ process  60, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000060 finished row 000720 in     1.06353882 minutes
+ Task          60 received row         722 from MASTER
+task 000017 finished row 000684 in    15.66359400 minutes
+ Task          17 received row         723 from MASTER
+task 000038 finished row 000578 in    92.29310400 minutes
+ Task          38 received row         724 from MASTER
+task 000010 finished row 000689 in    16.03496173 minutes
+ Task          10 received row         725 from MASTER
+task 000015 finished row 000579 in    93.75798123 minutes
+ Task          15 received row         726 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  52
+ Z=   8 N=  18 basis deformation   0.3
+ process  52, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000052 finished row 000675 in    27.76609722 minutes
+ Task          52 received row         727 from MASTER
+task 000007 finished row 000580 in    93.88947235 minutes
+ Task           7 received row         728 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  61
+ Z=   8 N=  20 basis deformation   0.2
+ process  61, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000061 finished row 000718 in     6.30898197 minutes
+ Task          61 received row         729 from MASTER
+task 000057 finished row 000570 in   103.19011342 minutes
+ Task          57 received row         730 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  43
+ Z=   8 N=  18 basis deformation   0.3
+ process  43, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000043 finished row 000660 in    41.17019353 minutes
+ Task          43 received row         731 from MASTER
+task 000018 finished row 000582 in    96.40918357 minutes
+ Task          18 received row         732 from MASTER
+task 000024 finished row 000591 in    89.68495843 minutes
+ Task          24 received row         733 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  27
+ Z=   8 N=  18 basis deformation   0.2
+ process  27, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000027 finished row 000673 in    36.18128300 minutes
+ Task          27 received row         734 from MASTER
+task 000080 finished row 000691 in    21.17319576 minutes
+ Task          80 received row         735 from MASTER
+task 000062 finished row 000692 in    21.36159847 minutes
+ Task          62 received row         736 from MASTER
+task 000068 finished row 000622 in    64.97007951 minutes
+ Task          68 received row         737 from MASTER
+task 000050 finished row 000592 in    91.03855772 minutes
+ Task          50 received row         738 from MASTER
+task 000020 finished row 000581 in   100.77693357 minutes
+ Task          20 received row         739 from MASTER
+task 000065 finished row 000697 in    20.78307377 minutes
+ Task          65 received row         740 from MASTER
+task 000059 finished row 000631 in    62.60336515 minutes
+ Task          59 received row         741 from MASTER
+task 000021 finished row 000593 in    92.27509052 minutes
+ Task          21 received row         742 from MASTER
+task 000056 finished row 000694 in    25.24221943 minutes
+ Task          56 received row         743 from MASTER
+task 000034 finished row 000594 in    92.57747735 minutes
+ Task          34 received row         744 from MASTER
+task 000005 finished row 000696 in    26.00691965 minutes
+ Task           5 received row         745 from MASTER
+task 000087 finished row 000698 in    24.41521697 minutes
+ Task          87 received row         746 from MASTER
+task 000084 finished row 000699 in    24.09846740 minutes
+ Task          84 received row         747 from MASTER
+task 000081 finished row 000693 in    27.19377523 minutes
+ Task          81 received row         748 from MASTER
+task 000067 finished row 000708 in    22.65652298 minutes
+ Task          67 received row         749 from MASTER
+task 000001 finished row 000623 in    72.35694958 minutes
+ Task           1 received row         750 from MASTER
+task 000074 finished row 000721 in    18.31166302 minutes
+ Task          74 received row         751 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  32
+ Z=   8 N=  20 basis deformation  -0.3
+ process  32, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000032 finished row 000706 in    24.74904011 minutes
+ Task          32 received row         752 from MASTER
+task 000036 finished row 000700 in    27.16079628 minutes
+ Task          36 received row         753 from MASTER
+task 000046 finished row 000711 in    24.63489665 minutes
+ Task          46 received row         754 from MASTER
+task 000014 finished row 000713 in    24.34879543 minutes
+ Task          14 received row         755 from MASTER
+task 000076 finished row 000710 in    25.92624971 minutes
+ Task          76 received row         756 from MASTER
+task 000009 finished row 000712 in    25.45545827 minutes
+ Task           9 received row         757 from MASTER
+task 000045 finished row 000715 in    23.77515463 minutes
+ Task          45 received row         758 from MASTER
+task 000058 finished row 000595 in    96.85278457 minutes
+ Task          58 received row         759 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  84
+ Z=   8 N=  20 basis deformation   0.2
+ process  84, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000084 finished row 000747 in     6.33456620 minutes
+ Task          84 received row         760 from MASTER
+task 000042 finished row 000649 in    66.23566670 minutes
+ Task          42 received row         761 from MASTER
+task 000064 finished row 000719 in    25.07200629 minutes
+ Task          64 received row         762 from MASTER
+task 000075 finished row 000661 in    59.57042233 minutes
+ Task          75 received row         763 from MASTER
+task 000010 finished row 000725 in    23.37781632 minutes
+ Task          10 received row         764 from MASTER
+task 000038 finished row 000724 in    25.17893545 minutes
+ Task          38 received row         765 from MASTER
+task 000040 finished row 000635 in    76.43633640 minutes
+ Task          40 received row         766 from MASTER
+task 000052 finished row 000727 in    23.77914698 minutes
+ Task          52 received row         767 from MASTER
+task 000017 finished row 000723 in    27.72607907 minutes
+ Task          17 received row         768 from MASTER
+task 000062 finished row 000736 in    20.18098852 minutes
+ Task          62 received row         769 from MASTER
+task 000045 finished row 000758 in     7.92565912 minutes
+ Task          45 received row         770 from MASTER
+task 000083 finished row 000598 in    99.97139447 minutes
+ Task          83 received row         771 from MASTER
+task 000015 finished row 000726 in    27.23507588 minutes
+ Task          15 received row         772 from MASTER
+task 000009 finished row 000757 in    10.34671623 minutes
+ Task           9 received row         773 from MASTER
+task 000012 finished row 000619 in    87.26449202 minutes
+ Task          12 received row         774 from MASTER
+task 000032 finished row 000752 in    13.53111828 minutes
+ Task          32 received row         775 from MASTER
+task 000068 finished row 000737 in    22.05314498 minutes
+ Task          68 received row         776 from MASTER
+task 000025 finished row 000621 in    87.34451617 minutes
+ Task          25 received row         777 from MASTER
+task 000036 finished row 000753 in    14.82629105 minutes
+ Task          36 received row         778 from MASTER
+task 000029 finished row 000599 in   101.93812218 minutes
+ Task          29 received row         779 from MASTER
+task 000061 finished row 000729 in    29.76609102 minutes
+ Task          61 received row         780 from MASTER
+task 000014 finished row 000755 in    14.75008910 minutes
+ Task          14 received row         781 from MASTER
+task 000084 finished row 000760 in    12.78948317 minutes
+ Task          84 received row         782 from MASTER
+task 000055 finished row 000611 in    95.77988547 minutes
+ Task          55 received row         783 from MASTER
+task 000058 finished row 000759 in    14.75989925 minutes
+ Task          58 received row         784 from MASTER
+task 000063 finished row 000646 in    80.16060557 minutes
+ Task          63 received row         785 from MASTER
+task 000051 finished row 000633 in    86.49230102 minutes
+ Task          51 received row         786 from MASTER
+task 000067 finished row 000749 in    19.51854662 minutes
+ Task          67 received row         787 from MASTER
+task 000059 finished row 000741 in    25.15876977 minutes
+ Task          59 received row         788 from MASTER
+task 000046 finished row 000754 in    17.78318395 minutes
+ Task          46 received row         789 from MASTER
+task 000021 finished row 000742 in    24.71041835 minutes
+ Task          21 received row         790 from MASTER
+task 000082 finished row 000600 in   104.47420220 minutes
+ Task          82 received row         791 from MASTER
+task 000074 finished row 000751 in    20.09846845 minutes
+ Task          74 received row         792 from MASTER
+task 000010 finished row 000764 in    14.14994760 minutes
+ Task          10 received row         793 from MASTER
+task 000075 finished row 000763 in    15.33364735 minutes
+ Task          75 received row         794 from MASTER
+task 000054 finished row 000625 in    94.34090463 minutes
+ Task          54 received row         795 from MASTER
+task 000020 finished row 000739 in    29.97056685 minutes
+ Task          20 received row         796 from MASTER
+task 000042 finished row 000761 in    18.33071045 minutes
+ Task          42 received row         797 from MASTER
+task 000041 finished row 000647 in    85.58910497 minutes
+ Task          41 received row         798 from MASTER
+task 000071 finished row 000662 in    77.17693420 minutes
+ Task          71 received row         799 from MASTER
+task 000079 finished row 000626 in    95.74521322 minutes
+ Task          79 received row         800 from MASTER
+task 000026 finished row 000655 in    83.16451810 minutes
+ Task          26 received row         801 from MASTER
+task 000064 finished row 000762 in    19.12693512 minutes
+ Task          64 received row         802 from MASTER
+task 000030 finished row 000637 in    91.56692408 minutes
+ Task          30 received row         803 from MASTER
+task 000038 finished row 000765 in    17.76610957 minutes
+ Task          38 received row         804 from MASTER
+task 000037 finished row 000638 in    92.34988315 minutes
+ Task          37 received row         805 from MASTER
+task 000003 finished row 000639 in    92.14073847 minutes
+ Task           3 received row         806 from MASTER
+task 000039 finished row 000627 in    97.26604897 minutes
+ Task          39 received row         807 from MASTER
+task 000049 finished row 000650 in    88.75831548 minutes
+ Task          49 received row         808 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  10
+ Z=   8 N=  22 basis deformation   0.2
+ process  10, error_flag 1   STOP: kl=zero, no states below pwi!!!                      
+ 
+task 000010 finished row 000793 in     7.43980923 minutes
+ Task          10 received row         809 from MASTER
+task 000040 finished row 000766 in    20.37977188 minutes
+ Task          40 received row         810 from MASTER
+task 000072 finished row 000640 in    95.06044588 minutes
+ Task          72 received row         811 from MASTER
+task 000027 finished row 000734 in    41.33375088 minutes
+ Task          27 received row         812 from MASTER
+task 000062 finished row 000769 in    20.35513076 minutes
+ Task          62 received row         813 from MASTER
+task 000044 finished row 000641 in    96.28593808 minutes
+ Task          44 received row         814 from MASTER
+task 000083 finished row 000771 in    19.27722365 minutes
+ Task          83 received row         815 from MASTER
+task 000028 finished row 000642 in    96.63388252 minutes
+ Task          28 received row         816 from MASTER
+task 000069 finished row 000628 in   101.78076185 minutes
+ Task          69 received row         817 from MASTER
+task 000022 finished row 000652 in    91.30838247 minutes
+ Task          22 received row         818 from MASTER
+task 000048 finished row 000663 in    85.95963368 minutes
+ Task          48 received row         819 from MASTER
+task 000019 finished row 000654 in    92.10067823 minutes
+ Task          19 received row         820 from MASTER
+task 000052 finished row 000767 in    24.10061173 minutes
+ Task          52 received row         821 from MASTER
+task 000085 finished row 000653 in    92.56447459 minutes
+ Task          85 received row         822 from MASTER
+task 000060 finished row 000722 in    51.68480057 minutes
+ Task          60 received row         823 from MASTER
+task 000008 finished row 000630 in   103.45413653 minutes
+ Task           8 received row         824 from MASTER
+task 000009 finished row 000773 in    21.69213972 minutes
+ Task           9 received row         825 from MASTER
+task 000045 finished row 000770 in    23.89170032 minutes
+ Task          45 received row         826 from MASTER
+task 000061 finished row 000780 in    18.22461439 minutes
+ Task          61 received row         827 from MASTER
+task 000032 finished row 000775 in    20.86365803 minutes
+ Task          32 received row         828 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process   1
+ Z=   8 N=  20 basis deformation   0.3
+ process   1, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000001 finished row 000750 in    35.61084595 minutes
+ Task           1 received row         829 from MASTER
+task 000086 finished row 000644 in    99.79017637 minutes
+ Task          86 received row         830 from MASTER
+task 000073 finished row 000670 in    86.31397003 minutes
+ Task          73 received row         831 from MASTER
+task 000012 finished row 000774 in    23.57006203 minutes
+ Task          12 received row         832 from MASTER
+task 000020 finished row 000796 in    16.11690220 minutes
+ Task          20 received row         833 from MASTER
+task 000046 finished row 000789 in    20.08870877 minutes
+ Task          46 received row         834 from MASTER
+task 000036 finished row 000778 in    23.76879743 minutes
+ Task          36 received row         835 from MASTER
+task 000025 finished row 000777 in    25.16577735 minutes
+ Task          25 received row         836 from MASTER
+task 000031 finished row 000714 in    62.46229537 minutes
+ Task          31 received row         837 from MASTER
+task 000058 finished row 000784 in    22.77837380 minutes
+ Task          58 received row         838 from MASTER
+task 000063 finished row 000785 in    24.02542592 minutes
+ Task          63 received row         839 from MASTER
+task 000084 finished row 000782 in    24.88176982 minutes
+ Task          84 received row         840 from MASTER
+task 000079 finished row 000800 in    16.89026748 minutes
+ Task          79 received row         841 from MASTER
+task 000067 finished row 000787 in    24.32829952 minutes
+ Task          67 received row         842 from MASTER
+task 000068 finished row 000776 in    28.68802617 minutes
+ Task          68 received row         843 from MASTER
+task 000002 finished row 000707 in    67.57604083 minutes
+ Task           2 received row         844 from MASTER
+task 000051 finished row 000786 in    25.59297994 minutes
+ Task          51 received row         845 from MASTER
+task 000074 finished row 000792 in    24.00492895 minutes
+ Task          74 received row         846 from MASTER
+task 000015 finished row 000772 in    32.98190745 minutes
+ Task          15 received row         847 from MASTER
+task 000075 finished row 000794 in    23.94874677 minutes
+ Task          75 received row         848 from MASTER
+task 000021 finished row 000790 in    26.53111832 minutes
+ Task          21 received row         849 from MASTER
+task 000045 finished row 000826 in    11.89981105 minutes
+ Task          45 received row         850 from MASTER
+task 000041 finished row 000798 in    23.47247897 minutes
+ Task          41 received row         851 from MASTER
+task 000020 finished row 000833 in     7.78838762 minutes
+ Task          20 received row         852 from MASTER
+task 000011 finished row 000671 in    96.31649133 minutes
+ Task          11 received row         853 from MASTER
+task 000030 finished row 000803 in    21.91243255 minutes
+ Task          30 received row         854 from MASTER
+task 000061 finished row 000827 in    12.75008880 minutes
+ Task          61 received row         855 from MASTER
+task 000001 finished row 000829 in    11.96341178 minutes
+ Task           1 received row         856 from MASTER
+task 000032 finished row 000828 in    13.10987062 minutes
+ Task          32 received row         857 from MASTER
+task 000047 finished row 000672 in    97.17172501 minutes
+ Task          47 received row         858 from MASTER
+task 000071 finished row 000799 in    24.08058858 minutes
+ Task          71 received row         859 from MASTER
+task 000026 finished row 000801 in    23.59408248 minutes
+ Task          26 received row         860 from MASTER
+task 000012 finished row 000832 in    12.27271256 minutes
+ Task          12 received row         861 from MASTER
+task 000046 finished row 000834 in    10.50703703 minutes
+ Task          46 received row         862 from MASTER
+task 000035 finished row 000658 in   105.81538862 minutes
+ Task          35 received row         863 from MASTER
+task 000044 finished row 000814 in    19.92911008 minutes
+ Task          44 received row         864 from MASTER
+task 000038 finished row 000804 in    25.12273465 minutes
+ Task          38 received row         865 from MASTER
+task 000036 finished row 000835 in    11.70265485 minutes
+ Task          36 received row         866 from MASTER
+task 000073 finished row 000831 in    14.37334655 minutes
+ Task          73 received row         867 from MASTER
+task 000028 finished row 000816 in    19.83837820 minutes
+ Task          28 received row         868 from MASTER
+task 000062 finished row 000813 in    20.98069930 minutes
+ Task          62 received row         869 from MASTER
+task 000052 finished row 000821 in    18.08734692 minutes
+ Task          52 received row         870 from MASTER
+task 000027 finished row 000812 in    21.61950648 minutes
+ Task          27 received row         871 from MASTER
+task 000086 finished row 000830 in    16.81159342 minutes
+ Task          86 received row         872 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  61
+ Z=   8 N=  24 basis deformation   0.3
+ process  61, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000061 finished row 000855 in     6.26379812 minutes
+ Task          61 received row         873 from MASTER
+task 000057 finished row 000730 in    67.84505013 minutes
+ Task          57 received row         874 from MASTER
+task 000070 finished row 000674 in   101.93427593 minutes
+ Task          70 received row         875 from MASTER
+task 000083 finished row 000815 in    24.69946770 minutes
+ Task          83 received row         876 from MASTER
+task 000004 finished row 000702 in    82.73227363 minutes
+ Task           4 received row         877 from MASTER
+task 000037 finished row 000805 in    30.55049423 minutes
+ Task          37 received row         878 from MASTER
+task 000014 finished row 000781 in    41.22247433 minutes
+ Task          14 received row         879 from MASTER
+task 000025 finished row 000836 in    18.40068613 minutes
+ Task          25 received row         880 from MASTER
+task 000019 finished row 000820 in    25.08842922 minutes
+ Task          19 received row         881 from MASTER
+task 000008 finished row 000824 in    24.57068602 minutes
+ Task           8 received row         882 from MASTER
+task 000078 finished row 000695 in    88.60305725 minutes
+ Task          78 received row         883 from MASTER
+task 000058 finished row 000838 in    20.04484262 minutes
+ Task          58 received row         884 from MASTER
+task 000063 finished row 000839 in    19.58299767 minutes
+ Task          63 received row         885 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  54
+ Z=   8 N=  22 basis deformation   0.3
+ process  54, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000054 finished row 000795 in    39.54541485 minutes
+ Task          54 received row         886 from MASTER
+task 000084 finished row 000840 in    21.54033143 minutes
+ Task          84 received row         887 from MASTER
+task 000066 finished row 000709 in    88.37838184 minutes
+ Task          66 received row         888 from MASTER
+task 000067 finished row 000842 in    22.02565195 minutes
+ Task          67 received row         889 from MASTER
+task 000017 finished row 000768 in    54.32357985 minutes
+ Task          17 received row         890 from MASTER
+task 000075 finished row 000848 in    19.53866717 minutes
+ Task          75 received row         891 from MASTER
+task 000076 finished row 000756 in    63.49103856 minutes
+ Task          76 received row         892 from MASTER
+task 000068 finished row 000843 in    22.72326941 minutes
+ Task          68 received row         893 from MASTER
+task 000002 finished row 000844 in    22.57400171 minutes
+ Task           2 received row         894 from MASTER
+task 000051 finished row 000845 in    22.46904303 minutes
+ Task          51 received row         895 from MASTER
+task 000077 finished row 000686 in    99.66884348 minutes
+ Task          77 received row         896 from MASTER
+task 000074 finished row 000846 in    23.10954948 minutes
+ Task          74 received row         897 from MASTER
+task 000047 finished row 000858 in    20.52115552 minutes
+ Task          47 received row         898 from MASTER
+task 000012 finished row 000861 in    19.33939628 minutes
+ Task          12 received row         899 from MASTER
+task 000015 finished row 000847 in    24.39270292 minutes
+ Task          15 received row         900 from MASTER
+task 000044 finished row 000864 in    19.65284100 minutes
+ Task          44 received row         901 from MASTER
+task 000080 finished row 000735 in    80.84564462 minutes
+ Task          80 received row         902 from MASTER
+task 000071 finished row 000859 in    22.85275545 minutes
+ Task          71 received row         903 from MASTER
+task 000016 finished row 000690 in   103.52397140 minutes
+ Task          16 received row         904 from MASTER
+task 000021 finished row 000849 in    25.51528720 minutes
+ Task          21 received row         905 from MASTER
+task 000026 finished row 000860 in    23.31169871 minutes
+ Task          26 received row         906 from MASTER
+task 000046 finished row 000862 in    23.07204050 minutes
+ Task          46 received row         907 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  60
+ Z=   8 N=  22 basis deformation   0.2
+ process  60, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000060 finished row 000823 in    39.12387118 minutes
+ Task          60 received row         908 from MASTER
+task 000083 finished row 000876 in    17.40627383 minutes
+ Task          83 received row         909 from MASTER
+task 000089 finished row 000701 in    99.50264632 minutes
+ Task          89 received row         910 from MASTER
+task 000006 finished row 000704 in    99.96390146 minutes
+ Task           6 received row         911 from MASTER
+task 000027 finished row 000871 in    22.14540870 minutes
+ Task          27 received row         912 from MASTER
+task 000033 finished row 000688 in   106.92452588 minutes
+ Task          33 received row         913 from MASTER
+task 000035 finished row 000863 in    24.68333100 minutes
+ Task          35 received row         914 from MASTER
+task 000050 finished row 000738 in    83.11112462 minutes
+ Task          50 received row         915 from MASTER
+task 000052 finished row 000870 in    24.21680068 minutes
+ Task          52 received row         916 from MASTER
+task 000086 finished row 000872 in    23.25274024 minutes
+ Task          86 received row         917 from MASTER
+task 000079 finished row 000841 in    34.76142590 minutes
+ Task          79 received row         918 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  58
+ Z=   8 N=  24 basis deformation   0.3
+ process  58, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000058 finished row 000884 in    16.56063165 minutes
+ Task          58 received row         919 from MASTER
+task 000088 finished row 000717 in    96.84960060 minutes
+ Task          88 received row         920 from MASTER
+task 000013 finished row 000705 in   102.87861698 minutes
+ Task          13 received row         921 from MASTER
+task 000007 finished row 000728 in    92.37548385 minutes
+ Task           7 received row         922 from MASTER
+task 000053 finished row 000703 in   104.78712785 minutes
+ Task          53 received row         923 from MASTER
+task 000023 finished row 000716 in    99.37176687 minutes
+ Task          23 received row         924 from MASTER
+task 000070 finished row 000875 in    23.23796335 minutes
+ Task          70 received row         925 from MASTER
+task 000057 finished row 000874 in    23.52855865 minutes
+ Task          57 received row         926 from MASTER
+task 000036 finished row 000866 in    28.21420987 minutes
+ Task          36 received row         927 from MASTER
+task 000004 finished row 000877 in    23.83708148 minutes
+ Task           4 received row         928 from MASTER
+task 000060 finished row 000908 in     8.02223012 minutes
+ Task          60 received row         929 from MASTER
+task 000039 finished row 000807 in    55.49062905 minutes
+ Task          39 received row         930 from MASTER
+task 000019 finished row 000881 in    23.54236380 minutes
+ Task          19 received row         931 from MASTER
+task 000080 finished row 000902 in    11.75682133 minutes
+ Task          80 received row         932 from MASTER
+task 000044 finished row 000901 in    11.94165553 minutes
+ Task          44 received row         933 from MASTER
+task 000065 finished row 000740 in    89.01899407 minutes
+ Task          65 received row         934 from MASTER
+task 000071 finished row 000903 in    11.57153608 minutes
+ Task          71 received row         935 from MASTER
+task 000046 finished row 000907 in    10.16149835 minutes
+ Task          46 received row         936 from MASTER
+task 000021 finished row 000905 in    12.01236049 minutes
+ Task          21 received row         937 from MASTER
+task 000075 finished row 000891 in    20.38406480 minutes
+ Task          75 received row         938 from MASTER
+task 000034 finished row 000744 in    89.32313795 minutes
+ Task          34 received row         939 from MASTER
+task 000066 finished row 000888 in    21.48115473 minutes
+ Task          66 received row         940 from MASTER
+task 000089 finished row 000910 in    13.18198603 minutes
+ Task          89 received row         941 from MASTER
+task 000018 finished row 000732 in    97.89722423 minutes
+ Task          18 received row         942 from MASTER
+task 000083 finished row 000909 in    13.80485388 minutes
+ Task          83 received row         943 from MASTER
+task 000076 finished row 000892 in    21.52072550 minutes
+ Task          76 received row         944 from MASTER
+ 
+ ERRORS IN HFBTHO_SOLVER, process  15
+ Z=   8 N=  24 basis deformation   0.3
+ process  15, error_flag 1  STOP: In Broyden: info at DSYTRF                            
+ 
+task 000015 finished row 000900 in    18.59070823 minutes
+ Task          15 received row         945 from MASTER
+task 000002 finished row 000894 in    22.08294152 minutes
+ Task           2 received row         946 from MASTER
+task 000067 finished row 000889 in    23.95434018 minutes
+ Task          67 received row         947 from MASTER
+task 000026 finished row 000906 in    17.04415503 minutes
+ Task          26 received row         948 from MASTER
+task 000056 finished row 000743 in    92.58526793 minutes
+ Task          56 received row         949 from MASTER
+task 000001 finished row 000856 in    41.73436555 minutes
+ Task           1 received row         950 from MASTER
+task 000043 finished row 000731 in   101.44650062 minutes
+ Task          43 received row         951 from MASTER
+task 000053 finished row 000923 in    11.70613558 minutes
+ Task          53 received row         952 from MASTER
+task 000024 finished row 000733 in   102.13091791 minutes
+ Task          24 received row         953 from MASTER
+task 000078 finished row 000883 in    31.29141208 minutes
+ Task          78 received row         954 from MASTER
+task 000050 finished row 000915 in    17.13966555 minutes
+ Task          50 received row         955 from MASTER
+task 000005 finished row 000745 in    95.83429992 minutes
+ Task           5 received row         956 from MASTER
+task 000016 finished row 000904 in    22.42064937 minutes
+ Task          16 received row         957 from MASTER
+task 000006 finished row 000911 in    20.96256655 minutes
+ Task           6 received row         958 from MASTER
+task 000055 finished row 000783 in    78.17067610 minutes
+ Task          55 received row         959 from MASTER
+task 000087 finished row 000746 in    99.35268408 minutes
+ Task          87 received row         960 from MASTER
+task 000019 finished row 000931 in    15.25641073 minutes
+ Task          19 received row         961 from MASTER
+task 000071 finished row 000935 in    14.72918468 minutes
+ Task          71 received row         962 from MASTER
+task 000047 finished row 000898 in    29.13709742 minutes
+ Task          47 received row         963 from MASTER
+task 000079 finished row 000918 in    21.54003001 minutes
+ Task          79 received row         964 from MASTER
+task 000023 finished row 000924 in    19.61599723 minutes
+ Task          23 received row         965 from MASTER
+task 000086 finished row 000917 in    23.30611308 minutes
+ Task          86 received row         966 from MASTER
+task 000058 finished row 000919 in    22.94877742 minutes
+ Task          58 received row         967 from MASTER
+task 000013 finished row 000921 in    22.73495160 minutes
+ Task          13 received row         968 from MASTER
+task 000088 finished row 000920 in    23.42420650 minutes
+ Task          88 received row         969 from MASTER
+task 000081 finished row 000748 in   102.98859878 minutes
+ Task          81 received row         970 from MASTER
+task 000063 finished row 000885 in    39.79036340 minutes
+ Task          63 received row         971 from MASTER
+task 000048 finished row 000819 in    68.05730575 minutes
+ Task          48 received row         972 from MASTER
+task 000007 finished row 000922 in    23.30983968 minutes
+ Task           7 received row         973 from MASTER
+task 000027 finished row 000912 in    28.05671835 minutes
+ Task          27 received row         974 from MASTER
+task 000044 finished row 000933 in    19.85962352 minutes
+ Task          44 received row         975 from MASTER
+task 000033 finished row 000913 in    27.73544415 minutes
+ Task          33 received row         976 from MASTER
+ Task          33 received exit signal iRow =          976 from MASTER
+task 000069 finished row 000817 in    71.31356940 minutes
+ Task          69 received row         976 from MASTER
+ Task          69 received exit signal iRow =          976 from MASTER
+task 000021 finished row 000937 in    19.78913685 minutes
+ Task          21 received row         976 from MASTER
+ Task          21 received exit signal iRow =          976 from MASTER
+task 000080 finished row 000932 in    21.78786507 minutes
+ Task          80 received row         976 from MASTER
+ Task          80 received exit signal iRow =          976 from MASTER
+task 000056 finished row 000949 in    15.56127788 minutes
+ Task          56 received row         976 from MASTER
+ Task          56 received exit signal iRow =          976 from MASTER
+task 000046 finished row 000936 in    22.13986917 minutes
+ Task          46 received row         976 from MASTER
+ Task          46 received exit signal iRow =          976 from MASTER
+task 000075 finished row 000938 in    20.69098368 minutes
+ Task          75 received row         976 from MASTER
+ Task          75 received exit signal iRow =          976 from MASTER
+task 000043 finished row 000951 in    17.27763127 minutes
+ Task          43 received row         976 from MASTER
+ Task          43 received exit signal iRow =          976 from MASTER
+task 000054 finished row 000886 in    44.39454846 minutes
+ Task          54 received row         976 from MASTER
+ Task          54 received exit signal iRow =          976 from MASTER
+task 000012 finished row 000899 in    38.81481155 minutes
+ Task          12 received row         976 from MASTER
+ Task          12 received exit signal iRow =          976 from MASTER
+task 000002 finished row 000946 in    19.90413612 minutes
+ Task           2 received row         976 from MASTER
+ Task           2 received exit signal iRow =          976 from MASTER
+task 000060 finished row 000929 in    26.76014697 minutes
+ Task          60 received row         976 from MASTER
+ Task          60 received exit signal iRow =          976 from MASTER
+task 000022 finished row 000818 in    76.17426565 minutes
+ Task          22 received row         976 from MASTER
+ Task          22 received exit signal iRow =          976 from MASTER
+task 000067 finished row 000947 in    20.35996377 minutes
+ Task          67 received row         976 from MASTER
+ Task          67 received exit signal iRow =          976 from MASTER
+task 000065 finished row 000934 in    26.24434365 minutes
+ Task          65 received row         976 from MASTER
+ Task          65 received exit signal iRow =          976 from MASTER
+task 000034 finished row 000939 in    23.58366277 minutes
+ Task          34 received row         976 from MASTER
+ Task          34 received exit signal iRow =          976 from MASTER
+task 000001 finished row 000950 in    20.76185298 minutes
+ Task           1 received row         976 from MASTER
+ Task           1 received exit signal iRow =          976 from MASTER
+task 000026 finished row 000948 in    21.16510957 minutes
+ Task          26 received row         976 from MASTER
+ Task          26 received exit signal iRow =          976 from MASTER
+task 000042 finished row 000797 in    86.95845705 minutes
+ Task          42 received row         976 from MASTER
+ Task          42 received exit signal iRow =          976 from MASTER
+task 000089 finished row 000941 in    24.30956177 minutes
+ Task          89 received row         976 from MASTER
+ Task          89 received exit signal iRow =          976 from MASTER
+task 000004 finished row 000928 in    30.85833307 minutes
+ Task           4 received row         976 from MASTER
+ Task           4 received exit signal iRow =          976 from MASTER
+task 000018 finished row 000942 in    24.78789287 minutes
+ Task          18 received row         976 from MASTER
+ Task          18 received exit signal iRow =          976 from MASTER
+task 000059 finished row 000788 in    93.74646312 minutes
+ Task          59 received row         976 from MASTER
+ Task          59 received exit signal iRow =          976 from MASTER
+task 000072 finished row 000811 in    83.29070327 minutes
+ Task          72 received row         976 from MASTER
+ Task          72 received exit signal iRow =          976 from MASTER
+task 000039 finished row 000930 in    31.06333365 minutes
+ Task          39 received row         976 from MASTER
+ Task          39 received exit signal iRow =          976 from MASTER
+task 000082 finished row 000791 in    94.36085378 minutes
+ Task          82 received row         976 from MASTER
+ Task          82 received exit signal iRow =          976 from MASTER
+task 000052 finished row 000916 in    38.20148946 minutes
+ Task          52 received row         976 from MASTER
+ Task          52 received exit signal iRow =          976 from MASTER
+task 000064 finished row 000802 in    92.47415377 minutes
+ Task          64 received row         976 from MASTER
+ Task          64 received exit signal iRow =          976 from MASTER
+task 000081 finished row 000970 in    17.14634330 minutes
+ Task          81 received row         976 from MASTER
+ Task          81 received exit signal iRow =          976 from MASTER
+task 000029 finished row 000779 in   102.30803815 minutes
+ Task          29 received row         976 from MASTER
+ Task          29 received exit signal iRow =          976 from MASTER
+task 000071 finished row 000962 in    20.81218440 minutes
+ Task          71 received row         976 from MASTER
+ Task          71 received exit signal iRow =          976 from MASTER
+task 000047 finished row 000963 in    20.83527333 minutes
+ Task          47 received row         976 from MASTER
+ Task          47 received exit signal iRow =          976 from MASTER
+task 000088 finished row 000969 in    18.73439504 minutes
+ Task          88 received row         976 from MASTER
+ Task          88 received exit signal iRow =          976 from MASTER
+task 000019 finished row 000961 in    21.83271168 minutes
+ Task          19 received row         976 from MASTER
+ Task          19 received exit signal iRow =          976 from MASTER
+task 000023 finished row 000965 in    22.68478935 minutes
+ Task          23 received row         976 from MASTER
+ Task          23 received exit signal iRow =          976 from MASTER
+task 000086 finished row 000966 in    21.84190668 minutes
+ Task          86 received row         976 from MASTER
+ Task          86 received exit signal iRow =          976 from MASTER
+task 000003 finished row 000806 in    96.73961413 minutes
+ Task           3 received row         976 from MASTER
+ Task           3 received exit signal iRow =          976 from MASTER
+task 000032 finished row 000857 in    75.61146525 minutes
+ Task          32 received row         976 from MASTER
+ Task          32 received exit signal iRow =          976 from MASTER
+task 000055 finished row 000959 in    28.93600007 minutes
+ Task          55 received row         976 from MASTER
+ Task          55 received exit signal iRow =          976 from MASTER
+task 000005 finished row 000956 in    31.05503463 minutes
+ Task           5 received row         976 from MASTER
+ Task           5 received exit signal iRow =          976 from MASTER
+task 000016 finished row 000957 in    31.59596542 minutes
+ Task          16 received row         976 from MASTER
+ Task          16 received exit signal iRow =          976 from MASTER
+task 000049 finished row 000808 in    99.43678180 minutes
+ Task          49 received row         976 from MASTER
+ Task          49 received exit signal iRow =          976 from MASTER
+task 000084 finished row 000887 in    64.51289821 minutes
+ Task          84 received row         976 from MASTER
+ Task          84 received exit signal iRow =          976 from MASTER
+task 000010 finished row 000809 in    99.75342408 minutes
+ Task          10 received row         976 from MASTER
+ Task          10 received exit signal iRow =          976 from MASTER
+task 000048 finished row 000972 in    28.67948117 minutes
+ Task          48 received row         976 from MASTER
+ Task          48 received exit signal iRow =          976 from MASTER
+task 000007 finished row 000973 in    29.20488565 minutes
+ Task           7 received row         976 from MASTER
+ Task           7 received exit signal iRow =          976 from MASTER
+task 000085 finished row 000822 in    97.04596483 minutes
+ Task          85 received row         976 from MASTER
+ Task          85 received exit signal iRow =          976 from MASTER
+task 000035 finished row 000914 in    56.45411280 minutes
+ Task          35 received row         976 from MASTER
+ Task          35 received exit signal iRow =          976 from MASTER
+task 000040 finished row 000810 in   105.00542855 minutes
+ Task          40 received row         976 from MASTER
+ Task          40 received exit signal iRow =          976 from MASTER
+task 000038 finished row 000865 in    85.04811283 minutes
+ Task          38 received row         976 from MASTER
+ Task          38 received exit signal iRow =          976 from MASTER
+task 000009 finished row 000825 in   102.78867628 minutes
+ Task           9 received row         976 from MASTER
+ Task           9 received exit signal iRow =          976 from MASTER
+task 000077 finished row 000896 in    72.14221933 minutes
+ Task          77 received row         976 from MASTER
+ Task          77 received exit signal iRow =          976 from MASTER
+task 000061 finished row 000873 in    87.42618455 minutes
+ Task          61 received row         976 from MASTER
+ Task          61 received exit signal iRow =          976 from MASTER
+task 000045 finished row 000850 in    95.79081673 minutes
+ Task          45 received row         976 from MASTER
+ Task          45 received exit signal iRow =          976 from MASTER
+task 000031 finished row 000837 in   102.57172673 minutes
+ Task          31 received row         976 from MASTER
+ Task          31 received exit signal iRow =          976 from MASTER
+task 000068 finished row 000893 in    78.25712246 minutes
+ Task          68 received row         976 from MASTER
+ Task          68 received exit signal iRow =          976 from MASTER
+task 000041 finished row 000851 in    98.12964672 minutes
+ Task          41 received row         976 from MASTER
+ Task          41 received exit signal iRow =          976 from MASTER
+task 000014 finished row 000879 in    89.18012168 minutes
+ Task          14 received row         976 from MASTER
+ Task          14 received exit signal iRow =          976 from MASTER
+task 000030 finished row 000854 in   100.27506875 minutes
+ Task          30 received row         976 from MASTER
+ Task          30 received exit signal iRow =          976 from MASTER
+task 000020 finished row 000852 in   101.43605709 minutes
+ Task          20 received row         976 from MASTER
+ Task          20 received exit signal iRow =          976 from MASTER
+task 000011 finished row 000853 in   101.28196360 minutes
+ Task          11 received row         976 from MASTER
+ Task          11 received exit signal iRow =          976 from MASTER
+task 000037 finished row 000878 in    92.95750020 minutes
+ Task          37 received row         976 from MASTER
+ Task          37 received exit signal iRow =          976 from MASTER
+task 000073 finished row 000867 in   100.22207000 minutes
+ Task          73 received row         976 from MASTER
+ Task          73 received exit signal iRow =          976 from MASTER
+task 000028 finished row 000868 in   100.89543485 minutes
+ Task          28 received row         976 from MASTER
+ Task          28 received exit signal iRow =          976 from MASTER
+task 000062 finished row 000869 in   100.79096868 minutes
+ Task          62 received row         976 from MASTER
+ Task          62 received exit signal iRow =          976 from MASTER
+task 000025 finished row 000880 in    95.13614357 minutes
+ Task          25 received row         976 from MASTER
+ Task          25 received exit signal iRow =          976 from MASTER
+task 000017 finished row 000890 in    89.20145309 minutes
+ Task          17 received row         976 from MASTER
+ Task          17 received exit signal iRow =          976 from MASTER
+task 000076 finished row 000944 in    71.62108761 minutes
+ Task          76 received row         976 from MASTER
+ Task          76 received exit signal iRow =          976 from MASTER
+task 000008 finished row 000882 in   100.20397260 minutes
+ Task           8 received row         976 from MASTER
+ Task           8 received exit signal iRow =          976 from MASTER
+task 000070 finished row 000925 in    83.01483927 minutes
+ Task          70 received row         976 from MASTER
+ Task          70 received exit signal iRow =          976 from MASTER
+task 000051 finished row 000895 in    95.96596003 minutes
+ Task          51 received row         976 from MASTER
+ Task          51 received exit signal iRow =          976 from MASTER
+task 000074 finished row 000897 in   100.01882292 minutes
+ Task          74 received row         976 from MASTER
+ Task          74 received exit signal iRow =          976 from MASTER
+task 000066 finished row 000940 in    83.05314707 minutes
+ Task          66 received row         976 from MASTER
+ Task          66 received exit signal iRow =          976 from MASTER
+task 000024 finished row 000953 in    77.92311370 minutes
+ Task          24 received row         976 from MASTER
+ Task          24 received exit signal iRow =          976 from MASTER
+task 000036 finished row 000927 in    91.83672220 minutes
+ Task          36 received row         976 from MASTER
+ Task          36 received exit signal iRow =          976 from MASTER
+task 000079 finished row 000964 in    75.89349422 minutes
+ Task          79 received row         976 from MASTER
+ Task          79 received exit signal iRow =          976 from MASTER
+task 000057 finished row 000926 in    99.96559757 minutes
+ Task          57 received row         976 from MASTER
+ Task          57 received exit signal iRow =          976 from MASTER
+task 000078 finished row 000954 in    90.25549667 minutes
+ Task          78 received row         976 from MASTER
+ Task          78 received exit signal iRow =          976 from MASTER
+task 000053 finished row 000952 in    93.14432528 minutes
+ Task          53 received row         976 from MASTER
+ Task          53 received exit signal iRow =          976 from MASTER
+task 000050 finished row 000955 in    95.25034780 minutes
+ Task          50 received row         976 from MASTER
+ Task          50 received exit signal iRow =          976 from MASTER
+task 000083 finished row 000943 in   101.75259478 minutes
+ Task          83 received row         976 from MASTER
+ Task          83 received exit signal iRow =          976 from MASTER
+task 000015 finished row 000945 in   103.20611618 minutes
+ Task          15 received row         976 from MASTER
+ Task          15 received exit signal iRow =          976 from MASTER
+task 000058 finished row 000967 in    93.22435865 minutes
+ Task          58 received row         976 from MASTER
+ Task          58 received exit signal iRow =          976 from MASTER
+task 000013 finished row 000968 in    93.00189535 minutes
+ Task          13 received row         976 from MASTER
+ Task          13 received exit signal iRow =          976 from MASTER
+task 000027 finished row 000974 in    92.23031652 minutes
+ Task          27 received row         976 from MASTER
+ Task          27 received exit signal iRow =          976 from MASTER
+task 000006 finished row 000958 in   100.25094659 minutes
+ Task           6 received row         976 from MASTER
+ Task           6 received exit signal iRow =          976 from MASTER
+task 000063 finished row 000971 in    97.79615922 minutes
+ Task          63 received row         976 from MASTER
+ Task          63 received exit signal iRow =          976 from MASTER
+task 000087 finished row 000960 in   103.27950668 minutes
+ Task          87 received row         976 from MASTER
+ Task          87 received exit signal iRow =          976 from MASTER
+task 000044 finished row 000975 in   102.96651224 minutes
+ Task          44 received row         976 from MASTER
+ Task          44 received exit signal iRow =          976 from MASTER
+Wed Jan 30 09:27:50 EST 2019
+JobId=8290915 JobName=UNE0-hb0-O
+   UserId=caoyuche(762339) GroupId=cse491_fs15_s2(2364) MCS_label=N/A
+   Priority=7682 Nice=0 Account=ptg QOS=ptg
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=09:33:28 TimeLimit=23:59:00 TimeMin=N/A
+   SubmitTime=2019-01-29T23:49:54 EligibleTime=2019-01-29T23:49:54
+   AccrueTime=2019-01-29T23:49:54
+   StartTime=2019-01-29T23:54:22 EndTime=2019-01-30T23:53:22 Deadline=N/A
+   PreemptTime=None SuspendTime=None SecsPreSuspend=0
+   LastSchedEval=2019-01-29T23:54:22
+   Partition=ptg-16 AllocNode:Sid=dev-intel16:29064
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=lac-[117-122]
+   BatchHost=lac-117
+   NumNodes=6 NumCPUs=90 NumTasks=90 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=90,mem=120G,node=6,billing=18677
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=20G MinTmpDiskNode=0
+   Features=[intel11|intel14|intel16|intel18] DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/UNE1_hbzero/Oxy/mass_table.msub
+   WorkDir=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/UNE1_hbzero/Oxy
+   Comment=stdout=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/UNE1_hbzero/Oxy/mass_table.msub.o%A 
+   StdErr=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/UNE1_hbzero/Oxy/mass_table.msub.e8290915
+   StdIn=/dev/null
+   StdOut=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/UNE1_hbzero/Oxy/mass_table.msub.o8290915
+   Power=
+

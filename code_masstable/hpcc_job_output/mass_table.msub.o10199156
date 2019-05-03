@@ -1,0 +1,63 @@
+Wed Feb 20 13:10:33 EST 2019
+ Total row number:       15900
+ Task           1 received row       13816 from MASTER
+ Task           3 received row       14813 from MASTER
+ Task           4 received row       14854 from MASTER
+ Task           2 received row       13839 from MASTER
+task 000003 finished row 014813 in    28.49288520 minutes
+ Task           3 received row       15092 from MASTER
+task 000001 finished row 013816 in    29.29907413 minutes
+ Task           1 received row       15522 from MASTER
+task 000004 finished row 014854 in    29.92088518 minutes
+ Task           4 received row       15532 from MASTER
+task 000004 finished row 015532 in     8.18301806 minutes
+ Task           4 received row       15640 from MASTER
+task 000004 finished row 015640 in    36.83460858 minutes
+ Task           4 received row       15701 from MASTER
+task 000003 finished row 015092 in    52.41892196 minutes
+ Task           3 received row       15707 from MASTER
+task 000004 finished row 015701 in    32.22393623 minutes
+ Task           4 received row          -1 from MASTER
+ Task           4 received exit signal iRow =           -1 from MASTER
+task 000002 finished row 013839 in   115.66948500 minutes
+ Task           2 received row          -1 from MASTER
+ Task           2 received exit signal iRow =           -1 from MASTER
+task 000003 finished row 015707 in    37.30541957 minutes
+ Task           3 received row          -1 from MASTER
+ Task           3 received exit signal iRow =           -1 from MASTER
+task 000001 finished row 015522 in   126.26107446 minutes
+ Task           1 received row          -1 from MASTER
+ Task           1 received exit signal iRow =           -1 from MASTER
+ 
+ HFBTHO_SOLVER ended without errors
+ 
+Wed Feb 20 15:46:10 EST 2019
+JobId=10199156 JobName=SKP-10-2
+   UserId=caoyuche(762339) GroupId=cse491_fs15_s2(2364) MCS_label=N/A
+   Priority=2162 Nice=0 Account=ptg QOS=ptg
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=02:35:38 TimeLimit=05:00:00 TimeMin=N/A
+   SubmitTime=2019-02-20T13:00:28 EligibleTime=2019-02-20T13:00:28
+   AccrueTime=2019-02-20T13:00:28
+   StartTime=2019-02-20T13:10:32 EndTime=2019-02-20T18:10:32 Deadline=N/A
+   PreemptTime=None SuspendTime=None SecsPreSuspend=0
+   LastSchedEval=2019-02-20T13:10:32
+   Partition=ptg-16 AllocNode:Sid=dev-intel16:24119
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=lac-188
+   BatchHost=lac-188
+   NumNodes=1 NumCPUs=5 NumTasks=5 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=5,mem=10G,node=1,billing=1556
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=10G MinTmpDiskNode=0
+   Features=[intel14|intel16|intel18] DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/SKP/block10/mass_table.msub
+   WorkDir=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/SKP/block10
+   Comment=stdout=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/SKP/block10/mass_table.msub.o%A 
+   StdErr=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/SKP/block10/mass_table.msub.e10199156
+   StdIn=/dev/null
+   StdOut=/mnt/home/caoyuche/hfbthoTest/src/hfbtho/Octupole_Table/SKP/block10/mass_table.msub.o10199156
+   Power=
+
