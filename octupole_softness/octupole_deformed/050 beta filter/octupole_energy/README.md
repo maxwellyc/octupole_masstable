@@ -1,4 +1,4 @@
-0.5 set contains complementary set of 0.35 cutoff set:
+0.5-cutoff set contains additional nucleus compared to 0.35-cutoff set:
 
 In 0.35 set, the octupole masstable's ground state is determined by the lowest energy among all initial configurations, with an additional condition that the resulting beta2 and beta3 is <= 0.35.
 Later on, I discovered the 0.35 cut is removing a lot of valid minimum of beta2 between 0.35 and 0.4/0.5. So I decided to increase the cutoff to 0.5 and investigate the octupole energy/softness.
