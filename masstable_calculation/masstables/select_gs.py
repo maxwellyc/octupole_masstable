@@ -6,7 +6,7 @@ def read_file(f_dir,f_name):
     l1 = f1.readlines()
     return l1
 
-def select_gs(edf,cutoff=40):
+def select_gs(edf,cutoff=50):
     #edf = input("SELECT::EDF(default SLY4 -OR- SKMS, SKP, SV-MIN, UNEDF0~2):")
     if len(edf) == 0 : edf = "SLY4"
     f_dir = "EDF_extracted/combined/"
@@ -132,7 +132,7 @@ def compare_old():
     outputFile.close()
 
 for edf in ["SLY4","SKMS","SKP","SV-MIN","UNEDF0","UNEDF1","UNEDF2"]:
-    select_gs(edf,45)
+    select_gs(edf,50)
 for edf in ["SLY4","SKMS","SKP","SV-MIN","UNEDF0","UNEDF1","UNEDF2"]:
-    reduce_var(edf,45)
+    reduce_var(edf,50)
 #compare_old()
