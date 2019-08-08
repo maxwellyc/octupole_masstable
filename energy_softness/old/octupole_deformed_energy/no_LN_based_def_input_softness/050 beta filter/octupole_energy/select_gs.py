@@ -45,7 +45,7 @@ def reduce_var(edf):
             i += 1
             default_label = line
             outputStr = "Z".ljust(7)+"N".ljust(7)+"A".ljust(7)+"Binding_Energy_(MeV)".ljust(24)+\
-            "Q20_total (b)".ljust(15)+"beta3_total".ljust(15)+"fileID".ljust(10)+\
+            "beta2_total".ljust(15)+"Q20_total (b)".ljust(15)+"beta3_total".ljust(15)+"fileID".ljust(10)+\
             "Convergence".ljust(15)+"\n"
         elif i > 0:
             ss = line.split()
@@ -62,7 +62,9 @@ def reduce_var(edf):
             beta3_N=round((Q3_N/N/r03)*1000*c3,6)
             beta3_T=round((Q3_T/A/r03)*1000*c3,6)
             if convergence != "YES": uc+=1; print (Z,N,"unconverged",uc)
-            outputStr += str(Z).ljust(7)+str(N).ljust(7)+str(A).ljust(7)+str(bind_E).ljust(24)+str(Q2_T).ljust(15)+str(beta3_T).ljust(15)+f_id.ljust(10)+convergence.ljust(15)+"\n"
+            outputStr += str(Z).ljust(7)+str(N).ljust(7)+str(A).ljust(7)+str(bind_E).ljust(24)+\
+            str(beta2_T).ljust(15)+str(Q2_T).ljust(15)+str(beta3_T).ljust(15)+f_id.ljust(10)+\
+            convergence.ljust(15)+"\n"
     outputFile.write(outputStr)
     outputFile.close()
 
