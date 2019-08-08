@@ -24,8 +24,9 @@ def softness(edf):
             if ss[-1] != "YES": print (f"Check error: {line}")
             Z,N,BE,beta2 = int(ss[0]),int(ss[1]),float(ss[3]),float(ss[4])
             # if 0.35 set also has this nuclei
-            if (Z,N) in d_control and BE < d_control[(Z,N)][0]:
-                d_control[(Z,N)] = (BE,beta2)
+            if (Z,N) in d_control:
+                if BE < d_control[(Z,N)][0]:
+                    d_control[(Z,N)] = (BE,beta2)
             else:
                 d_control[(Z,N)] = (BE,beta2)
 
@@ -53,12 +54,12 @@ def softness(edf):
             str(d_gs[k][0]).ljust(20)+str(d_control[k][0]).ljust(20)+\
             str(d_gs[k][2]).ljust(15)+str(d_gs[k][1]).ljust(15)+str(d_control[k][1]).ljust(15)+\
             str(round(d_gs[k][1]-d_control[k][1],6)).ljust(15)+"\n"
-            if Z in [54,56,58,86,88,90,92,94] and abs(round(d_gs[k][1]-d_control[k][1],6)) >= 0.01:
-                print (edf,"\t",str(k[0]).ljust(7)+str(k[1]).ljust(7)+str(k[0]+k[1]).ljust(7)+\
-            str(round(d_gs[k][0]-d_control[k][0],6)).ljust(20)+\
-            str(d_gs[k][0]).ljust(20)+str(d_control[k][0]).ljust(20)+\
-            str(d_gs[k][2]).ljust(15)+str(d_gs[k][1]).ljust(15)+str(d_control[k][1]).ljust(15)+\
-            str(round(d_gs[k][1]-d_control[k][1],6)).ljust(15))
+            # if Z in [54,56,58,86,88,90,92,94] and abs(round(d_gs[k][1]-d_control[k][1],6)) >= 0.01:
+            #     print (edf,"\t",str(k[0]).ljust(7)+str(k[1]).ljust(7)+str(k[0]+k[1]).ljust(7)+\
+            # str(round(d_gs[k][0]-d_control[k][0],6)).ljust(20)+\
+            # str(d_gs[k][0]).ljust(20)+str(d_control[k][0]).ljust(20)+\
+            # str(d_gs[k][2]).ljust(15)+str(d_gs[k][1]).ljust(15)+str(d_control[k][1]).ljust(15)+\
+            # str(round(d_gs[k][1]-d_control[k][1],6)).ljust(15))
             #if d_gs[k][0]-d_control[k][0] > 0 and (180<=N<=210 or 120<=N<=140):
                 #print (Z,N,d_gs[k][0]-d_control[k][0])
 
