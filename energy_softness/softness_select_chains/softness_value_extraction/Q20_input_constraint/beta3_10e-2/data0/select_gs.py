@@ -40,7 +40,7 @@ def select_gs(edf,cutoff=50):
 def reduce_var(edf,cutoff=50):
     #edf = input("REDUCE::EDF(default SLY4 -OR- SKMS, SKP, SV-MIN, UNEDF0~2):")
     if len(edf) == 0 : edf = "SLY4"
-    input_f1 = "raw_data/"+edf+"_small_beta3_Ba_chain.dat"
+    input_f1 = "raw_data/"+"HFBTHOv300_"+edf+"_All_Data_20_shells_z56to56-masstable.dat"
     output_f2 = edf+"_small_beta3_Ba_chain_reduced.dat"
     outputFile = open(output_f2,"w")
     l2 = read_file("",input_f1)

@@ -39,40 +39,44 @@ def softness_plot(edf,zz=56):
     # quadrupole ground state binding energy for non-octupole deformed nuclei
     l1 = open("data1/"+edf+"_no_oct_quad_gs_reduced.dat",'r').readlines()[1:]
     # quadrupole ground state binding energy for octupole deformed nuclei
-    l2 = open("data2/"+edf+"_oct_quad_gs_reduced.dat",'r').readlines()[1:]
+    l2 = open("data2/"+edf+"_octupole_energy_050.dat",'r').readlines()[1:]
 
     d0 = extract_t1(l0)
     d1 = extract_t1(l1)
     d2 = extract_t2(l2)
     soft = {}
     for Z,N in d1:
-        if Z == zz:
+        if Z == zz and (Z,N) in d0:
             soft[(Z,N)] = -d1[(Z,N)][0] + d0[(Z,N)][0]
             #print (Z,N, d1[(Z,N)][0],  d0[(Z,N)][0], "no-oct")
     for Z,N in d2:
-        if Z == zz:
+        if Z == zz and (Z,N) in d0:
             soft[(Z,N)] = -d2[(Z,N)][0] + d0[(Z,N)][0]
             #print (Z,N, d2[(Z,N)][0],  d0[(Z,N)][0], "oct")
     xx, yy = [], []
     xx_oct, yy_oct = [], []
     for Z,N in sorted(soft.keys()):
-        xx.append(N)
-        yy.append(soft[(Z,N)])
-        if (Z,N) in d2:
-            xx_oct.append(N)
-            yy_oct.append(soft[(Z,N)])
+        # dripline cut
+        if 58 <= N <= 126:
+            xx.append(Z+N)
+            yy.append(soft[(Z,N)])
+            if (Z,N) in d2:
+                xx_oct.append(Z+N)
+                yy_oct.append(soft[(Z,N)])
+
     print (edf,xx_oct,yy_oct)
-    plt.xticks(range(50,140,6))
+    plt.xticks(range(114,187,6))
+    plt.ylim([-0.03,0.11])
     plt.grid(axis='x',alpha=0.5)
     plt.axhline(alpha=0.5,lw=0.5,ls=':')
     plt.plot(xx,yy,'bo-',label='not octupole-deformed',ms=5,zorder=1)
     plt.scatter(xx_oct,yy_oct,c='r',s=30,zorder=2,label='octupole-deformed')
     plt.legend()
-    plt.title(edf)
-    plt.xlabel("N")
-    plt.ylabel("Softness (MeV)")
-    plt.savefig(edf+"_softness.pdf",bbox_inches='tight')
+    plt.title("Ba chain "+edf+"  beta3 = 0.001")
+    plt.xlabel("A")
+    plt.ylabel(r"$BE_{\beta3=0.001} - BE_{\beta3=0}$"+" (MeV)")
+    plt.savefig("softness_plots/"+edf+"_softness.pdf",bbox_inches='tight')
 
 
-for edf in ['UNEDF0']:#["SLY4","SV-MIN","UNEDF0","UNEDF1","UNEDF2"]:
+for edf in ["SLY4","SV-MIN","UNEDF0","UNEDF1","UNEDF2"]:
     softness_plot(edf,56)
