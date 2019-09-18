@@ -7,6 +7,9 @@
 
 # The input files are assumed to have the following form:  thoout_000001.dat
 
+# For HFBTHOv300 odd-even nuclei non-blocking kickoff calculation, sometimes (unknown pattern as of this date) the calculation
+# doesn't terminate and will repeat itself again and again.
+
 # Maxwell Cao 09/18/2019
 
 import math
@@ -40,7 +43,7 @@ def ElementName(Z):
 #=====================================================================================================================
 #This function takes all of the HFBTHOv300 output files from 'masstable' mode and puts the relevant data into one file
 #=====================================================================================================================
-def Read_HFBTHO_Masstable(thoout,Output_Dict, Incomp_No, Incomp_Other):
+def Read_HFBTHO_Masstable(thoout,Output_Dict, Incomp_No):
     #==============================================================================================================
     #Goes through every available "thoout" output file, extracts useful data, and puts it onto the list Output_List
     #==============================================================================================================
@@ -50,7 +53,6 @@ def Read_HFBTHO_Masstable(thoout,Output_Dict, Incomp_No, Incomp_Other):
     file_ID = tho_name
 
     # Initialize variables
-    convergence = "YES"; cpu_count=0
     N, Z, BE = 9999,9999,9999
     pairing_gap_N, pairing_gap_P = 0,0
     rms_radius_N, rms_radius_P, rms_radius_T = 0,0,0
@@ -58,9 +60,19 @@ def Read_HFBTHO_Masstable(thoout,Output_Dict, Incomp_No, Incomp_Other):
     quad_moment_Q2_N, quad_moment_Q2_P, quad_moment_Q2_T = 0,0,0
     oct_moment_Q3_N, oct_moment_Q3_P, oct_moment_Q3_T = 0,0,0
 
+    # Need to refresh count when encountering "HARTREE-FOCK-BOGOLIUBOV" because this
+    # means a new calculation was initialized
+    # In each new calculation, the convergence is reached when one "CPU" keyword is seen
+    # followed by "iteration converged"
+    convergence = "NO"; cpu_count = 0
+    iter_converged = 0
+
     for line in lines:
-        if "iterations limit interrupt after1001" in line: convergence = "NO"
-        if "CPU" in line: cpu_count += 1
+        if "HARTREE-FOCK-BOGOLIUBOV" in line:
+            cpu_count = 0
+        elif "CPU" in line:
+            cpu_count = 1
+        if cpu_count == 1 and "converged" in line: convergence = "YES"
         ss = line.split()
         try:
             #-----------------------------------------
@@ -110,20 +122,34 @@ def Read_HFBTHO_Masstable(thoout,Output_Dict, Incomp_No, Incomp_Other):
             #---------------------------------------------------------
             #No useful pieces of information, moves onto the next line
             #---------------------------------------------------------
+            elif "Blocking candidates" in line and convergence == "YES":
+                break
             else:
                 continue
         except IndexError:
             continue
     if Z > 200: return
-    if cpu_count != 2: convergence = "***"
     if (Z,N) not in Output_Dict: Output_Dict[(Z,N)] = []
     Output_Dict[(Z,N)].append((Z,N,BE,quad_def_beta2_P,quad_def_beta2_N,quad_def_beta2_T,quad_moment_Q2_P,quad_moment_Q2_N,quad_moment_Q2_T,oct_moment_Q3_P,oct_moment_Q3_N,oct_moment_Q3_T,rms_radius_P,
                       rms_radius_N,rms_radius_T,charge_radius,pairing_gap_N,pairing_gap_P,file_ID,convergence))
     if convergence == "NO":
         Incomp_No.append((Z,N,file_ID,"No convergence"))
-    if convergence == "***":
-        Incomp_Other.append((Z,N,file_ID,"No convergence other"))
     return
+
+def read_entry(entry):
+    Z, N, BE = entry[0], entry[1], entry[2]
+    file_ID, convergence = entry[18], entry[19]
+    quad_def_beta2_P, quad_def_beta2_N, quad_def_beta2_T = entry[3],entry[4],entry[5]
+    quad_moment_Q2_P, quad_moment_Q2_N, quad_moment_Q2_T = entry[6],entry[7],entry[8]
+    oct_moment_Q3_P,  oct_moment_Q3_N,  oct_moment_Q3_T  = entry[9],entry[10],entry[11]
+    rms_radius_P,     rms_radius_N,     rms_radius_T     = entry[12],entry[13],entry[14]
+    charge_radius,    pairing_gap_N,    pairing_gap_P    = entry[15],entry[16],entry[17]
+    return '{:6} {:6} {:9} {:23} {:20} {:22} {:20} {:26} {:30} {:27} {:31} {:34} {:34} {:23} {:21} {:20} {:22} {:22} {:13} {:20} {:6}\n'.format(
+        str(Z), str(N), str(Z+N), str(BE).rjust(13, ), str(quad_def_beta2_P).rjust(10, ), str(quad_def_beta2_N).rjust(10, ), str(quad_def_beta2_T).rjust(10, ),
+        str(quad_moment_Q2_P).rjust(12, ), str(quad_moment_Q2_N).rjust(12, ), str(quad_moment_Q2_T).rjust(12, ), str(oct_moment_Q3_P).rjust(12, ),
+        str(oct_moment_Q3_N).rjust(12, ), str(oct_moment_Q3_T).rjust(12, ), str(pairing_gap_P).rjust(10, ), str(pairing_gap_N).rjust(10, ),
+        str(rms_radius_P).rjust(10, ), str(rms_radius_N).rjust(10, ), str(rms_radius_T).rjust(10, ), str(charge_radius).rjust(10, ), str(file_ID).rjust(12, ), str(convergence).rjust(6,))
+
 #===========
 #User Inputs
 #===========
@@ -134,7 +160,7 @@ for functional in EDFs:
     # Locate block directories
     os.system("shopt -s extglob\n"+"rm HFBTHOv300_"+functional+"*.dat")
     os.chdir(functional)
-    Output_Dict, Incomp_No, Incomp_Other = {}, [], []  # Dict for output data, incomplete list
+    Output_Dict, Incomp_No = {}, []  # Dict for output data, incomplete list
 
     #----------------------------------------------------------
     #Writes and properly formats the titles for the output file
@@ -151,37 +177,34 @@ for functional in EDFs:
         if "thoout" in fn and ".dat" in fn:
             tho_list.append(fn)
     for ind,thoout in enumerate(tho_list):
-        Read_HFBTHO_Masstable(thoout,Output_Dict, Incomp_No, Incomp_Other)
-    print (functional,"\tFile Count: ", len(tho_list))
+        Read_HFBTHO_Masstable(thoout,Output_Dict, Incomp_No)
     os.chdir("..")
 
     # All data of a single EDF should be stored in Output_Dict at this point, now we sort in order of Z,N,BE
     for key in sorted(Output_Dict):
+        # Sort Z, N value of nucleus
         nuc_all = Output_Dict[key]
-        # Sort on binding energy
-        for entry in sorted(nuc_all, key = lambda x:x[2]):
-
-            Z, N, BE = entry[0], entry[1], entry[2]
-            file_ID, convergence = entry[18], entry[19]
-            quad_def_beta2_P, quad_def_beta2_N, quad_def_beta2_T = entry[3],entry[4],entry[5]
-            quad_moment_Q2_P, quad_moment_Q2_N, quad_moment_Q2_T = entry[6],entry[7],entry[8]
-            oct_moment_Q3_P,  oct_moment_Q3_N,  oct_moment_Q3_T  = entry[9],entry[10],entry[11]
-            rms_radius_P,     rms_radius_N,     rms_radius_T     = entry[12],entry[13],entry[14]
-            charge_radius,    pairing_gap_N,    pairing_gap_P    = entry[15],entry[16],entry[17]
-
-            all_data_str += '{:6} {:6} {:9} {:23} {:20} {:22} {:20} {:26} {:30} {:27} {:31} {:34} {:34} {:23} {:21} {:20} {:22} {:22} {:13} {:20} {:6}\n'.format(
-                str(Z), str(N), str(Z+N), str(BE).rjust(13, ), str(quad_def_beta2_P).rjust(10, ), str(quad_def_beta2_N).rjust(10, ), str(quad_def_beta2_T).rjust(10, ),
-                str(quad_moment_Q2_P).rjust(12, ), str(quad_moment_Q2_N).rjust(12, ), str(quad_moment_Q2_T).rjust(12, ), str(oct_moment_Q3_P).rjust(12, ),
-                str(oct_moment_Q3_N).rjust(12, ), str(oct_moment_Q3_T).rjust(12, ), str(pairing_gap_P).rjust(10, ), str(pairing_gap_N).rjust(10, ),
-                str(rms_radius_P).rjust(10, ), str(rms_radius_N).rjust(10, ), str(rms_radius_T).rjust(10, ), str(charge_radius).rjust(10, ), str(file_ID).rjust(12, ), str(convergence).rjust(6,))
+        # Split into converged and unconverged and then sort on binding energy:
+        nuc_conv, nuc_unconv = [], []
+        for entry in nuc_all:
+            if entry[-1] == "YES":
+                nuc_conv.append(entry)
+            elif entry[-1] == "NO":
+                nuc_unconv.append(entry)
+        nuc_conv.sort(key = lambda x:x[2])
+        nuc_unconv.sort(key = lambda x:x[2])
+        for entry in nuc_conv:
+            all_data_str += read_entry(entry)
+        for entry in nuc_unconv:
+            all_data_str += read_entry(entry)
 
     Data_File_Out = "HFBTHOv300_"+functional+"_All_Data_"+str(number_of_shells)+"_shells_no_LN_deformation-masstable.dat"  #Output file for Read_HFBTHO_Masstable_Output
     all_data_output = open(Data_File_Out, "w")    #Output file for all data
     all_data_output.write(all_data_str)
     all_data_output.close()
-    # print ("Incomplete:\n")
+    print (functional,"\tFile Count: ", len(tho_list),', unconverged: ',len(Incomp_No))
+    print ("BE_converged - BE_unconverged (MeV):", round(nuc_conv[0][2] - nuc_unconv[0][2],6))
+    print ("========================================")
+
     # for inp in Incomp_No:
-    #     print (inp[0],"\t",inp[1],"\t",inp[2])
-    # print ("Incomplete Other:\n")
-    # for inp in Incomp_Other:
-    #     print (inp[0],"\t",inp[1],"\t",inp[2])
+    #     print (inp[0],"\t",inp[1],"\t",inp[2],"\t unconverged\t",functional)
