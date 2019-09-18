@@ -20,250 +20,23 @@ def ElementName(Z):
   #=======================
   #Labels for each element
   #=======================
-  if (Z == 1):
-    elementlabel = 'H'
-  elif (Z == 2):
-    elementlabel = 'He'
-  elif (Z == 3):
-    elementlabel = 'Li'
-  elif (Z == 4):
-    elementlabel = 'Be'
-  elif (Z == 5):
-    elementlabel = 'B'
-  elif (Z == 6):
-    elementlabel = 'C'
-  elif (Z == 7):
-    elementlabel = 'N'
-  elif (Z == 8):
-    elementlabel = 'O'
-  elif (Z == 9):
-    elementlabel = 'F'
-  elif (Z == 10):
-    elementlabel = 'Ne'
-  elif (Z == 11):
-    elementlabel = 'Na'
-  elif (Z == 12):
-    elementlabel = 'Mg'
-  elif (Z == 13):
-    elementlabel = 'Al'
-  elif (Z == 14):
-    elementlabel = 'Si'
-  elif (Z == 15):
-    elementlabel = 'P'
-  elif (Z == 16):
-    elementlabel = 'S'
-  elif (Z == 17):
-    elementlabel = 'Cl'
-  elif (Z == 18):
-    elementlabel = 'Ar'
-  elif (Z == 19):
-    elementlabel = 'K'
-  elif (Z == 20):
-    elementlabel = 'Ca'
-  elif (Z == 21):
-    elementlabel = 'Sc'
-  elif (Z == 22):
-    elementlabel = 'Ti'
-  elif (Z == 23):
-    elementlabel = 'V'
-  elif (Z == 24):
-    elementlabel = 'Cr'
-  elif (Z == 25):
-    elementlabel = 'Mn'
-  elif (Z == 26):
-    elementlabel = 'Fe'
-  elif (Z == 27):
-    elementlabel = 'Co'
-  elif (Z == 28):
-    elementlabel = 'Ni'
-  elif (Z == 29):
-    elementlabel = 'Cu'
-  elif (Z == 30):
-    elementlabel = 'Zn'
-  elif (Z == 31):
-    elementlabel = 'Ga'
-  elif (Z == 32):
-    elementlabel = 'Ge'
-  elif (Z == 33):
-    elementlabel = 'As'
-  elif (Z == 34):
-    elementlabel = 'Se'
-  elif (Z == 35):
-    elementlabel = 'Br'
-  elif (Z == 36):
-    elementlabel = 'Kr'
-  elif (Z == 37):
-    elementlabel = 'Rb'
-  elif (Z == 38):
-    elementlabel = 'Sr'
-  elif (Z == 39):
-    elementlabel = 'Y'
-  elif (Z == 40):
-    elementlabel = 'Zr'
-  elif (Z == 41):
-    elementlabel = 'Nb'
-  elif (Z == 42):
-    elementlabel = 'Mo'
-  elif (Z == 43):
-    elementlabel = 'Tc'
-  elif (Z == 44):
-    elementlabel = 'Ru'
-  elif (Z == 45):
-    elementlabel = 'Rh'
-  elif (Z == 46):
-    elementlabel = 'Pd'
-  elif (Z == 47):
-    elementlabel = 'Ag'
-  elif (Z == 48):
-    elementlabel = 'Cd'
-  elif (Z == 49):
-    elementlabel = 'In'
-  elif (Z == 50):
-    elementlabel = 'Sn'
-  elif (Z == 51):
-    elementlabel = 'Sb'
-  elif (Z == 52):
-    elementlabel = 'Te'
-  elif (Z == 53):
-    elementlabel = 'I'
-  elif (Z == 54):
-    elementlabel = 'Xe'
-  elif (Z == 55):
-    elementlabel = 'Cs'
-  elif (Z == 56):
-    elementlabel = 'Ba'
-  elif (Z == 57):
-    elementlabel = 'La'
-  elif (Z == 58):
-    elementlabel = 'Ce'
-  elif (Z == 59):
-    elementlabel = 'Pr'
-  elif (Z == 60):
-    elementlabel = 'Nd'
-  elif (Z == 61):
-    elementlabel = 'Pm'
-  elif (Z == 62):
-    elementlabel = 'Sm'
-  elif (Z == 63):
-    elementlabel = 'Eu'
-  elif (Z == 64):
-    elementlabel = 'Gd'
-  elif (Z == 65):
-    elementlabel = 'Tb'
-  elif (Z == 66):
-    elementlabel = 'Dy'
-  elif (Z == 67):
-    elementlabel = 'Ho'
-  elif (Z == 68):
-    elementlabel = 'Er'
-  elif (Z == 69):
-    elementlabel = 'Tm'
-  elif (Z == 70):
-    elementlabel = 'Yb'
-  elif (Z == 71):
-    elementlabel = 'Lu'
-  elif (Z == 72):
-    elementlabel = 'Hf'
-  elif (Z == 73):
-    elementlabel = 'Ta'
-  elif (Z == 74):
-    elementlabel = 'W'
-  elif (Z == 75):
-    elementlabel = 'Re'
-  elif (Z == 76):
-    elementlabel = 'Os'
-  elif (Z == 77):
-    elementlabel = 'Ir'
-  elif (Z == 78):
-    elementlabel = 'Pt'
-  elif (Z == 79):
-    elementlabel = 'Au'
-  elif (Z == 80):
-    elementlabel = 'Hg'
-  elif (Z == 81):
-    elementlabel = 'Tl'
-  elif (Z == 82):
-    elementlabel = 'Pb'
-  elif (Z == 83):
-    elementlabel = 'Bi'
-  elif (Z == 84):
-    elementlabel = 'Po'
-  elif (Z == 85):
-    elementlabel = 'At'
-  elif (Z == 86):
-    elementlabel = 'Rn'
-  elif (Z == 87):
-    elementlabel = 'Fr'
-  elif (Z == 88):
-    elementlabel = 'Ra'
-  elif (Z == 89):
-    elementlabel = 'Ac'
-  elif (Z == 90):
-    elementlabel = 'Th'
-  elif (Z == 91):
-    elementlabel = 'Pa'
-  elif (Z == 92):
-    elementlabel = 'U'
-  elif (Z == 93):
-    elementlabel = 'Np'
-  elif (Z == 94):
-    elementlabel = 'Pu'
-  elif (Z == 95):
-    elementlabel = 'Am'
-  elif (Z == 96):
-    elementlabel = 'Cm'
-  elif (Z == 97):
-    elementlabel = 'Bk'
-  elif (Z == 98):
-    elementlabel = 'Cf'
-  elif (Z == 99):
-    elementlabel = 'Es'
-  elif (Z == 100):
-    elementlabel = 'Fm'
-  elif (Z == 101):
-    elementlabel = 'Md'
-  elif (Z == 102):
-    elementlabel = 'No'
-  elif (Z == 103):
-    elementlabel = 'Lr'
-  elif (Z == 104):
-    elementlabel = 'Rf'
-  elif (Z == 105):
-    elementlabel = 'Db'
-  elif (Z == 106):
-    elementlabel = 'Sg'
-  elif (Z == 107):
-    elementlabel = 'Bh'
-  elif (Z == 108):
-    elementlabel = 'Hs'
-  elif (Z == 109):
-    elementlabel = 'Mt'
-  elif (Z == 110):
-    elementlabel = 'Ds'
-  elif (Z == 111):
-    elementlabel = 'Rg'
-  elif (Z == 112):
-    elementlabel = 'Cn'
-  elif (Z == 113):
-    elementlabel = 'Nh'
-  elif (Z == 114):
-    elementlabel = 'Fl'
-  elif (Z == 115):
-    elementlabel = 'Mc'
-  elif (Z == 116):
-    elementlabel = 'Lv'
-  elif (Z == 117):
-    elementlabel = 'Ts'
-  elif (Z == 118):
-    elementlabel = 'Og'
-  elif (Z == 119):
-    elementlabel = 'Uue'
-  elif (Z == 120):
-    elementlabel = 'Ubn'
-  #========================
-  #Outputs the element name
-  #========================
-  return elementlabel
+               #  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,  8 ,  9 , 10 ,
+  elementList = [
+                 'H','He','Li','Be', 'B', 'C', 'N', 'O', 'F','Ne',\
+                'Na','Mg','Al','Si', 'P', 'S','Cl','Ar', 'K','Ca',\
+                'Sc','Ti', 'V','Cr','Mn','Fe','Co','Ni','Cu','Zn',\
+                'Ga','Ge','As','Se','Br','Kr','Rb','Sr', 'Y','Zr',\
+                'Nb','Mo','Tc','Ru','Rh','Pd','Ag','Cd','In','Sn',\
+                'Sb','Te', 'I','Xe','Cs','Ba','La','Ce','Pr','Nd',\
+                'Pm','Sm','Eu','Gd','Tb','Dy','Ho','Er','Tm','Yb',\
+                'Lu','Hf','Ta', 'W','Re','Os','Ir','Pt','Au','Hg',\
+                'Tl','Pb','Bi','Po','At','Rn','Fr','Ra','Ac','Th',\
+                'Pa', 'U','Np','Pu','Am','Cm','Bk','Cf','Es','Fm',\
+                'Md','No','Lr','Rf','Db','Sg','Bh','Hs','Mt','Ds',\
+                'Rg','Cn','Nh','Fl','Mc','Lv','Ts','Og','Uue','Ubn'
+                ]
+  elementLabel = {ind+1:label for ind,label in enumerate(elementList)}
+  return elementLabel[Z]
 #=====================================================================================================================
 #This function takes all of the HFBTHOv300 output files from 'masstable' mode and puts the relevant data into one file
 #=====================================================================================================================
@@ -271,7 +44,7 @@ def Read_HFBTHO_Masstable(thoout,bl,Output_Dict, Incomp_No, Incomp_Other):
     #==============================================================================================================
     #Goes through every available "thoout" output file, extracts useful data, and puts it onto the list Output_List
     #==============================================================================================================
-    lines = open(thoout,'r').readlines()
+    lines = open(thoout,encoding="ISO-8859-1").readlines()
     tho_name = thoout.split(".dat")[0]
     tho_name = tho_name.split("_")[-1]
     file_ID = bl + "-" + tho_name
