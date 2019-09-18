@@ -202,8 +202,9 @@ for functional in EDFs:
     all_data_output = open(Data_File_Out, "w")    #Output file for all data
     all_data_output.write(all_data_str)
     all_data_output.close()
-    print (functional,"\tFile Count: ", len(tho_list),', unconverged: ',len(Incomp_No))
+    print ("\n",functional,"\tFile Count: ", len(tho_list),', unconverged: ',len(Incomp_No))
     print ("BE_converged - BE_unconverged (MeV):", round(nuc_conv[0][2] - nuc_unconv[0][2],6))
+    print ("Converged ground state file ID: ",nuc_conv[0][-2])
     print ("========================================")
 
     # for inp in Incomp_No:
