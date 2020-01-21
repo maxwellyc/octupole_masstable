@@ -12,12 +12,12 @@ def plot_softness():
     edf = ["UNEDF0", "UNEDF1","UNEDF2","SV-MIN","SLY4", "SKMS", "SKP"]
     colors  = ['r','b','k','y','m','c','g']
     markers = ['s','*','o','^','d','+','x']
-    
-    
+
+
     f,l,E_oct,f_gs,gs_def,l_gs = {},{},{},{},{},{}
     for e in edf:
-        f[e] = open("results/"+e+"_octupole_energy.dat","r")
-        f_gs[e] = open("octupole_gs_reduced/"+e+"_gs_reduced.dat","r")
+        f[e] = open("octupole_energy/"+e+"_octupole_energy_50.dat","r")
+        f_gs[e] = open("octupole_gs_reduced/"+e+"_reduced_beta2_3_050.dat","r")
         l[e] = f[e].readlines()
         l_gs[e] = f_gs[e].readlines()
         count = 0; E_oct[e] = {}
@@ -26,7 +26,7 @@ def plot_softness():
             ss=line.split()
             Z,N,E,b2,b3 = int(ss[0]),int(ss[1]),float(ss[3]),float(ss[7]),float(ss[6])
             E_oct[e][(Z,N)] = (E,b2,b3)
-        
+
         count = 0; gs_def[e] = {}
         for line in l_gs[e]:
             if not count: count+=1;continue
@@ -51,7 +51,7 @@ def plot_softness():
             for z,n in E_oct[e].keys():
                 if z == z_plot:
                     x_range[z_plot] = (min(x_range[z_plot][0],n),max(x_range[z_plot][1],n))
-    
+
     for z_plot,plt_title in plt_list:
         fig, axes = plt.subplots(3,1, sharex = True, sharey = False)#, figsize = (10,30))
         axes[0].set_title(plt_title+" chain")
@@ -82,8 +82,8 @@ def plot_softness():
         plt.savefig("plots/Z"+str(z_plot)+"_"+plt_title+".pdf",format="pdf")
         plt.clf()
 plot_softness()
-        
-        
+
+
 
 # Split neutron chain into 2 parts, for 2 different octupole regions
 #            count = 0
