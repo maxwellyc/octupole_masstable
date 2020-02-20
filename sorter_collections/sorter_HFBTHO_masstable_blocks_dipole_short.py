@@ -40,14 +40,14 @@ def ElementName(Z):
 #=====================================================================================================================
 #This function takes all of the HFBTHOv300 output files from 'masstable' mode and puts the relevant data into one file
 #=====================================================================================================================
-def Read_HFBTHO_Masstable(thoout,Output_Dict, Incomp_No, Incomp_Other):
-    #==============================================================================================================
+def Read_HFBTHO_Masstable(thoout,bl,Output_Dict, Incomp_No, Incomp_Other):
+        #==============================================================================================================
     #Goes through every available "thoout" output file, extracts useful data, and puts it onto the list Output_List
     #==============================================================================================================
     lines = open(thoout,encoding="ISO-8859-1").readlines()
     tho_name = thoout.split(".dat")[0]
     tho_name = tho_name.split("_")[-1]
-    file_ID = tho_name
+    file_ID = bl + "-" + tho_name
 
     # Initialize variables
     convergence = "YES"; cpu_count=0
@@ -57,6 +57,7 @@ def Read_HFBTHO_Masstable(thoout,Output_Dict, Incomp_No, Incomp_Other):
     charge_radius, quad_def_beta2_N, quad_def_beta2_P, quad_def_beta2_T = 0,0,0,0
     quad_moment_Q2_N, quad_moment_Q2_P, quad_moment_Q2_T = 0,0,0
     oct_moment_Q3_N, oct_moment_Q3_P, oct_moment_Q3_T = 0,0,0
+    di_moment_Q1_N, di_moment_Q1_P, di_moment_Q1_T = 0,0,0
 
     for line in lines:
         if "iterations limit interrupt after1001" in line: convergence = "NO"
@@ -89,6 +90,13 @@ def Read_HFBTHO_Masstable(thoout,Output_Dict, Incomp_No, Incomp_Other):
             elif((ss[0] == "deformation") and (ss[1] == "beta")):
                 quad_def_beta2_N, quad_def_beta2_P, quad_def_beta2_T = float(ss[3]), float(ss[4]), float(ss[5])
             #---------------------------------
+            #Identifies the dipole moments
+            #---------------------------------
+            elif((ss[0] == "dipole") and (ss[1] == "moment[fm]")) and not di_moment_Q1_T:
+              # This gathers no LN deformation, these are needed for constraint calculation benchmark
+              # Current HFBTHO has constraint on no LN deformation.
+              di_moment_Q1_N, di_moment_Q1_P, di_moment_Q1_T  = float(ss[3]), float(ss[4]), float(ss[5])
+            #---------------------------------
             #Identifies the quadrupole moments
             #---------------------------------
             elif((ss[0] == "quadrupole") and (ss[1] == "moment[b]")) and not quad_moment_Q2_T:
@@ -118,7 +126,7 @@ def Read_HFBTHO_Masstable(thoout,Output_Dict, Incomp_No, Incomp_Other):
     if cpu_count != 2: convergence = "***"
     if (Z,N) not in Output_Dict: Output_Dict[(Z,N)] = []
     Output_Dict[(Z,N)].append((Z,N,BE,quad_def_beta2_P,quad_def_beta2_N,quad_def_beta2_T,quad_moment_Q2_P,quad_moment_Q2_N,quad_moment_Q2_T,oct_moment_Q3_P,oct_moment_Q3_N,oct_moment_Q3_T,rms_radius_P,
-                      rms_radius_N,rms_radius_T,charge_radius,pairing_gap_N,pairing_gap_P,file_ID,convergence))
+                      rms_radius_N,rms_radius_T,charge_radius,pairing_gap_N,pairing_gap_P,file_ID,convergence,di_moment_Q1_P,di_moment_Q1_N,di_moment_Q1_T))
     if convergence == "NO":
         Incomp_No.append((Z,N,file_ID,"No convergence"))
     if convergence == "***":
@@ -127,33 +135,40 @@ def Read_HFBTHO_Masstable(thoout,Output_Dict, Incomp_No, Incomp_Other):
 #===========
 #User Inputs
 #===========
-EDFs = ['SLY4', 'SV-MIN', 'UNEDF0', 'UNEDF1', 'UNEDF2']  # 'SKMS', 'SKP', 'UNEDF1-SO'
+EDFs = ['SLY4','UNEDF0','UNEDF1', 'UNEDF2','SV-min']  # 'SKMS', 'SKP', 'UNEDF1-SO'
 number_of_shells = 20
 
 for functional in EDFs:
     # Locate block directories
     os.system("shopt -s extglob\n"+"rm HFBTHOv300_"+functional+"*.dat")
     os.chdir(functional)
-    Output_Dict, Incomp_No, Incomp_Other = {}, [], []  # Dict for output data, incomplete list
+    block_ls = os.listdir()
+    blocks = []
+    for bl in block_ls:
+        if 'block' in bl and "." not in bl:
+            blocks.append(bl)
 
+    Output_Dict = {}  #Dict for output data
+    Incomp_No, Incomp_Other = [], []
     #----------------------------------------------------------
     #Writes and properly formats the titles for the output file
     #----------------------------------------------------------
-    all_data_str = '{:6} {:6} {:9} {:23} {:20} {:22} {:20} {:26} {:30} {:27} {:31} {:34} {:34} {:23} {:21} {:20} {:22} {:22} {:13} {:20} {:6} \n'.format(
-                            'Z', 'N', 'A', 'Binding_Energy_(MeV)', 'Quad_Def_Beta2_P', 'Quad_Def_Beta2_N', 'Quad_Def_Beta2_total', 'Quad_Moment_Q2_P_(fm^2)', 'Quad_Moment_Q2_N_(fm^2)',
-                            'Quad_Moment_Q2_total_(fm^2)', 'Octupole_Moment_Q3_P_(fm^3)', 'Octupole_Moment_Q3_N_(fm^3)', 'Octupole_Moment_Q3_total_(fm^3)', 'Pairing_gap_P_(MeV)',
-                            'Pairing_gap_N_(MeV)', 'RMS_radius_P_(fm)', 'RMS_radius_N_(fm)', 'RMS_radius_total_(fm)', 'Charge_Radius_(fm)', 'File_ID',"Converged")
+    all_data_str = '{:6} {:6} {:9} {:23} {:30} {:30} {:30} {:20} {:20} {:20} {:10} \n'.format(
+                            'Z', 'N', 'A', 'Binding_Energy_(MeV)', 'Dipole_Moment_tot_(fm)','Quad_Moment_tot_(100fm^2)', 'Octu_Moment_tot_(1000fm^3)','RMS_radius_total_(fm)', 'Charge_Radius_(fm)', 'File_ID',"Converged")
 
+    for bl in blocks:
+        os.chdir(bl)
+        tho_ls = os.listdir()
+        tho_list = []
+        for fn in tho_ls:
+            if "thoout" in fn and ".dat" in fn:
+                tho_list.append(fn)
+        print (functional,"\t",bl, "\tFile Count: ", len(tho_list))
+        for ind,thoout in enumerate(tho_list):
+            if not (ind+1) % 1000 or ind+1 == len(tho_list): print (ind+1,"/",len(tho_list))
+            Read_HFBTHO_Masstable(thoout,bl,Output_Dict, Incomp_No, Incomp_Other)
+        os.chdir("..")
 
-    tho_ls = os.listdir()
-    tho_list = []
-    for fn in tho_ls:
-        if "thoout" in fn and ".dat" in fn:
-            tho_list.append(fn)
-    for ind,thoout in enumerate(tho_list):
-        Read_HFBTHO_Masstable(thoout,Output_Dict, Incomp_No, Incomp_Other)
-    print (functional,"\tFile Count: ", len(tho_list))
-    os.chdir("..")
 
     # All data of a single EDF should be stored in Output_Dict at this point, now we sort in order of Z,N,BE
     for key in sorted(Output_Dict):
@@ -168,20 +183,19 @@ for functional in EDFs:
             oct_moment_Q3_P,  oct_moment_Q3_N,  oct_moment_Q3_T  = entry[9],entry[10],entry[11]
             rms_radius_P,     rms_radius_N,     rms_radius_T     = entry[12],entry[13],entry[14]
             charge_radius,    pairing_gap_N,    pairing_gap_P    = entry[15],entry[16],entry[17]
-
-            all_data_str += '{:6} {:6} {:9} {:23} {:20} {:22} {:20} {:26} {:30} {:27} {:31} {:34} {:34} {:23} {:21} {:20} {:22} {:22} {:13} {:20} {:6}\n'.format(
-                str(Z), str(N), str(Z+N), str(BE).rjust(13, ), str(quad_def_beta2_P).rjust(10, ), str(quad_def_beta2_N).rjust(10, ), str(quad_def_beta2_T).rjust(10, ),
-                str(quad_moment_Q2_P).rjust(12, ), str(quad_moment_Q2_N).rjust(12, ), str(quad_moment_Q2_T).rjust(12, ), str(oct_moment_Q3_P).rjust(12, ),
-                str(oct_moment_Q3_N).rjust(12, ), str(oct_moment_Q3_T).rjust(12, ), str(pairing_gap_P).rjust(10, ), str(pairing_gap_N).rjust(10, ),
-                str(rms_radius_P).rjust(10, ), str(rms_radius_N).rjust(10, ), str(rms_radius_T).rjust(10, ), str(charge_radius).rjust(10, ), str(file_ID).rjust(12, ), str(convergence).rjust(6,))
-
-    Data_File_Out = "HFBTHOv300_"+functional+"_All_Data_"+str(number_of_shells)+"_shells_no_LN_deformation-masstable.dat"  #Output file for Read_HFBTHO_Masstable_Output
+            di_moment_Q1_P,   di_moment_Q1_N,   di_moment_Q1_T   = entry[20],entry[21],entry[22]
+            all_data_str += '{:6} {:6} {:9} {:23} {:30} {:30} {:30} {:20} {:20} {:20} {:10} \n'.format(
+                               str(Z), str(N), str(Z+N), str(BE).rjust(13, ), str(di_moment_Q1_T).rjust(12, ),str(quad_moment_Q2_T).rjust(12, ), str(oct_moment_Q3_T).rjust(12, ),
+                               str(rms_radius_T).rjust(10, ), str(charge_radius).rjust(10, ), str(file_ID).rjust(12, ), str(convergence).rjust(6,))
+    os.chdir("..")
+    Data_File_Out = "HFBTHOv300_"+functional+"_All_Data_"+str(number_of_shells)+"_shells_no_LN_deformation-masstable_dipole_short.dat"  #Output file for Read_HFBTHO_Masstable_Output
     all_data_output = open(Data_File_Out, "w")    #Output file for all data
     all_data_output.write(all_data_str)
     all_data_output.close()
-    # print ("Incomplete:\n")
-    # for inp in Incomp_No:
-    #     print (inp[0],"\t",inp[1],"\t",inp[2])
-    # print ("Incomplete Other:\n")
-    # for inp in Incomp_Other:
-    #     print (inp[0],"\t",inp[1],"\t",inp[2])
+    print ("Incomplete:\n")
+    for inp in Incomp_No:
+        print (inp[0],"\t",inp[1],"\t",inp[2])
+    print ("Incomplete Other:\n")
+    for inp in Incomp_Other:
+        print (inp[0],"\t",inp[1],"\t",inp[2])
+
